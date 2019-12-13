@@ -1,0 +1,545 @@
+2019-12-12 03:23:43 [scrapy.utils.log] INFO: Scrapy 1.7.4 started (bot: spider_tophub)
+2019-12-12 03:23:43 [scrapy.utils.log] INFO: Versions: lxml 4.4.1.0, libxml2 2.9.9, cssselect 1.1.0, parsel 1.5.2, w3lib 1.21.0, Twisted 19.7.0, Python 3.7.5 (default, Nov 23 2019, 05:59:34) - [GCC 8.3.0], pyOpenSSL 19.0.0 (OpenSSL 1.1.1d  10 Sep 2019), cryptography 2.8, Platform Linux-3.10.0-1062.1.2.el7.x86_64-x86_64-with-debian-10.2
+2019-12-12 03:23:43 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'spider_tophub', 'DOWNLOAD_DELAY': 1, 'LOG_FILE': 'logs/spider_tophub/hellogithub_yuekan/434d608c1c8e11ea9d990242ac190004.log', 'NEWSPIDER_MODULE': 'spider_tophub.spiders', 'ROBOTSTXT_OBEY': True, 'SPIDER_MODULES': ['spider_tophub.spiders'], 'USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36'}
+2019-12-12 03:23:43 [scrapy.extensions.telnet] INFO: Telnet Password: 01c08316e2e9eb13
+2019-12-12 03:23:43 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.logstats.LogStats']
+2019-12-12 03:23:43 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2019-12-12 03:23:43 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2019-12-12 03:23:43 [scrapy.middleware] INFO: Enabled item pipelines:
+['spider_tophub.pipelines.MysqlTwistedPipeline']
+2019-12-12 03:23:43 [scrapy.core.engine] INFO: Spider opened
+2019-12-12 03:23:43 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2019-12-12 03:23:43 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6024
+2019-12-12 03:23:44 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://hellogithub.com/robots.txt> (referer: None)
+2019-12-12 03:23:44 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://hellogithub.com/rss> (referer: None)
+2019-12-12 03:23:44 [scrapy.core.scraper] DEBUG: Scraped from <200 https://hellogithub.com/rss>
+None
+2019-12-12 03:23:44 [scrapy.core.scraper] DEBUG: Scraped from <200 https://hellogithub.com/rss>
+None
+2019-12-12 03:23:44 [scrapy.core.scraper] DEBUG: Scraped from <200 https://hellogithub.com/rss>
+None
+2019-12-12 03:23:44 [scrapy.core.scraper] DEBUG: Scraped from <200 https://hellogithub.com/rss>
+None
+2019-12-12 03:23:44 [scrapy.core.scraper] DEBUG: Scraped from <200 https://hellogithub.com/rss>
+None
+2019-12-12 03:23:44 [scrapy.core.scraper] DEBUG: Scraped from <200 https://hellogithub.com/rss>
+None
+2019-12-12 03:23:44 [scrapy.core.scraper] DEBUG: Scraped from <200 https://hellogithub.com/rss>
+None
+2019-12-12 03:23:44 [scrapy.core.scraper] DEBUG: Scraped from <200 https://hellogithub.com/rss>
+None
+2019-12-12 03:23:44 [scrapy.core.scraper] DEBUG: Scraped from <200 https://hellogithub.com/rss>
+None
+2019-12-12 03:23:44 [scrapy.core.scraper] DEBUG: Scraped from <200 https://hellogithub.com/rss>
+None
+2019-12-12 03:23:44 [scrapy.core.scraper] DEBUG: Scraped from <200 https://hellogithub.com/rss>
+None
+2019-12-12 03:23:44 [scrapy.core.scraper] DEBUG: Scraped from <200 https://hellogithub.com/rss>
+None
+2019-12-12 03:23:44 [scrapy.core.scraper] DEBUG: Scraped from <200 https://hellogithub.com/rss>
+None
+2019-12-12 03:23:44 [scrapy.core.scraper] DEBUG: Scraped from <200 https://hellogithub.com/rss>
+None
+2019-12-12 03:23:44 [scrapy.core.scraper] DEBUG: Scraped from <200 https://hellogithub.com/rss>
+None
+2019-12-12 03:23:44 [scrapy.core.scraper] DEBUG: Scraped from <200 https://hellogithub.com/rss>
+None
+2019-12-12 03:23:44 [scrapy.core.scraper] DEBUG: Scraped from <200 https://hellogithub.com/rss>
+None
+2019-12-12 03:23:44 [scrapy.core.scraper] DEBUG: Scraped from <200 https://hellogithub.com/rss>
+None
+2019-12-12 03:23:44 [scrapy.core.scraper] DEBUG: Scraped from <200 https://hellogithub.com/rss>
+None
+2019-12-12 03:23:44 [scrapy.core.scraper] DEBUG: Scraped from <200 https://hellogithub.com/rss>
+None
+2019-12-12 03:23:44 [scrapy.core.scraper] DEBUG: Scraped from <200 https://hellogithub.com/rss>
+None
+2019-12-12 03:23:44 [scrapy.core.scraper] DEBUG: Scraped from <200 https://hellogithub.com/rss>
+None
+2019-12-12 03:23:44 [scrapy.core.scraper] DEBUG: Scraped from <200 https://hellogithub.com/rss>
+None
+2019-12-12 03:23:44 [scrapy.core.scraper] DEBUG: Scraped from <200 https://hellogithub.com/rss>
+None
+2019-12-12 03:23:44 [scrapy.core.scraper] DEBUG: Scraped from <200 https://hellogithub.com/rss>
+None
+2019-12-12 03:23:44 [scrapy.core.scraper] DEBUG: Scraped from <200 https://hellogithub.com/rss>
+None
+2019-12-12 03:23:44 [scrapy.core.scraper] DEBUG: Scraped from <200 https://hellogithub.com/rss>
+None
+2019-12-12 03:23:44 [scrapy.core.scraper] DEBUG: Scraped from <200 https://hellogithub.com/rss>
+None
+2019-12-12 03:23:44 [scrapy.core.scraper] DEBUG: Scraped from <200 https://hellogithub.com/rss>
+None
+2019-12-12 03:23:44 [scrapy.core.scraper] DEBUG: Scraped from <200 https://hellogithub.com/rss>
+None
+2019-12-12 03:23:44 [scrapy.core.scraper] DEBUG: Scraped from <200 https://hellogithub.com/rss>
+None
+2019-12-12 03:23:44 [scrapy.core.scraper] DEBUG: Scraped from <200 https://hellogithub.com/rss>
+None
+2019-12-12 03:23:44 [scrapy.core.scraper] DEBUG: Scraped from <200 https://hellogithub.com/rss>
+None
+2019-12-12 03:23:44 [scrapy.core.scraper] DEBUG: Scraped from <200 https://hellogithub.com/rss>
+None
+2019-12-12 03:23:44 [scrapy.core.scraper] DEBUG: Scraped from <200 https://hellogithub.com/rss>
+None
+2019-12-12 03:23:44 [scrapy.core.scraper] DEBUG: Scraped from <200 https://hellogithub.com/rss>
+None
+2019-12-12 03:23:44 [scrapy.core.scraper] DEBUG: Scraped from <200 https://hellogithub.com/rss>
+None
+2019-12-12 03:23:44 [scrapy.core.scraper] DEBUG: Scraped from <200 https://hellogithub.com/rss>
+None
+2019-12-12 03:23:44 [scrapy.core.scraper] DEBUG: Scraped from <200 https://hellogithub.com/rss>
+None
+2019-12-12 03:23:44 [scrapy.core.scraper] DEBUG: Scraped from <200 https://hellogithub.com/rss>
+None
+2019-12-12 03:23:44 [scrapy.core.scraper] DEBUG: Scraped from <200 https://hellogithub.com/rss>
+None
+2019-12-12 03:23:44 [scrapy.core.scraper] DEBUG: Scraped from <200 https://hellogithub.com/rss>
+None
+2019-12-12 03:23:44 [scrapy.core.scraper] DEBUG: Scraped from <200 https://hellogithub.com/rss>
+None
+2019-12-12 03:23:44 [scrapy.core.scraper] DEBUG: Scraped from <200 https://hellogithub.com/rss>
+None
+2019-12-12 03:23:44 [scrapy.core.engine] INFO: Closing spider (finished)
+2019-12-12 03:23:44 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 603,
+ 'downloader/request_count': 2,
+ 'downloader/request_method_count/GET': 2,
+ 'downloader/response_bytes': 3778,
+ 'downloader/response_count': 2,
+ 'downloader/response_status_count/200': 2,
+ 'elapsed_time_seconds': 0.881192,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2019, 12, 12, 3, 23, 44, 814561),
+ 'item_scraped_count': 44,
+ 'log_count/DEBUG': 46,
+ 'log_count/INFO': 10,
+ 'memusage/max': 57221120,
+ 'memusage/startup': 57221120,
+ 'response_received_count': 2,
+ 'robotstxt/request_count': 1,
+ 'robotstxt/response_count': 1,
+ 'robotstxt/response_status_count/200': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'start_time': datetime.datetime(2019, 12, 12, 3, 23, 43, 933369)}
+2019-12-12 03:23:44 [scrapy.core.engine] INFO: Spider closed (finished)
+2019-12-12 03:23:44 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 03:23:44 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 03:23:44 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 03:23:44 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 03:23:44 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 03:23:44 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.005s]
+2019-12-12 03:23:44 [elasticsearch] DEBUG: > None
+2019-12-12 03:23:44 [elasticsearch] DEBUG: < 
+2019-12-12 03:23:44 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 03:23:44 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.007s]
+2019-12-12 03:23:44 [elasticsearch] DEBUG: > None
+2019-12-12 03:23:44 [elasticsearch] DEBUG: < 
+2019-12-12 03:23:44 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 03:23:44 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.013s]
+2019-12-12 03:23:44 [elasticsearch] DEBUG: > None
+2019-12-12 03:23:44 [elasticsearch] DEBUG: < 
+2019-12-12 03:23:44 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 03:23:44 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.013s]
+2019-12-12 03:23:44 [elasticsearch] DEBUG: > None
+2019-12-12 03:23:44 [elasticsearch] DEBUG: < 
+2019-12-12 03:23:44 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 03:23:44 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 03:23:44 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.006s]
+2019-12-12 03:23:44 [elasticsearch] DEBUG: > None
+2019-12-12 03:23:44 [elasticsearch] DEBUG: < 
+2019-12-12 03:23:44 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/816 HTTP/1.1" 201 157
+2019-12-12 03:23:44 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/816 [status:201 request:0.026s]
+2019-12-12 03:23:44 [elasticsearch] DEBUG: > {"title":"HelloGitHub 第 41 期","description_content":null,"update_at":1576121024783}
+2019-12-12 03:23:44 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"816","_version":1,"result":"created","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":1494,"_primary_term":10}
+2019-12-12 03:23:44 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 03:23:44 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 03:23:44 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.003s]
+2019-12-12 03:23:44 [elasticsearch] DEBUG: > None
+2019-12-12 03:23:44 [elasticsearch] DEBUG: < 
+2019-12-12 03:23:44 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/817 HTTP/1.1" 201 157
+2019-12-12 03:23:44 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/817 [status:201 request:0.038s]
+2019-12-12 03:23:44 [elasticsearch] DEBUG: > {"title":"HelloGitHub 第 42 期","description_content":null,"update_at":1576121024783}
+2019-12-12 03:23:44 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"817","_version":1,"result":"created","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":1495,"_primary_term":10}
+2019-12-12 03:23:44 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 03:23:44 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 03:23:44 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.003s]
+2019-12-12 03:23:44 [elasticsearch] DEBUG: > None
+2019-12-12 03:23:44 [elasticsearch] DEBUG: < 
+2019-12-12 03:23:44 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/815 HTTP/1.1" 201 157
+2019-12-12 03:23:44 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/815 [status:201 request:0.042s]
+2019-12-12 03:23:44 [elasticsearch] DEBUG: > {"title":"HelloGitHub 第 44 期","description_content":null,"update_at":1576121024783}
+2019-12-12 03:23:44 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"815","_version":1,"result":"created","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":1496,"_primary_term":10}
+2019-12-12 03:23:44 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 03:23:44 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 03:23:44 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.003s]
+2019-12-12 03:23:44 [elasticsearch] DEBUG: > None
+2019-12-12 03:23:44 [elasticsearch] DEBUG: < 
+2019-12-12 03:23:44 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/818 HTTP/1.1" 201 157
+2019-12-12 03:23:44 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/818 [status:201 request:0.051s]
+2019-12-12 03:23:44 [elasticsearch] DEBUG: > {"title":"HelloGitHub 第 43 期","description_content":null,"update_at":1576121024783}
+2019-12-12 03:23:44 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"818","_version":1,"result":"created","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":1497,"_primary_term":10}
+2019-12-12 03:23:44 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 03:23:44 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 03:23:44 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.003s]
+2019-12-12 03:23:44 [elasticsearch] DEBUG: > None
+2019-12-12 03:23:44 [elasticsearch] DEBUG: < 
+2019-12-12 03:23:44 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/819 HTTP/1.1" 201 157
+2019-12-12 03:23:44 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/819 [status:201 request:0.051s]
+2019-12-12 03:23:44 [elasticsearch] DEBUG: > {"title":"HelloGitHub 第 40 期","description_content":null,"update_at":1576121024783}
+2019-12-12 03:23:44 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"819","_version":1,"result":"created","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":1498,"_primary_term":10}
+2019-12-12 03:23:44 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 03:23:44 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 03:23:44 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.003s]
+2019-12-12 03:23:44 [elasticsearch] DEBUG: > None
+2019-12-12 03:23:44 [elasticsearch] DEBUG: < 
+2019-12-12 03:23:44 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/820 HTTP/1.1" 201 157
+2019-12-12 03:23:44 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/820 [status:201 request:0.045s]
+2019-12-12 03:23:44 [elasticsearch] DEBUG: > {"title":"HelloGitHub 第 39 期","description_content":null,"update_at":1576121024783}
+2019-12-12 03:23:44 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"820","_version":1,"result":"created","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":1499,"_primary_term":10}
+2019-12-12 03:23:44 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 03:23:44 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/821 HTTP/1.1" 201 157
+2019-12-12 03:23:44 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/821 [status:201 request:0.037s]
+2019-12-12 03:23:44 [elasticsearch] DEBUG: > {"title":"HelloGitHub 第 38 期","description_content":null,"update_at":1576121024783}
+2019-12-12 03:23:44 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"821","_version":1,"result":"created","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":1500,"_primary_term":10}
+2019-12-12 03:23:44 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 03:23:44 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.004s]
+2019-12-12 03:23:44 [elasticsearch] DEBUG: > None
+2019-12-12 03:23:44 [elasticsearch] DEBUG: < 
+2019-12-12 03:23:44 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/822 HTTP/1.1" 201 157
+2019-12-12 03:23:44 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/822 [status:201 request:0.036s]
+2019-12-12 03:23:44 [elasticsearch] DEBUG: > {"title":"HelloGitHub 第 37 期","description_content":null,"update_at":1576121024783}
+2019-12-12 03:23:44 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"822","_version":1,"result":"created","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":1501,"_primary_term":10}
+2019-12-12 03:23:44 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 03:23:44 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 03:23:44 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.002s]
+2019-12-12 03:23:44 [elasticsearch] DEBUG: > None
+2019-12-12 03:23:44 [elasticsearch] DEBUG: < 
+2019-12-12 03:23:44 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/823 HTTP/1.1" 201 157
+2019-12-12 03:23:44 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/823 [status:201 request:0.035s]
+2019-12-12 03:23:44 [elasticsearch] DEBUG: > {"title":"HelloGitHub 第 36 期","description_content":null,"update_at":1576121024783}
+2019-12-12 03:23:44 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"823","_version":1,"result":"created","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":1502,"_primary_term":10}
+2019-12-12 03:23:44 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 03:23:44 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 03:23:44 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.002s]
+2019-12-12 03:23:44 [elasticsearch] DEBUG: > None
+2019-12-12 03:23:44 [elasticsearch] DEBUG: < 
+2019-12-12 03:23:44 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 03:23:44 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 03:23:44 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.002s]
+2019-12-12 03:23:44 [elasticsearch] DEBUG: > None
+2019-12-12 03:23:44 [elasticsearch] DEBUG: < 
+2019-12-12 03:23:44 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/824 HTTP/1.1" 201 157
+2019-12-12 03:23:44 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/824 [status:201 request:0.040s]
+2019-12-12 03:23:44 [elasticsearch] DEBUG: > {"title":"HelloGitHub 第 35 期","description_content":null,"update_at":1576121024783}
+2019-12-12 03:23:44 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"824","_version":1,"result":"created","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":1503,"_primary_term":10}
+2019-12-12 03:23:44 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/825 HTTP/1.1" 201 157
+2019-12-12 03:23:44 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/825 [status:201 request:0.034s]
+2019-12-12 03:23:44 [elasticsearch] DEBUG: > {"title":"HelloGitHub 第 34 期","description_content":null,"update_at":1576121024783}
+2019-12-12 03:23:44 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"825","_version":1,"result":"created","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":1504,"_primary_term":10}
+2019-12-12 03:23:44 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 03:23:44 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 03:23:44 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.003s]
+2019-12-12 03:23:44 [elasticsearch] DEBUG: > None
+2019-12-12 03:23:44 [elasticsearch] DEBUG: < 
+2019-12-12 03:23:44 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/826 HTTP/1.1" 201 157
+2019-12-12 03:23:44 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/826 [status:201 request:0.034s]
+2019-12-12 03:23:44 [elasticsearch] DEBUG: > {"title":"HelloGitHub 第 33 期","description_content":null,"update_at":1576121024783}
+2019-12-12 03:23:44 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"826","_version":1,"result":"created","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":1505,"_primary_term":10}
+2019-12-12 03:23:44 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 03:23:44 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 03:23:44 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.002s]
+2019-12-12 03:23:44 [elasticsearch] DEBUG: > None
+2019-12-12 03:23:44 [elasticsearch] DEBUG: < 
+2019-12-12 03:23:44 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/827 HTTP/1.1" 201 157
+2019-12-12 03:23:44 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/827 [status:201 request:0.032s]
+2019-12-12 03:23:44 [elasticsearch] DEBUG: > {"title":"HelloGitHub 第 32 期","description_content":null,"update_at":1576121024783}
+2019-12-12 03:23:44 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"827","_version":1,"result":"created","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":1506,"_primary_term":10}
+2019-12-12 03:23:44 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 03:23:44 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 03:23:44 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.005s]
+2019-12-12 03:23:44 [elasticsearch] DEBUG: > None
+2019-12-12 03:23:44 [elasticsearch] DEBUG: < 
+2019-12-12 03:23:44 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/828 HTTP/1.1" 201 157
+2019-12-12 03:23:44 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/828 [status:201 request:0.037s]
+2019-12-12 03:23:44 [elasticsearch] DEBUG: > {"title":"HelloGitHub 第 31 期","description_content":null,"update_at":1576121024783}
+2019-12-12 03:23:44 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"828","_version":1,"result":"created","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":1507,"_primary_term":10}
+2019-12-12 03:23:44 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 03:23:44 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 03:23:44 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.003s]
+2019-12-12 03:23:44 [elasticsearch] DEBUG: > None
+2019-12-12 03:23:44 [elasticsearch] DEBUG: < 
+2019-12-12 03:23:44 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/829 HTTP/1.1" 201 157
+2019-12-12 03:23:44 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/829 [status:201 request:0.037s]
+2019-12-12 03:23:44 [elasticsearch] DEBUG: > {"title":"HelloGitHub 第 30 期","description_content":null,"update_at":1576121024783}
+2019-12-12 03:23:44 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"829","_version":1,"result":"created","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":1508,"_primary_term":10}
+2019-12-12 03:23:44 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 03:23:44 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 03:23:44 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.003s]
+2019-12-12 03:23:44 [elasticsearch] DEBUG: > None
+2019-12-12 03:23:44 [elasticsearch] DEBUG: < 
+2019-12-12 03:23:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/830 HTTP/1.1" 201 157
+2019-12-12 03:23:45 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/830 [status:201 request:0.041s]
+2019-12-12 03:23:45 [elasticsearch] DEBUG: > {"title":"HelloGitHub 第 29 期","description_content":null,"update_at":1576121024783}
+2019-12-12 03:23:45 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"830","_version":1,"result":"created","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":1509,"_primary_term":10}
+2019-12-12 03:23:45 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 03:23:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 03:23:45 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.002s]
+2019-12-12 03:23:45 [elasticsearch] DEBUG: > None
+2019-12-12 03:23:45 [elasticsearch] DEBUG: < 
+2019-12-12 03:23:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/831 HTTP/1.1" 201 157
+2019-12-12 03:23:45 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/831 [status:201 request:0.038s]
+2019-12-12 03:23:45 [elasticsearch] DEBUG: > {"title":"HelloGitHub 第 28 期","description_content":null,"update_at":1576121024783}
+2019-12-12 03:23:45 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"831","_version":1,"result":"created","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":1510,"_primary_term":10}
+2019-12-12 03:23:45 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 03:23:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 03:23:45 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.002s]
+2019-12-12 03:23:45 [elasticsearch] DEBUG: > None
+2019-12-12 03:23:45 [elasticsearch] DEBUG: < 
+2019-12-12 03:23:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/832 HTTP/1.1" 201 157
+2019-12-12 03:23:45 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/832 [status:201 request:0.031s]
+2019-12-12 03:23:45 [elasticsearch] DEBUG: > {"title":"HelloGitHub 第 27 期","description_content":null,"update_at":1576121024783}
+2019-12-12 03:23:45 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"832","_version":1,"result":"created","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":1511,"_primary_term":10}
+2019-12-12 03:23:45 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 03:23:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 03:23:45 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.002s]
+2019-12-12 03:23:45 [elasticsearch] DEBUG: > None
+2019-12-12 03:23:45 [elasticsearch] DEBUG: < 
+2019-12-12 03:23:45 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 03:23:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/833 HTTP/1.1" 201 157
+2019-12-12 03:23:45 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/833 [status:201 request:0.028s]
+2019-12-12 03:23:45 [elasticsearch] DEBUG: > {"title":"HelloGitHub 第 26 期","description_content":null,"update_at":1576121024783}
+2019-12-12 03:23:45 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"833","_version":1,"result":"created","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":1512,"_primary_term":10}
+2019-12-12 03:23:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 03:23:45 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.003s]
+2019-12-12 03:23:45 [elasticsearch] DEBUG: > None
+2019-12-12 03:23:45 [elasticsearch] DEBUG: < 
+2019-12-12 03:23:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/834 HTTP/1.1" 201 157
+2019-12-12 03:23:45 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/834 [status:201 request:0.027s]
+2019-12-12 03:23:45 [elasticsearch] DEBUG: > {"title":"HelloGitHub 第 25 期","description_content":null,"update_at":1576121024783}
+2019-12-12 03:23:45 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"834","_version":1,"result":"created","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":1513,"_primary_term":10}
+2019-12-12 03:23:45 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 03:23:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 03:23:45 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.002s]
+2019-12-12 03:23:45 [elasticsearch] DEBUG: > None
+2019-12-12 03:23:45 [elasticsearch] DEBUG: < 
+2019-12-12 03:23:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/835 HTTP/1.1" 201 157
+2019-12-12 03:23:45 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/835 [status:201 request:0.028s]
+2019-12-12 03:23:45 [elasticsearch] DEBUG: > {"title":"HelloGitHub 第 24 期","description_content":null,"update_at":1576121024783}
+2019-12-12 03:23:45 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"835","_version":1,"result":"created","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":1514,"_primary_term":10}
+2019-12-12 03:23:45 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 03:23:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 03:23:45 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.005s]
+2019-12-12 03:23:45 [elasticsearch] DEBUG: > None
+2019-12-12 03:23:45 [elasticsearch] DEBUG: < 
+2019-12-12 03:23:45 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 03:23:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/836 HTTP/1.1" 201 157
+2019-12-12 03:23:45 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/836 [status:201 request:0.034s]
+2019-12-12 03:23:45 [elasticsearch] DEBUG: > {"title":"HelloGitHub 第 23 期","description_content":null,"update_at":1576121024783}
+2019-12-12 03:23:45 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"836","_version":1,"result":"created","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":1515,"_primary_term":10}
+2019-12-12 03:23:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 03:23:45 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.004s]
+2019-12-12 03:23:45 [elasticsearch] DEBUG: > None
+2019-12-12 03:23:45 [elasticsearch] DEBUG: < 
+2019-12-12 03:23:45 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 03:23:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/837 HTTP/1.1" 201 157
+2019-12-12 03:23:45 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/837 [status:201 request:0.034s]
+2019-12-12 03:23:45 [elasticsearch] DEBUG: > {"title":"HelloGitHub 第 22 期","description_content":null,"update_at":1576121024783}
+2019-12-12 03:23:45 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"837","_version":1,"result":"created","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":1516,"_primary_term":10}
+2019-12-12 03:23:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 03:23:45 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.005s]
+2019-12-12 03:23:45 [elasticsearch] DEBUG: > None
+2019-12-12 03:23:45 [elasticsearch] DEBUG: < 
+2019-12-12 03:23:45 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 03:23:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/838 HTTP/1.1" 201 157
+2019-12-12 03:23:45 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/838 [status:201 request:0.035s]
+2019-12-12 03:23:45 [elasticsearch] DEBUG: > {"title":"HelloGitHub 第 21 期","description_content":null,"update_at":1576121024783}
+2019-12-12 03:23:45 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"838","_version":1,"result":"created","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":1517,"_primary_term":10}
+2019-12-12 03:23:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 03:23:45 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.005s]
+2019-12-12 03:23:45 [elasticsearch] DEBUG: > None
+2019-12-12 03:23:45 [elasticsearch] DEBUG: < 
+2019-12-12 03:23:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/839 HTTP/1.1" 201 157
+2019-12-12 03:23:45 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/839 [status:201 request:0.033s]
+2019-12-12 03:23:45 [elasticsearch] DEBUG: > {"title":"HelloGitHub 第 20 期","description_content":null,"update_at":1576121024783}
+2019-12-12 03:23:45 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"839","_version":1,"result":"created","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":1518,"_primary_term":10}
+2019-12-12 03:23:45 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 03:23:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 03:23:45 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.002s]
+2019-12-12 03:23:45 [elasticsearch] DEBUG: > None
+2019-12-12 03:23:45 [elasticsearch] DEBUG: < 
+2019-12-12 03:23:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/840 HTTP/1.1" 201 157
+2019-12-12 03:23:45 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/840 [status:201 request:0.033s]
+2019-12-12 03:23:45 [elasticsearch] DEBUG: > {"title":"HelloGitHub 第 19 期","description_content":null,"update_at":1576121024783}
+2019-12-12 03:23:45 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"840","_version":1,"result":"created","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":1519,"_primary_term":10}
+2019-12-12 03:23:45 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 03:23:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 03:23:45 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.002s]
+2019-12-12 03:23:45 [elasticsearch] DEBUG: > None
+2019-12-12 03:23:45 [elasticsearch] DEBUG: < 
+2019-12-12 03:23:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/841 HTTP/1.1" 201 157
+2019-12-12 03:23:45 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/841 [status:201 request:0.031s]
+2019-12-12 03:23:45 [elasticsearch] DEBUG: > {"title":"HelloGitHub 第 18 期","description_content":null,"update_at":1576121024783}
+2019-12-12 03:23:45 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"841","_version":1,"result":"created","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":1520,"_primary_term":10}
+2019-12-12 03:23:45 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 03:23:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 03:23:45 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.002s]
+2019-12-12 03:23:45 [elasticsearch] DEBUG: > None
+2019-12-12 03:23:45 [elasticsearch] DEBUG: < 
+2019-12-12 03:23:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/842 HTTP/1.1" 201 157
+2019-12-12 03:23:45 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/842 [status:201 request:0.030s]
+2019-12-12 03:23:45 [elasticsearch] DEBUG: > {"title":"HelloGitHub 第 17 期","description_content":null,"update_at":1576121024783}
+2019-12-12 03:23:45 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"842","_version":1,"result":"created","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":1521,"_primary_term":10}
+2019-12-12 03:23:45 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 03:23:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 03:23:45 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.005s]
+2019-12-12 03:23:45 [elasticsearch] DEBUG: > None
+2019-12-12 03:23:45 [elasticsearch] DEBUG: < 
+2019-12-12 03:23:45 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 03:23:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/843 HTTP/1.1" 201 157
+2019-12-12 03:23:45 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/843 [status:201 request:0.035s]
+2019-12-12 03:23:45 [elasticsearch] DEBUG: > {"title":"HelloGitHub 第 16 期","description_content":null,"update_at":1576121024783}
+2019-12-12 03:23:45 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"843","_version":1,"result":"created","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":1522,"_primary_term":10}
+2019-12-12 03:23:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 03:23:45 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.003s]
+2019-12-12 03:23:45 [elasticsearch] DEBUG: > None
+2019-12-12 03:23:45 [elasticsearch] DEBUG: < 
+2019-12-12 03:23:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/844 HTTP/1.1" 201 157
+2019-12-12 03:23:45 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/844 [status:201 request:0.035s]
+2019-12-12 03:23:45 [elasticsearch] DEBUG: > {"title":"HelloGitHub 第 15 期","description_content":null,"update_at":1576121024783}
+2019-12-12 03:23:45 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"844","_version":1,"result":"created","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":1523,"_primary_term":10}
+2019-12-12 03:23:45 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 03:23:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 03:23:45 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.003s]
+2019-12-12 03:23:45 [elasticsearch] DEBUG: > None
+2019-12-12 03:23:45 [elasticsearch] DEBUG: < 
+2019-12-12 03:23:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/845 HTTP/1.1" 201 157
+2019-12-12 03:23:45 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/845 [status:201 request:0.034s]
+2019-12-12 03:23:45 [elasticsearch] DEBUG: > {"title":"HelloGitHub 第 14 期","description_content":null,"update_at":1576121024783}
+2019-12-12 03:23:45 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"845","_version":1,"result":"created","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":1524,"_primary_term":10}
+2019-12-12 03:23:45 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 03:23:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 03:23:45 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.002s]
+2019-12-12 03:23:45 [elasticsearch] DEBUG: > None
+2019-12-12 03:23:45 [elasticsearch] DEBUG: < 
+2019-12-12 03:23:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/846 HTTP/1.1" 201 157
+2019-12-12 03:23:45 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/846 [status:201 request:0.032s]
+2019-12-12 03:23:45 [elasticsearch] DEBUG: > {"title":"HelloGitHub 第 13 期","description_content":null,"update_at":1576121024783}
+2019-12-12 03:23:45 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"846","_version":1,"result":"created","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":1525,"_primary_term":10}
+2019-12-12 03:23:45 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 03:23:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 03:23:45 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.002s]
+2019-12-12 03:23:45 [elasticsearch] DEBUG: > None
+2019-12-12 03:23:45 [elasticsearch] DEBUG: < 
+2019-12-12 03:23:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/847 HTTP/1.1" 201 157
+2019-12-12 03:23:45 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/847 [status:201 request:0.029s]
+2019-12-12 03:23:45 [elasticsearch] DEBUG: > {"title":"HelloGitHub 第 12 期","description_content":null,"update_at":1576121024783}
+2019-12-12 03:23:45 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"847","_version":1,"result":"created","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":1526,"_primary_term":10}
+2019-12-12 03:23:45 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 03:23:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 03:23:45 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.002s]
+2019-12-12 03:23:45 [elasticsearch] DEBUG: > None
+2019-12-12 03:23:45 [elasticsearch] DEBUG: < 
+2019-12-12 03:23:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/848 HTTP/1.1" 201 157
+2019-12-12 03:23:45 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/848 [status:201 request:0.028s]
+2019-12-12 03:23:45 [elasticsearch] DEBUG: > {"title":"HelloGitHub 第 11 期","description_content":null,"update_at":1576121024783}
+2019-12-12 03:23:45 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"848","_version":1,"result":"created","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":1527,"_primary_term":10}
+2019-12-12 03:23:45 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 03:23:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 03:23:45 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.002s]
+2019-12-12 03:23:45 [elasticsearch] DEBUG: > None
+2019-12-12 03:23:45 [elasticsearch] DEBUG: < 
+2019-12-12 03:23:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/849 HTTP/1.1" 201 157
+2019-12-12 03:23:45 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/849 [status:201 request:0.029s]
+2019-12-12 03:23:45 [elasticsearch] DEBUG: > {"title":"HelloGitHub 第 10 期","description_content":null,"update_at":1576121024783}
+2019-12-12 03:23:45 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"849","_version":1,"result":"created","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":1528,"_primary_term":10}
+2019-12-12 03:23:45 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 03:23:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 03:23:45 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.003s]
+2019-12-12 03:23:45 [elasticsearch] DEBUG: > None
+2019-12-12 03:23:45 [elasticsearch] DEBUG: < 
+2019-12-12 03:23:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/850 HTTP/1.1" 201 157
+2019-12-12 03:23:45 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/850 [status:201 request:0.029s]
+2019-12-12 03:23:45 [elasticsearch] DEBUG: > {"title":"HelloGitHub 第 09 期","description_content":null,"update_at":1576121024783}
+2019-12-12 03:23:45 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"850","_version":1,"result":"created","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":1529,"_primary_term":10}
+2019-12-12 03:23:45 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 03:23:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 03:23:45 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.002s]
+2019-12-12 03:23:45 [elasticsearch] DEBUG: > None
+2019-12-12 03:23:45 [elasticsearch] DEBUG: < 
+2019-12-12 03:23:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/851 HTTP/1.1" 201 157
+2019-12-12 03:23:45 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/851 [status:201 request:0.030s]
+2019-12-12 03:23:45 [elasticsearch] DEBUG: > {"title":"HelloGitHub 第 08 期","description_content":null,"update_at":1576121024783}
+2019-12-12 03:23:45 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"851","_version":1,"result":"created","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":1530,"_primary_term":10}
+2019-12-12 03:23:45 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 03:23:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 03:23:45 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.002s]
+2019-12-12 03:23:45 [elasticsearch] DEBUG: > None
+2019-12-12 03:23:45 [elasticsearch] DEBUG: < 
+2019-12-12 03:23:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/852 HTTP/1.1" 201 157
+2019-12-12 03:23:45 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/852 [status:201 request:0.029s]
+2019-12-12 03:23:45 [elasticsearch] DEBUG: > {"title":"HelloGitHub 第 07 期","description_content":null,"update_at":1576121024783}
+2019-12-12 03:23:45 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"852","_version":1,"result":"created","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":1531,"_primary_term":10}
+2019-12-12 03:23:45 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 03:23:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 03:23:45 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.002s]
+2019-12-12 03:23:45 [elasticsearch] DEBUG: > None
+2019-12-12 03:23:45 [elasticsearch] DEBUG: < 
+2019-12-12 03:23:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/853 HTTP/1.1" 201 157
+2019-12-12 03:23:45 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/853 [status:201 request:0.028s]
+2019-12-12 03:23:45 [elasticsearch] DEBUG: > {"title":"HelloGitHub 第 06 期","description_content":null,"update_at":1576121024783}
+2019-12-12 03:23:45 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"853","_version":1,"result":"created","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":1532,"_primary_term":10}
+2019-12-12 03:23:45 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 03:23:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 03:23:45 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.002s]
+2019-12-12 03:23:45 [elasticsearch] DEBUG: > None
+2019-12-12 03:23:45 [elasticsearch] DEBUG: < 
+2019-12-12 03:23:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/854 HTTP/1.1" 201 157
+2019-12-12 03:23:45 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/854 [status:201 request:0.030s]
+2019-12-12 03:23:45 [elasticsearch] DEBUG: > {"title":"HelloGitHub 第 05 期","description_content":null,"update_at":1576121024783}
+2019-12-12 03:23:45 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"854","_version":1,"result":"created","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":1533,"_primary_term":10}
+2019-12-12 03:23:45 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 03:23:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 03:23:45 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.002s]
+2019-12-12 03:23:45 [elasticsearch] DEBUG: > None
+2019-12-12 03:23:45 [elasticsearch] DEBUG: < 
+2019-12-12 03:23:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/855 HTTP/1.1" 201 157
+2019-12-12 03:23:45 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/855 [status:201 request:0.030s]
+2019-12-12 03:23:45 [elasticsearch] DEBUG: > {"title":"HelloGitHub 第 04 期","description_content":null,"update_at":1576121024783}
+2019-12-12 03:23:45 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"855","_version":1,"result":"created","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":1534,"_primary_term":10}
+2019-12-12 03:23:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/856 HTTP/1.1" 201 157
+2019-12-12 03:23:45 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/856 [status:201 request:0.029s]
+2019-12-12 03:23:45 [elasticsearch] DEBUG: > {"title":"HelloGitHub 第 03 期","description_content":null,"update_at":1576121024783}
+2019-12-12 03:23:45 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"856","_version":1,"result":"created","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":1535,"_primary_term":10}
+2019-12-12 03:23:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/857 HTTP/1.1" 201 157
+2019-12-12 03:23:45 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/857 [status:201 request:0.027s]
+2019-12-12 03:23:45 [elasticsearch] DEBUG: > {"title":"HelloGitHub 第 02 期","description_content":null,"update_at":1576121024783}
+2019-12-12 03:23:45 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"857","_version":1,"result":"created","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":1536,"_primary_term":10}
+2019-12-12 03:23:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/858 HTTP/1.1" 201 157
+2019-12-12 03:23:45 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/858 [status:201 request:0.021s]
+2019-12-12 03:23:45 [elasticsearch] DEBUG: > {"title":"HelloGitHub 第 01 期","description_content":null,"update_at":1576121024783}
+2019-12-12 03:23:45 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"858","_version":1,"result":"created","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":1537,"_primary_term":10}

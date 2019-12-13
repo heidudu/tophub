@@ -1,0 +1,392 @@
+2019-12-12 03:20:23 [scrapy.utils.log] INFO: Scrapy 1.7.4 started (bot: spider_tophub)
+2019-12-12 03:20:23 [scrapy.utils.log] INFO: Versions: lxml 4.4.1.0, libxml2 2.9.9, cssselect 1.1.0, parsel 1.5.2, w3lib 1.21.0, Twisted 19.7.0, Python 3.7.5 (default, Nov 23 2019, 05:59:34) - [GCC 8.3.0], pyOpenSSL 19.0.0 (OpenSSL 1.1.1d  10 Sep 2019), cryptography 2.8, Platform Linux-3.10.0-1062.1.2.el7.x86_64-x86_64-with-debian-10.2
+2019-12-12 03:20:23 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'spider_tophub', 'DOWNLOAD_DELAY': 1, 'LOG_FILE': 'logs/spider_tophub/acfun_zhoubang/42f826d01c8e11ea9d990242ac190004.log', 'NEWSPIDER_MODULE': 'spider_tophub.spiders', 'ROBOTSTXT_OBEY': True, 'SPIDER_MODULES': ['spider_tophub.spiders'], 'USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36'}
+2019-12-12 03:20:23 [scrapy.extensions.telnet] INFO: Telnet Password: d092f08f2dc846fb
+2019-12-12 03:20:23 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.logstats.LogStats']
+2019-12-12 03:20:23 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2019-12-12 03:20:23 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2019-12-12 03:20:23 [scrapy.middleware] INFO: Enabled item pipelines:
+['spider_tophub.pipelines.MysqlTwistedPipeline']
+2019-12-12 03:20:23 [scrapy.core.engine] INFO: Spider opened
+2019-12-12 03:20:23 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2019-12-12 03:20:23 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2019-12-12 03:20:24 [scrapy.core.engine] DEBUG: Crawled (404) <GET https://www.acfun.cn/robots.txt> (referer: None)
+2019-12-12 03:20:25 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.acfun.cn/rest/pc-direct/rank/channel?channelId=&subChannelId=&rankLimit=30&rankPeriod=WEEK> (referer: None)
+2019-12-12 03:20:25 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.acfun.cn/rest/pc-direct/rank/channel?channelId=&subChannelId=&rankLimit=30&rankPeriod=WEEK>
+None
+2019-12-12 03:20:25 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.acfun.cn/rest/pc-direct/rank/channel?channelId=&subChannelId=&rankLimit=30&rankPeriod=WEEK>
+None
+2019-12-12 03:20:25 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.acfun.cn/rest/pc-direct/rank/channel?channelId=&subChannelId=&rankLimit=30&rankPeriod=WEEK>
+None
+2019-12-12 03:20:25 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.acfun.cn/rest/pc-direct/rank/channel?channelId=&subChannelId=&rankLimit=30&rankPeriod=WEEK>
+None
+2019-12-12 03:20:25 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.acfun.cn/rest/pc-direct/rank/channel?channelId=&subChannelId=&rankLimit=30&rankPeriod=WEEK>
+None
+2019-12-12 03:20:25 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.acfun.cn/rest/pc-direct/rank/channel?channelId=&subChannelId=&rankLimit=30&rankPeriod=WEEK>
+None
+2019-12-12 03:20:25 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.acfun.cn/rest/pc-direct/rank/channel?channelId=&subChannelId=&rankLimit=30&rankPeriod=WEEK>
+None
+2019-12-12 03:20:25 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.acfun.cn/rest/pc-direct/rank/channel?channelId=&subChannelId=&rankLimit=30&rankPeriod=WEEK>
+None
+2019-12-12 03:20:25 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.acfun.cn/rest/pc-direct/rank/channel?channelId=&subChannelId=&rankLimit=30&rankPeriod=WEEK>
+None
+2019-12-12 03:20:25 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.acfun.cn/rest/pc-direct/rank/channel?channelId=&subChannelId=&rankLimit=30&rankPeriod=WEEK>
+None
+2019-12-12 03:20:25 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.acfun.cn/rest/pc-direct/rank/channel?channelId=&subChannelId=&rankLimit=30&rankPeriod=WEEK>
+None
+2019-12-12 03:20:25 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.acfun.cn/rest/pc-direct/rank/channel?channelId=&subChannelId=&rankLimit=30&rankPeriod=WEEK>
+None
+2019-12-12 03:20:25 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.acfun.cn/rest/pc-direct/rank/channel?channelId=&subChannelId=&rankLimit=30&rankPeriod=WEEK>
+None
+2019-12-12 03:20:25 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.acfun.cn/rest/pc-direct/rank/channel?channelId=&subChannelId=&rankLimit=30&rankPeriod=WEEK>
+None
+2019-12-12 03:20:25 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.acfun.cn/rest/pc-direct/rank/channel?channelId=&subChannelId=&rankLimit=30&rankPeriod=WEEK>
+None
+2019-12-12 03:20:25 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.acfun.cn/rest/pc-direct/rank/channel?channelId=&subChannelId=&rankLimit=30&rankPeriod=WEEK>
+None
+2019-12-12 03:20:25 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.acfun.cn/rest/pc-direct/rank/channel?channelId=&subChannelId=&rankLimit=30&rankPeriod=WEEK>
+None
+2019-12-12 03:20:25 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.acfun.cn/rest/pc-direct/rank/channel?channelId=&subChannelId=&rankLimit=30&rankPeriod=WEEK>
+None
+2019-12-12 03:20:25 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.acfun.cn/rest/pc-direct/rank/channel?channelId=&subChannelId=&rankLimit=30&rankPeriod=WEEK>
+None
+2019-12-12 03:20:25 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.acfun.cn/rest/pc-direct/rank/channel?channelId=&subChannelId=&rankLimit=30&rankPeriod=WEEK>
+None
+2019-12-12 03:20:25 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.acfun.cn/rest/pc-direct/rank/channel?channelId=&subChannelId=&rankLimit=30&rankPeriod=WEEK>
+None
+2019-12-12 03:20:25 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.acfun.cn/rest/pc-direct/rank/channel?channelId=&subChannelId=&rankLimit=30&rankPeriod=WEEK>
+None
+2019-12-12 03:20:25 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.acfun.cn/rest/pc-direct/rank/channel?channelId=&subChannelId=&rankLimit=30&rankPeriod=WEEK>
+None
+2019-12-12 03:20:25 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.acfun.cn/rest/pc-direct/rank/channel?channelId=&subChannelId=&rankLimit=30&rankPeriod=WEEK>
+None
+2019-12-12 03:20:25 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.acfun.cn/rest/pc-direct/rank/channel?channelId=&subChannelId=&rankLimit=30&rankPeriod=WEEK>
+None
+2019-12-12 03:20:25 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.acfun.cn/rest/pc-direct/rank/channel?channelId=&subChannelId=&rankLimit=30&rankPeriod=WEEK>
+None
+2019-12-12 03:20:25 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.acfun.cn/rest/pc-direct/rank/channel?channelId=&subChannelId=&rankLimit=30&rankPeriod=WEEK>
+None
+2019-12-12 03:20:25 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.acfun.cn/rest/pc-direct/rank/channel?channelId=&subChannelId=&rankLimit=30&rankPeriod=WEEK>
+None
+2019-12-12 03:20:25 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.acfun.cn/rest/pc-direct/rank/channel?channelId=&subChannelId=&rankLimit=30&rankPeriod=WEEK>
+None
+2019-12-12 03:20:25 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.acfun.cn/rest/pc-direct/rank/channel?channelId=&subChannelId=&rankLimit=30&rankPeriod=WEEK>
+None
+2019-12-12 03:20:25 [scrapy.core.engine] INFO: Closing spider (finished)
+2019-12-12 03:20:25 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 675,
+ 'downloader/request_count': 2,
+ 'downloader/request_method_count/GET': 2,
+ 'downloader/response_bytes': 30642,
+ 'downloader/response_count': 2,
+ 'downloader/response_status_count/200': 1,
+ 'downloader/response_status_count/404': 1,
+ 'elapsed_time_seconds': 1.692346,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2019, 12, 12, 3, 20, 25, 644531),
+ 'item_scraped_count': 30,
+ 'log_count/DEBUG': 32,
+ 'log_count/INFO': 10,
+ 'memusage/max': 57237504,
+ 'memusage/startup': 57237504,
+ 'response_received_count': 2,
+ 'robotstxt/request_count': 1,
+ 'robotstxt/response_count': 1,
+ 'robotstxt/response_status_count/404': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'start_time': datetime.datetime(2019, 12, 12, 3, 20, 23, 952185)}
+2019-12-12 03:20:25 [scrapy.core.engine] INFO: Spider closed (finished)
+2019-12-12 03:20:25 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 03:20:25 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 03:20:25 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 03:20:25 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 03:20:25 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 03:20:25 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.010s]
+2019-12-12 03:20:25 [elasticsearch] DEBUG: > None
+2019-12-12 03:20:25 [elasticsearch] DEBUG: < 
+2019-12-12 03:20:25 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 03:20:25 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.012s]
+2019-12-12 03:20:25 [elasticsearch] DEBUG: > None
+2019-12-12 03:20:25 [elasticsearch] DEBUG: < 
+2019-12-12 03:20:25 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 03:20:25 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.019s]
+2019-12-12 03:20:25 [elasticsearch] DEBUG: > None
+2019-12-12 03:20:25 [elasticsearch] DEBUG: < 
+2019-12-12 03:20:25 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 03:20:25 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 03:20:25 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.033s]
+2019-12-12 03:20:25 [elasticsearch] DEBUG: > None
+2019-12-12 03:20:25 [elasticsearch] DEBUG: < 
+2019-12-12 03:20:25 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 03:20:25 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.012s]
+2019-12-12 03:20:25 [elasticsearch] DEBUG: > None
+2019-12-12 03:20:25 [elasticsearch] DEBUG: < 
+2019-12-12 03:20:25 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/157 HTTP/1.1" 201 156
+2019-12-12 03:20:25 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/157 [status:201 request:0.035s]
+2019-12-12 03:20:25 [elasticsearch] DEBUG: > {"title":"STEAM销量周榜2019年第49期 致远星战况如何?","description_content":"17.8万","update_at":1576120825631}
+2019-12-12 03:20:25 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"157","_version":1,"result":"created","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":300,"_primary_term":10}
+2019-12-12 03:20:25 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 03:20:25 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 03:20:25 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.005s]
+2019-12-12 03:20:25 [elasticsearch] DEBUG: > None
+2019-12-12 03:20:25 [elasticsearch] DEBUG: < 
+2019-12-12 03:20:25 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/159 HTTP/1.1" 201 156
+2019-12-12 03:20:25 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/159 [status:201 request:0.040s]
+2019-12-12 03:20:25 [elasticsearch] DEBUG: > {"title":"【未南】提线木偶♡线在谁哪儿？","description_content":"20.7万","update_at":1576120825631}
+2019-12-12 03:20:25 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"159","_version":1,"result":"created","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":301,"_primary_term":10}
+2019-12-12 03:20:25 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 03:20:25 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 03:20:25 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.004s]
+2019-12-12 03:20:25 [elasticsearch] DEBUG: > None
+2019-12-12 03:20:25 [elasticsearch] DEBUG: < 
+2019-12-12 03:20:25 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/156 HTTP/1.1" 201 156
+2019-12-12 03:20:25 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/156 [status:201 request:0.063s]
+2019-12-12 03:20:25 [elasticsearch] DEBUG: > {"title":"【人生主次元】AcFun首支广告宣传片正式上线！","description_content":"15.3万","update_at":1576120825631}
+2019-12-12 03:20:25 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"156","_version":1,"result":"created","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":302,"_primary_term":10}
+2019-12-12 03:20:25 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 03:20:25 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 03:20:25 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.005s]
+2019-12-12 03:20:25 [elasticsearch] DEBUG: > None
+2019-12-12 03:20:25 [elasticsearch] DEBUG: < 
+2019-12-12 03:20:25 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/160 HTTP/1.1" 201 156
+2019-12-12 03:20:25 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/160 [status:201 request:0.060s]
+2019-12-12 03:20:25 [elasticsearch] DEBUG: > {"title":"#联动&抽奖#【诸葛】仁川登陆之前的运筹","description_content":"11.9万","update_at":1576120825631}
+2019-12-12 03:20:25 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"160","_version":1,"result":"created","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":303,"_primary_term":10}
+2019-12-12 03:20:25 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 03:20:25 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 03:20:25 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.005s]
+2019-12-12 03:20:25 [elasticsearch] DEBUG: > None
+2019-12-12 03:20:25 [elasticsearch] DEBUG: < 
+2019-12-12 03:20:25 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/158 HTTP/1.1" 201 156
+2019-12-12 03:20:25 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/158 [status:201 request:0.079s]
+2019-12-12 03:20:25 [elasticsearch] DEBUG: > {"title":"胖胖的山头『来呀，向我开炮！』","description_content":"22.3万","update_at":1576120825631}
+2019-12-12 03:20:25 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"158","_version":1,"result":"created","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":304,"_primary_term":10}
+2019-12-12 03:20:25 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 03:20:25 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 03:20:25 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.004s]
+2019-12-12 03:20:25 [elasticsearch] DEBUG: > None
+2019-12-12 03:20:25 [elasticsearch] DEBUG: < 
+2019-12-12 03:20:25 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/161 HTTP/1.1" 201 156
+2019-12-12 03:20:25 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/161 [status:201 request:0.072s]
+2019-12-12 03:20:25 [elasticsearch] DEBUG: > {"title":"★更着玩★网络上常见的热门短视频集锦 第二期","description_content":"18.6万","update_at":1576120825631}
+2019-12-12 03:20:25 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"161","_version":1,"result":"created","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":305,"_primary_term":10}
+2019-12-12 03:20:25 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 03:20:25 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 03:20:25 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.007s]
+2019-12-12 03:20:25 [elasticsearch] DEBUG: > None
+2019-12-12 03:20:25 [elasticsearch] DEBUG: < 
+2019-12-12 03:20:25 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/162 HTTP/1.1" 201 156
+2019-12-12 03:20:25 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/162 [status:201 request:0.083s]
+2019-12-12 03:20:25 [elasticsearch] DEBUG: > {"title":"#11 安利不是你想卖想卖就能卖","description_content":"18.8万","update_at":1576120825631}
+2019-12-12 03:20:25 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"162","_version":1,"result":"created","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":306,"_primary_term":10}
+2019-12-12 03:20:25 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 03:20:25 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 03:20:25 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.008s]
+2019-12-12 03:20:25 [elasticsearch] DEBUG: > None
+2019-12-12 03:20:25 [elasticsearch] DEBUG: < 
+2019-12-12 03:20:25 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/163 HTTP/1.1" 201 156
+2019-12-12 03:20:25 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/163 [status:201 request:0.086s]
+2019-12-12 03:20:25 [elasticsearch] DEBUG: > {"title":"【野居青年】小伙用废铁打造一把宝刀，再宰上一只鸡饱餐一顿","description_content":"15.7万","update_at":1576120825631}
+2019-12-12 03:20:25 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"163","_version":1,"result":"created","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":307,"_primary_term":10}
+2019-12-12 03:20:25 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 03:20:25 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 03:20:25 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.005s]
+2019-12-12 03:20:25 [elasticsearch] DEBUG: > None
+2019-12-12 03:20:25 [elasticsearch] DEBUG: < 
+2019-12-12 03:20:25 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/164 HTTP/1.1" 201 156
+2019-12-12 03:20:25 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/164 [status:201 request:0.093s]
+2019-12-12 03:20:25 [elasticsearch] DEBUG: > {"title":"【掌】边怀旧《死神BLEACH》经典回顾第7期-眯眼市丸银 炮打瀞灵廷","description_content":"11.5万","update_at":1576120825631}
+2019-12-12 03:20:25 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"164","_version":1,"result":"created","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":308,"_primary_term":10}
+2019-12-12 03:20:25 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/165 HTTP/1.1" 201 156
+2019-12-12 03:20:25 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/165 [status:201 request:0.086s]
+2019-12-12 03:20:25 [elasticsearch] DEBUG: > {"title":"★更着玩★网络上常见的热门短视频集锦  第一期","description_content":"15.4万","update_at":1576120825631}
+2019-12-12 03:20:25 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"165","_version":1,"result":"created","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":309,"_primary_term":10}
+2019-12-12 03:20:25 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 03:20:25 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 03:20:25 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.006s]
+2019-12-12 03:20:25 [elasticsearch] DEBUG: > None
+2019-12-12 03:20:25 [elasticsearch] DEBUG: < 
+2019-12-12 03:20:25 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 03:20:25 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/166 HTTP/1.1" 201 156
+2019-12-12 03:20:25 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/166 [status:201 request:0.090s]
+2019-12-12 03:20:25 [elasticsearch] DEBUG: > {"title":"挑战一个月销量王，输的人去冬泳","description_content":"14.9万","update_at":1576120825631}
+2019-12-12 03:20:25 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"166","_version":1,"result":"created","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":310,"_primary_term":10}
+2019-12-12 03:20:25 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 03:20:25 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.010s]
+2019-12-12 03:20:25 [elasticsearch] DEBUG: > None
+2019-12-12 03:20:25 [elasticsearch] DEBUG: < 
+2019-12-12 03:20:25 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 03:20:25 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 03:20:25 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.004s]
+2019-12-12 03:20:25 [elasticsearch] DEBUG: > None
+2019-12-12 03:20:25 [elasticsearch] DEBUG: < 
+2019-12-12 03:20:25 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/167 HTTP/1.1" 201 156
+2019-12-12 03:20:25 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/167 [status:201 request:0.087s]
+2019-12-12 03:20:25 [elasticsearch] DEBUG: > {"title":"中国交通事故20191205：每天最新的车祸实例，助你提高安全意识","description_content":"18.9万","update_at":1576120825631}
+2019-12-12 03:20:25 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"167","_version":1,"result":"created","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":311,"_primary_term":10}
+2019-12-12 03:20:25 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 03:20:25 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 03:20:25 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.004s]
+2019-12-12 03:20:25 [elasticsearch] DEBUG: > None
+2019-12-12 03:20:25 [elasticsearch] DEBUG: < 
+2019-12-12 03:20:25 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/168 HTTP/1.1" 201 156
+2019-12-12 03:20:25 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/168 [status:201 request:0.081s]
+2019-12-12 03:20:25 [elasticsearch] DEBUG: > {"title":"【盾盾】性感椅子舞 Señorita 媚而不俗徐穗珍！","description_content":"12.5万","update_at":1576120825631}
+2019-12-12 03:20:25 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"168","_version":1,"result":"created","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":312,"_primary_term":10}
+2019-12-12 03:20:25 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 03:20:25 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/169 HTTP/1.1" 201 156
+2019-12-12 03:20:25 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/169 [status:201 request:0.085s]
+2019-12-12 03:20:25 [elasticsearch] DEBUG: > {"title":"【子怡】MIRROR♡只想动摇你的心~","description_content":"12.1万","update_at":1576120825631}
+2019-12-12 03:20:25 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"169","_version":1,"result":"created","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":313,"_primary_term":10}
+2019-12-12 03:20:25 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 03:20:25 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.015s]
+2019-12-12 03:20:25 [elasticsearch] DEBUG: > None
+2019-12-12 03:20:25 [elasticsearch] DEBUG: < 
+2019-12-12 03:20:25 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 03:20:25 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 03:20:25 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.005s]
+2019-12-12 03:20:25 [elasticsearch] DEBUG: > None
+2019-12-12 03:20:25 [elasticsearch] DEBUG: < 
+2019-12-12 03:20:25 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/170 HTTP/1.1" 201 156
+2019-12-12 03:20:25 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/170 [status:201 request:0.088s]
+2019-12-12 03:20:25 [elasticsearch] DEBUG: > {"title":"中国交通事故20191204：每天最新的车祸实例，助你提高安全意识","description_content":"17.1万","update_at":1576120825631}
+2019-12-12 03:20:25 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"170","_version":1,"result":"created","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":314,"_primary_term":10}
+2019-12-12 03:20:25 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 03:20:26 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 03:20:26 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.011s]
+2019-12-12 03:20:26 [elasticsearch] DEBUG: > None
+2019-12-12 03:20:26 [elasticsearch] DEBUG: < 
+2019-12-12 03:20:26 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/171 HTTP/1.1" 201 156
+2019-12-12 03:20:26 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/171 [status:201 request:0.119s]
+2019-12-12 03:20:26 [elasticsearch] DEBUG: > {"title":"中国交通事故20191207：每天最新的车祸实例，助你提高安全意识","description_content":"15.4万","update_at":1576120825631}
+2019-12-12 03:20:26 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"171","_version":1,"result":"created","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":315,"_primary_term":10}
+2019-12-12 03:20:26 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/172 HTTP/1.1" 201 156
+2019-12-12 03:20:26 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/172 [status:201 request:0.119s]
+2019-12-12 03:20:26 [elasticsearch] DEBUG: > {"title":"2019年碉堡有趣视频合辑【第46期】（5蕉许愿女朋友！！老天！最后一个月对acer好一点吧！！）","description_content":"13.4万","update_at":1576120825631}
+2019-12-12 03:20:26 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"172","_version":1,"result":"created","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":316,"_primary_term":10}
+2019-12-12 03:20:26 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 03:20:26 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 03:20:26 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.013s]
+2019-12-12 03:20:26 [elasticsearch] DEBUG: > None
+2019-12-12 03:20:26 [elasticsearch] DEBUG: < 
+2019-12-12 03:20:26 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 03:20:26 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 03:20:26 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.008s]
+2019-12-12 03:20:26 [elasticsearch] DEBUG: > None
+2019-12-12 03:20:26 [elasticsearch] DEBUG: < 
+2019-12-12 03:20:26 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/173 HTTP/1.1" 201 156
+2019-12-12 03:20:26 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/173 [status:201 request:0.116s]
+2019-12-12 03:20:26 [elasticsearch] DEBUG: > {"title":"★日更蕉易★网络上常见的热门短视频集锦 第三期","description_content":"15.7万","update_at":1576120825631}
+2019-12-12 03:20:26 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"173","_version":1,"result":"created","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":317,"_primary_term":10}
+2019-12-12 03:20:26 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 03:20:26 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/174 HTTP/1.1" 201 156
+2019-12-12 03:20:26 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/174 [status:201 request:0.123s]
+2019-12-12 03:20:26 [elasticsearch] DEBUG: > {"title":"【墨菲】《冰血暴》第2期：Fargo集团登场！神秘杀手遭遇黑白两道夹击","description_content":"6.6万","update_at":1576120825631}
+2019-12-12 03:20:26 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"174","_version":1,"result":"created","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":318,"_primary_term":10}
+2019-12-12 03:20:26 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 03:20:26 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.016s]
+2019-12-12 03:20:26 [elasticsearch] DEBUG: > None
+2019-12-12 03:20:26 [elasticsearch] DEBUG: < 
+2019-12-12 03:20:26 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 03:20:26 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/175 HTTP/1.1" 201 156
+2019-12-12 03:20:26 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/175 [status:201 request:0.110s]
+2019-12-12 03:20:26 [elasticsearch] DEBUG: > {"title":"【特惠喜+1】第86期 开门，快递 叒出差专题","description_content":"8.3万","update_at":1576120825631}
+2019-12-12 03:20:26 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"175","_version":1,"result":"created","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":319,"_primary_term":10}
+2019-12-12 03:20:26 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 03:20:26 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.022s]
+2019-12-12 03:20:26 [elasticsearch] DEBUG: > None
+2019-12-12 03:20:26 [elasticsearch] DEBUG: < 
+2019-12-12 03:20:26 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 03:20:26 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/176 HTTP/1.1" 201 156
+2019-12-12 03:20:26 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/176 [status:201 request:0.096s]
+2019-12-12 03:20:26 [elasticsearch] DEBUG: > {"title":"评论才是本体【2019年吐槽合集】","description_content":"6.6万","update_at":1576120825631}
+2019-12-12 03:20:26 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"176","_version":1,"result":"created","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":320,"_primary_term":10}
+2019-12-12 03:20:26 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 03:20:26 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.015s]
+2019-12-12 03:20:26 [elasticsearch] DEBUG: > None
+2019-12-12 03:20:26 [elasticsearch] DEBUG: < 
+2019-12-12 03:20:26 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 03:20:26 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 03:20:26 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.004s]
+2019-12-12 03:20:26 [elasticsearch] DEBUG: > None
+2019-12-12 03:20:26 [elasticsearch] DEBUG: < 
+2019-12-12 03:20:26 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/177 HTTP/1.1" 201 156
+2019-12-12 03:20:26 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/177 [status:201 request:0.098s]
+2019-12-12 03:20:26 [elasticsearch] DEBUG: > {"title":"#⑨③ 听说你们想听AC娘唱歌？","description_content":"8.8万","update_at":1576120825631}
+2019-12-12 03:20:26 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"177","_version":1,"result":"created","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":321,"_primary_term":10}
+2019-12-12 03:20:26 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 03:20:26 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/178 HTTP/1.1" 201 156
+2019-12-12 03:20:26 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/178 [status:201 request:0.075s]
+2019-12-12 03:20:26 [elasticsearch] DEBUG: > {"title":"【朱一旦】她的烤冷面，让我天天都想念","description_content":"16.2万","update_at":1576120825631}
+2019-12-12 03:20:26 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"178","_version":1,"result":"created","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":322,"_primary_term":10}
+2019-12-12 03:20:26 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 03:20:26 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.012s]
+2019-12-12 03:20:26 [elasticsearch] DEBUG: > None
+2019-12-12 03:20:26 [elasticsearch] DEBUG: < 
+2019-12-12 03:20:26 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 03:20:26 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 03:20:26 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.004s]
+2019-12-12 03:20:26 [elasticsearch] DEBUG: > None
+2019-12-12 03:20:26 [elasticsearch] DEBUG: < 
+2019-12-12 03:20:26 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/179 HTTP/1.1" 201 156
+2019-12-12 03:20:26 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/179 [status:201 request:0.075s]
+2019-12-12 03:20:26 [elasticsearch] DEBUG: > {"title":"★五蕉抽奖★网络上常见的热门短视频集锦 第四期（本期抽奖）","description_content":"12.9万","update_at":1576120825631}
+2019-12-12 03:20:26 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"179","_version":1,"result":"created","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":323,"_primary_term":10}
+2019-12-12 03:20:26 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/180 HTTP/1.1" 201 156
+2019-12-12 03:20:26 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/180 [status:201 request:0.065s]
+2019-12-12 03:20:26 [elasticsearch] DEBUG: > {"title":"阿 苇 和 你 荡 秋 千","description_content":"5.9万","update_at":1576120825631}
+2019-12-12 03:20:26 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"180","_version":1,"result":"created","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":324,"_primary_term":10}
+2019-12-12 03:20:26 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 03:20:26 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 03:20:26 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.006s]
+2019-12-12 03:20:26 [elasticsearch] DEBUG: > None
+2019-12-12 03:20:26 [elasticsearch] DEBUG: < 
+2019-12-12 03:20:26 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 03:20:26 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/181 HTTP/1.1" 201 156
+2019-12-12 03:20:26 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/181 [status:201 request:0.076s]
+2019-12-12 03:20:26 [elasticsearch] DEBUG: > {"title":"厨师长教你：“黄焖土鸡”的家常做法，味道很赞先收藏了","description_content":"13.7万","update_at":1576120825631}
+2019-12-12 03:20:26 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"181","_version":1,"result":"created","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":325,"_primary_term":10}
+2019-12-12 03:20:26 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 03:20:26 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.013s]
+2019-12-12 03:20:26 [elasticsearch] DEBUG: > None
+2019-12-12 03:20:26 [elasticsearch] DEBUG: < 
+2019-12-12 03:20:26 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/182 HTTP/1.1" 201 156
+2019-12-12 03:20:26 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/182 [status:201 request:0.073s]
+2019-12-12 03:20:26 [elasticsearch] DEBUG: > {"title":"开箱十款全网销量最好的“自热米饭”，到底哪款才是最好吃的呢","description_content":"14.6万","update_at":1576120825631}
+2019-12-12 03:20:26 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"182","_version":1,"result":"created","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":326,"_primary_term":10}
+2019-12-12 03:20:26 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/183 HTTP/1.1" 201 156
+2019-12-12 03:20:26 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/183 [status:201 request:0.080s]
+2019-12-12 03:20:26 [elasticsearch] DEBUG: > {"title":"中国交通事故20191208：每天最新的车祸实例，助你提高安全意识","description_content":"13.4万","update_at":1576120825631}
+2019-12-12 03:20:26 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"183","_version":1,"result":"created","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":327,"_primary_term":10}
+2019-12-12 03:20:26 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/184 HTTP/1.1" 201 156
+2019-12-12 03:20:26 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/184 [status:201 request:0.070s]
+2019-12-12 03:20:26 [elasticsearch] DEBUG: > {"title":"厨师长教你：“挂霜核桃”的家常做法，香甜酥脆又不塞牙","description_content":"10.8万","update_at":1576120825631}
+2019-12-12 03:20:26 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"184","_version":1,"result":"created","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":328,"_primary_term":10}
+2019-12-12 03:20:26 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/185 HTTP/1.1" 201 156
+2019-12-12 03:20:26 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/185 [status:201 request:0.078s]
+2019-12-12 03:20:26 [elasticsearch] DEBUG: > {"title":"爆笑倒放挑战，越简单越难猜？中文歌咖喱味儿！","description_content":"7.4万","update_at":1576120825631}
+2019-12-12 03:20:26 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"185","_version":1,"result":"created","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":329,"_primary_term":10}

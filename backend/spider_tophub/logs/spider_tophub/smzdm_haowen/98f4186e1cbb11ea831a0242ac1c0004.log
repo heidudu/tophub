@@ -1,0 +1,325 @@
+2019-12-12 08:46:28 [scrapy.utils.log] INFO: Scrapy 1.7.4 started (bot: spider_tophub)
+2019-12-12 08:46:28 [scrapy.utils.log] INFO: Versions: lxml 4.4.1.0, libxml2 2.9.9, cssselect 1.1.0, parsel 1.5.2, w3lib 1.21.0, Twisted 19.7.0, Python 3.7.5 (default, Nov 23 2019, 05:59:34) - [GCC 8.3.0], pyOpenSSL 19.0.0 (OpenSSL 1.1.1d  10 Sep 2019), cryptography 2.8, Platform Linux-3.10.0-1062.1.2.el7.x86_64-x86_64-with-debian-10.2
+2019-12-12 08:46:28 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'spider_tophub', 'DOWNLOAD_DELAY': 1, 'LOG_FILE': 'logs/spider_tophub/smzdm_haowen/98f4186e1cbb11ea831a0242ac1c0004.log', 'NEWSPIDER_MODULE': 'spider_tophub.spiders', 'ROBOTSTXT_OBEY': True, 'SPIDER_MODULES': ['spider_tophub.spiders'], 'USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36'}
+2019-12-12 08:46:28 [scrapy.extensions.telnet] INFO: Telnet Password: c2c8c9c216daddfc
+2019-12-12 08:46:28 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.logstats.LogStats']
+2019-12-12 08:46:28 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2019-12-12 08:46:28 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2019-12-12 08:46:28 [scrapy.middleware] INFO: Enabled item pipelines:
+['spider_tophub.pipelines.MysqlTwistedPipeline']
+2019-12-12 08:46:28 [scrapy.core.engine] INFO: Spider opened
+2019-12-12 08:46:28 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2019-12-12 08:46:28 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2019-12-12 08:46:29 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://post.smzdm.com/robots.txt> (referer: None)
+2019-12-12 08:46:30 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://post.smzdm.com/hot_1/> (referer: None)
+2019-12-12 08:46:30 [scrapy.core.scraper] DEBUG: Scraped from <200 https://post.smzdm.com/hot_1/>
+None
+2019-12-12 08:46:30 [scrapy.core.scraper] DEBUG: Scraped from <200 https://post.smzdm.com/hot_1/>
+None
+2019-12-12 08:46:30 [scrapy.core.scraper] DEBUG: Scraped from <200 https://post.smzdm.com/hot_1/>
+None
+2019-12-12 08:46:30 [scrapy.core.scraper] DEBUG: Scraped from <200 https://post.smzdm.com/hot_1/>
+None
+2019-12-12 08:46:30 [scrapy.core.scraper] DEBUG: Scraped from <200 https://post.smzdm.com/hot_1/>
+None
+2019-12-12 08:46:30 [scrapy.core.scraper] DEBUG: Scraped from <200 https://post.smzdm.com/hot_1/>
+None
+2019-12-12 08:46:30 [scrapy.core.scraper] DEBUG: Scraped from <200 https://post.smzdm.com/hot_1/>
+None
+2019-12-12 08:46:30 [scrapy.core.scraper] DEBUG: Scraped from <200 https://post.smzdm.com/hot_1/>
+None
+2019-12-12 08:46:30 [scrapy.core.scraper] DEBUG: Scraped from <200 https://post.smzdm.com/hot_1/>
+None
+2019-12-12 08:46:30 [scrapy.core.scraper] DEBUG: Scraped from <200 https://post.smzdm.com/hot_1/>
+None
+2019-12-12 08:46:30 [scrapy.core.scraper] DEBUG: Scraped from <200 https://post.smzdm.com/hot_1/>
+None
+2019-12-12 08:46:30 [scrapy.core.scraper] DEBUG: Scraped from <200 https://post.smzdm.com/hot_1/>
+None
+2019-12-12 08:46:30 [scrapy.core.scraper] DEBUG: Scraped from <200 https://post.smzdm.com/hot_1/>
+None
+2019-12-12 08:46:30 [scrapy.core.scraper] DEBUG: Scraped from <200 https://post.smzdm.com/hot_1/>
+None
+2019-12-12 08:46:30 [scrapy.core.scraper] DEBUG: Scraped from <200 https://post.smzdm.com/hot_1/>
+None
+2019-12-12 08:46:30 [scrapy.core.scraper] DEBUG: Scraped from <200 https://post.smzdm.com/hot_1/>
+None
+2019-12-12 08:46:30 [scrapy.core.scraper] DEBUG: Scraped from <200 https://post.smzdm.com/hot_1/>
+None
+2019-12-12 08:46:30 [scrapy.core.scraper] DEBUG: Scraped from <200 https://post.smzdm.com/hot_1/>
+None
+2019-12-12 08:46:30 [scrapy.core.scraper] DEBUG: Scraped from <200 https://post.smzdm.com/hot_1/>
+None
+2019-12-12 08:46:30 [scrapy.core.scraper] DEBUG: Scraped from <200 https://post.smzdm.com/hot_1/>
+None
+2019-12-12 08:46:30 [scrapy.core.scraper] DEBUG: Scraped from <200 https://post.smzdm.com/hot_1/>
+None
+2019-12-12 08:46:30 [scrapy.core.scraper] DEBUG: Scraped from <200 https://post.smzdm.com/hot_1/>
+None
+2019-12-12 08:46:30 [scrapy.core.scraper] DEBUG: Scraped from <200 https://post.smzdm.com/hot_1/>
+None
+2019-12-12 08:46:30 [scrapy.core.scraper] DEBUG: Scraped from <200 https://post.smzdm.com/hot_1/>
+None
+2019-12-12 08:46:30 [scrapy.core.engine] INFO: Closing spider (finished)
+2019-12-12 08:46:30 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 691,
+ 'downloader/request_count': 2,
+ 'downloader/request_method_count/GET': 2,
+ 'downloader/response_bytes': 35178,
+ 'downloader/response_count': 2,
+ 'downloader/response_status_count/200': 2,
+ 'elapsed_time_seconds': 1.648717,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2019, 12, 12, 8, 46, 30, 542654),
+ 'item_scraped_count': 24,
+ 'log_count/DEBUG': 26,
+ 'log_count/INFO': 10,
+ 'memusage/max': 57237504,
+ 'memusage/startup': 57237504,
+ 'response_received_count': 2,
+ 'robotstxt/request_count': 1,
+ 'robotstxt/response_count': 1,
+ 'robotstxt/response_status_count/200': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'start_time': datetime.datetime(2019, 12, 12, 8, 46, 28, 893937)}
+2019-12-12 08:46:30 [scrapy.core.engine] INFO: Spider closed (finished)
+2019-12-12 08:46:30 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 08:46:30 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 08:46:30 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 08:46:30 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 08:46:30 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 08:46:30 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.008s]
+2019-12-12 08:46:30 [elasticsearch] DEBUG: > None
+2019-12-12 08:46:30 [elasticsearch] DEBUG: < 
+2019-12-12 08:46:30 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 08:46:30 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.008s]
+2019-12-12 08:46:30 [elasticsearch] DEBUG: > None
+2019-12-12 08:46:30 [elasticsearch] DEBUG: < 
+2019-12-12 08:46:30 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 08:46:30 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.011s]
+2019-12-12 08:46:30 [elasticsearch] DEBUG: > None
+2019-12-12 08:46:30 [elasticsearch] DEBUG: < 
+2019-12-12 08:46:30 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 08:46:30 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.009s]
+2019-12-12 08:46:30 [elasticsearch] DEBUG: > None
+2019-12-12 08:46:30 [elasticsearch] DEBUG: < 
+2019-12-12 08:46:30 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 08:46:30 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 08:46:30 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.004s]
+2019-12-12 08:46:30 [elasticsearch] DEBUG: > None
+2019-12-12 08:46:30 [elasticsearch] DEBUG: < 
+2019-12-12 08:46:30 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/3282 HTTP/1.1" 200 158
+2019-12-12 08:46:30 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/3282 [status:200 request:0.014s]
+2019-12-12 08:46:30 [elasticsearch] DEBUG: > {"title":"小米智能家居联动方案2019年年终总结，外加设计指南，干货满满！","description_content":null,"update_at":1576140390509}
+2019-12-12 08:46:30 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"3282","_version":3,"result":"updated","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":41222,"_primary_term":1}
+2019-12-12 08:46:30 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/3286 HTTP/1.1" 200 158
+2019-12-12 08:46:30 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/3286 [status:200 request:0.018s]
+2019-12-12 08:46:30 [elasticsearch] DEBUG: > {"title":"软件分享 篇九：提高工作效率 —— 快速找到适合的背景音乐","description_content":null,"update_at":1576140390509}
+2019-12-12 08:46:30 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"3286","_version":3,"result":"updated","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":41223,"_primary_term":1}
+2019-12-12 08:46:30 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 08:46:30 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 08:46:30 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.002s]
+2019-12-12 08:46:30 [elasticsearch] DEBUG: > None
+2019-12-12 08:46:30 [elasticsearch] DEBUG: < 
+2019-12-12 08:46:30 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/3287 HTTP/1.1" 200 158
+2019-12-12 08:46:30 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/3287 [status:200 request:0.024s]
+2019-12-12 08:46:30 [elasticsearch] DEBUG: > {"title":"健身知识 篇十五：男靠强度，女靠次数——关于减脂的3个小常识","description_content":null,"update_at":1576140390509}
+2019-12-12 08:46:30 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"3287","_version":3,"result":"updated","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":41224,"_primary_term":1}
+2019-12-12 08:46:30 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 08:46:30 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 08:46:30 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.002s]
+2019-12-12 08:46:30 [elasticsearch] DEBUG: > None
+2019-12-12 08:46:30 [elasticsearch] DEBUG: < 
+2019-12-12 08:46:30 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/3285 HTTP/1.1" 200 158
+2019-12-12 08:46:30 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/3285 [status:200 request:0.027s]
+2019-12-12 08:46:30 [elasticsearch] DEBUG: > {"title":"水电煤/话费充值/寄快递、出行打车/机票/旅行统统有活动，银联12.12全民回报节（下篇）","description_content":null,"update_at":1576140390509}
+2019-12-12 08:46:30 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"3285","_version":3,"result":"updated","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":41225,"_primary_term":1}
+2019-12-12 08:46:30 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 08:46:30 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 08:46:30 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.002s]
+2019-12-12 08:46:30 [elasticsearch] DEBUG: > None
+2019-12-12 08:46:30 [elasticsearch] DEBUG: < 
+2019-12-12 08:46:30 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/3288 HTTP/1.1" 200 158
+2019-12-12 08:46:30 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/3288 [status:200 request:0.027s]
+2019-12-12 08:46:30 [elasticsearch] DEBUG: > {"title":"反碎片化时间，这些技巧和经验让你完整链条式学习提升","description_content":null,"update_at":1576140390509}
+2019-12-12 08:46:30 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"3288","_version":3,"result":"updated","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":41226,"_primary_term":1}
+2019-12-12 08:46:30 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 08:46:30 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 08:46:30 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.003s]
+2019-12-12 08:46:30 [elasticsearch] DEBUG: > None
+2019-12-12 08:46:30 [elasticsearch] DEBUG: < 
+2019-12-12 08:46:30 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/3293 HTTP/1.1" 200 158
+2019-12-12 08:46:30 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/3293 [status:200 request:0.020s]
+2019-12-12 08:46:30 [elasticsearch] DEBUG: > {"title":"日方败诉：无印良品商标之争尘埃落定，网上店铺已完成整改~","description_content":null,"update_at":1576140390509}
+2019-12-12 08:46:30 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"3293","_version":3,"result":"updated","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":41227,"_primary_term":1}
+2019-12-12 08:46:30 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 08:46:30 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 08:46:30 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.003s]
+2019-12-12 08:46:30 [elasticsearch] DEBUG: > None
+2019-12-12 08:46:30 [elasticsearch] DEBUG: < 
+2019-12-12 08:46:30 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/3289 HTTP/1.1" 200 158
+2019-12-12 08:46:30 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/3289 [status:200 request:0.022s]
+2019-12-12 08:46:30 [elasticsearch] DEBUG: > {"title":"双12最后冲刺|全网信用卡活动最全汇总","description_content":null,"update_at":1576140390509}
+2019-12-12 08:46:30 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"3289","_version":3,"result":"updated","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":41228,"_primary_term":1}
+2019-12-12 08:46:30 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 08:46:30 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 08:46:30 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.002s]
+2019-12-12 08:46:30 [elasticsearch] DEBUG: > None
+2019-12-12 08:46:30 [elasticsearch] DEBUG: < 
+2019-12-12 08:46:30 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/3290 HTTP/1.1" 200 158
+2019-12-12 08:46:30 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/3290 [status:200 request:0.021s]
+2019-12-12 08:46:30 [elasticsearch] DEBUG: > {"title":"边洗边震超防水：小米有品上架一款洗发神器，干湿两用的“小水母”","description_content":null,"update_at":1576140390509}
+2019-12-12 08:46:30 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"3290","_version":3,"result":"updated","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":41229,"_primary_term":1}
+2019-12-12 08:46:30 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 08:46:30 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 08:46:30 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.002s]
+2019-12-12 08:46:30 [elasticsearch] DEBUG: > None
+2019-12-12 08:46:30 [elasticsearch] DEBUG: < 
+2019-12-12 08:46:30 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/3291 HTTP/1.1" 200 158
+2019-12-12 08:46:30 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/3291 [status:200 request:0.020s]
+2019-12-12 08:46:30 [elasticsearch] DEBUG: > {"title":"运动精英、复古老爹、休闲时尚——天猫AD年终盛典，用3000元照顾到全家三代7口人的运动鞋需求","description_content":null,"update_at":1576140390509}
+2019-12-12 08:46:30 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"3291","_version":3,"result":"updated","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":41230,"_primary_term":1}
+2019-12-12 08:46:30 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 08:46:30 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 08:46:30 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.002s]
+2019-12-12 08:46:30 [elasticsearch] DEBUG: > None
+2019-12-12 08:46:30 [elasticsearch] DEBUG: < 
+2019-12-12 08:46:30 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/3295 HTTP/1.1" 200 158
+2019-12-12 08:46:30 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/3295 [status:200 request:0.018s]
+2019-12-12 08:46:30 [elasticsearch] DEBUG: > {"title":"京东可免费领取优惠券活动汇总，闪付5元优惠券、满49-3白条券等","description_content":null,"update_at":1576140390509}
+2019-12-12 08:46:30 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"3295","_version":3,"result":"updated","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":41231,"_primary_term":1}
+2019-12-12 08:46:30 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 08:46:30 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 08:46:30 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.002s]
+2019-12-12 08:46:30 [elasticsearch] DEBUG: > None
+2019-12-12 08:46:30 [elasticsearch] DEBUG: < 
+2019-12-12 08:46:30 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 08:46:30 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/3301 HTTP/1.1" 200 158
+2019-12-12 08:46:30 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/3301 [status:200 request:0.020s]
+2019-12-12 08:46:30 [elasticsearch] DEBUG: > {"title":"全国无限距离对讲：小米有品众筹上架 极蜂智能网络对讲机","description_content":null,"update_at":1576140390509}
+2019-12-12 08:46:30 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"3301","_version":3,"result":"updated","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":41232,"_primary_term":1}
+2019-12-12 08:46:30 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 08:46:30 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.003s]
+2019-12-12 08:46:30 [elasticsearch] DEBUG: > None
+2019-12-12 08:46:30 [elasticsearch] DEBUG: < 
+2019-12-12 08:46:30 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/3296 HTTP/1.1" 200 158
+2019-12-12 08:46:30 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/3296 [status:200 request:0.028s]
+2019-12-12 08:46:30 [elasticsearch] DEBUG: > {"title":"银联12.12连续4天回馈！线上线下超多店铺5折，餐饮/超市/电商/购物详细时间表（上篇）","description_content":null,"update_at":1576140390509}
+2019-12-12 08:46:30 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"3296","_version":3,"result":"updated","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":41233,"_primary_term":1}
+2019-12-12 08:46:30 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 08:46:30 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 08:46:30 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 08:46:30 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.003s]
+2019-12-12 08:46:30 [elasticsearch] DEBUG: > None
+2019-12-12 08:46:30 [elasticsearch] DEBUG: < 
+2019-12-12 08:46:30 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 08:46:30 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.007s]
+2019-12-12 08:46:30 [elasticsearch] DEBUG: > None
+2019-12-12 08:46:30 [elasticsearch] DEBUG: < 
+2019-12-12 08:46:30 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/3297 HTTP/1.1" 200 158
+2019-12-12 08:46:30 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/3297 [status:200 request:0.046s]
+2019-12-12 08:46:30 [elasticsearch] DEBUG: > {"title":"流光魅影 篇三：轻便的全面屏超薄笔记本，荣耀 MagicBook 14锐龙版","description_content":null,"update_at":1576140390509}
+2019-12-12 08:46:30 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"3297","_version":3,"result":"updated","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":41234,"_primary_term":1}
+2019-12-12 08:46:30 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 08:46:30 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 08:46:30 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.002s]
+2019-12-12 08:46:30 [elasticsearch] DEBUG: > None
+2019-12-12 08:46:30 [elasticsearch] DEBUG: < 
+2019-12-12 08:46:30 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/3299 HTTP/1.1" 200 158
+2019-12-12 08:46:30 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/3299 [status:200 request:0.064s]
+2019-12-12 08:46:30 [elasticsearch] DEBUG: > {"title":"平均月销80万+！15款淘宝上鲜为人知的小众品牌，一半没吃过...","description_content":null,"update_at":1576140390509}
+2019-12-12 08:46:30 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"3299","_version":3,"result":"updated","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":41235,"_primary_term":1}
+2019-12-12 08:46:30 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/3298 HTTP/1.1" 200 158
+2019-12-12 08:46:30 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/3298 [status:200 request:0.064s]
+2019-12-12 08:46:30 [elasticsearch] DEBUG: > {"title":"双12优衣库什么值得买？从购买到退换货一篇就购了！","description_content":null,"update_at":1576140390509}
+2019-12-12 08:46:30 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"3298","_version":3,"result":"updated","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":41236,"_primary_term":1}
+2019-12-12 08:46:30 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 08:46:30 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 08:46:30 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.002s]
+2019-12-12 08:46:30 [elasticsearch] DEBUG: > None
+2019-12-12 08:46:30 [elasticsearch] DEBUG: < 
+2019-12-12 08:46:30 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 08:46:30 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/3300 HTTP/1.1" 200 158
+2019-12-12 08:46:30 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/3300 [status:200 request:0.040s]
+2019-12-12 08:46:30 [elasticsearch] DEBUG: > {"title":"三亚带娃度假小白攻略（2019年底版）","description_content":null,"update_at":1576140390509}
+2019-12-12 08:46:30 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"3300","_version":3,"result":"updated","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":41237,"_primary_term":1}
+2019-12-12 08:46:30 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 08:46:30 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.002s]
+2019-12-12 08:46:30 [elasticsearch] DEBUG: > None
+2019-12-12 08:46:30 [elasticsearch] DEBUG: < 
+2019-12-12 08:46:30 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/4366 HTTP/1.1" 201 158
+2019-12-12 08:46:30 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/4366 [status:201 request:0.047s]
+2019-12-12 08:46:30 [elasticsearch] DEBUG: > {"title":"值无不言158期：成为一名垃圾佬，会得到什么？折腾矿渣年终总结！","description_content":null,"update_at":1576140390509}
+2019-12-12 08:46:30 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"4366","_version":1,"result":"created","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":41238,"_primary_term":1}
+2019-12-12 08:46:30 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 08:46:30 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 08:46:30 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.002s]
+2019-12-12 08:46:30 [elasticsearch] DEBUG: > None
+2019-12-12 08:46:30 [elasticsearch] DEBUG: < 
+2019-12-12 08:46:30 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/3304 HTTP/1.1" 200 158
+2019-12-12 08:46:30 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/3304 [status:200 request:0.029s]
+2019-12-12 08:46:30 [elasticsearch] DEBUG: > {"title":"年收益300元的躺赢羊毛？京东宠汪汪焕新解读！","description_content":null,"update_at":1576140390509}
+2019-12-12 08:46:30 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"3304","_version":3,"result":"updated","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":41239,"_primary_term":1}
+2019-12-12 08:46:30 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 08:46:30 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/3451 HTTP/1.1" 200 158
+2019-12-12 08:46:30 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/3451 [status:200 request:0.022s]
+2019-12-12 08:46:30 [elasticsearch] DEBUG: > {"title":"享受到不愿起身！小米有品上架护腰沙发，立体包裹更舒适","description_content":null,"update_at":1576140390509}
+2019-12-12 08:46:30 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"3451","_version":2,"result":"updated","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":41240,"_primary_term":1}
+2019-12-12 08:46:30 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 08:46:30 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.005s]
+2019-12-12 08:46:30 [elasticsearch] DEBUG: > None
+2019-12-12 08:46:30 [elasticsearch] DEBUG: < 
+2019-12-12 08:46:30 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 08:46:30 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 08:46:30 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.002s]
+2019-12-12 08:46:30 [elasticsearch] DEBUG: > None
+2019-12-12 08:46:30 [elasticsearch] DEBUG: < 
+2019-12-12 08:46:30 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/3448 HTTP/1.1" 200 158
+2019-12-12 08:46:30 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/3448 [status:200 request:0.023s]
+2019-12-12 08:46:30 [elasticsearch] DEBUG: > {"title":"汽车保养：从发动机清洗到发动机大修","description_content":null,"update_at":1576140390509}
+2019-12-12 08:46:30 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"3448","_version":2,"result":"updated","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":41241,"_primary_term":1}
+2019-12-12 08:46:30 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 08:46:30 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 08:46:30 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.002s]
+2019-12-12 08:46:30 [elasticsearch] DEBUG: > None
+2019-12-12 08:46:30 [elasticsearch] DEBUG: < 
+2019-12-12 08:46:30 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/3449 HTTP/1.1" 200 158
+2019-12-12 08:46:30 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/3449 [status:200 request:0.020s]
+2019-12-12 08:46:30 [elasticsearch] DEBUG: > {"title":"实用收藏，电脑主板常用接口介绍与插接教程","description_content":null,"update_at":1576140390509}
+2019-12-12 08:46:30 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"3449","_version":2,"result":"updated","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":41242,"_primary_term":1}
+2019-12-12 08:46:30 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/3450 HTTP/1.1" 200 158
+2019-12-12 08:46:30 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/3450 [status:200 request:0.015s]
+2019-12-12 08:46:30 [elasticsearch] DEBUG: > {"title":"招行掌上生活10元风暴，3喵优势买到双立人煎炒锅+陶瓷盅，分享下喵心得","description_content":null,"update_at":1576140390509}
+2019-12-12 08:46:30 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"3450","_version":2,"result":"updated","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":41243,"_primary_term":1}
+2019-12-12 08:46:30 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/4367 HTTP/1.1" 201 158
+2019-12-12 08:46:30 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/4367 [status:201 request:0.016s]
+2019-12-12 08:46:30 [elasticsearch] DEBUG: > {"title":"小米生态链Aqara烟雾报警器发布：断电断网也能远程报警","description_content":null,"update_at":1576140390509}
+2019-12-12 08:46:30 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"4367","_version":1,"result":"created","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":41244,"_primary_term":1}
+2019-12-12 08:46:30 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/4368 HTTP/1.1" 201 158
+2019-12-12 08:46:30 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/4368 [status:201 request:0.014s]
+2019-12-12 08:46:30 [elasticsearch] DEBUG: > {"title":"7个问题带你了解一款智能指纹锁是否具备高素质—TCL 物联网智能锁K5","description_content":null,"update_at":1576140390509}
+2019-12-12 08:46:30 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"4368","_version":1,"result":"created","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":41245,"_primary_term":1}

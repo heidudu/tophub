@@ -1,0 +1,6 @@
+Another twistd server is running, PID 12
+
+This could either be a previously started instance of your application or a
+different application entirely. To start a new one, either run it in some other
+directory, or use the --pidfile and --logfile parameters to avoid clashes.
+

@@ -1,0 +1,57 @@
+
+
+
+
+
+:global{
+  .card-title{
+    font-size: 18px;
+    font-weight: bold;
+  }
+}
+
+.nav-item{
+  line-height: 48px;
+  font-size: 18px;
+  color: #5f6368;
+  font-weight:bold;
+  width:33.3%;
+
+  &:hover{
+    color:black;
+    text-decoration: none;
+  }
+
+}
+
+.detail-nav {
+  :global{
+    .active {
+      color: #007bff;
+      border-bottom-style: solid;
+    }
+  }
+
+}
+
+.card-body-item{
+  text-decoration-color: black!important;
+  //color: black!important;
+
+}
+
+:global{
+  .tab-pane.fade{
+    display: none;
+  }
+  .tab-pane.fade.show.active{
+    display: flex;
+  }
+}
+
+.related_img{
+  display:inline-block;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}

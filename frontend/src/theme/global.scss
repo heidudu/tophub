@@ -1,0 +1,18 @@
+.container{
+  width: 100%;
+}
+:global{
+
+  //去除点击后的蓝框
+  button:focus{
+    outline: none!important;
+
+  }
+  html, body,#root {
+    height: 100%;
+  }
+  svg{
+    color: #5f6368;
+  }
+
+}

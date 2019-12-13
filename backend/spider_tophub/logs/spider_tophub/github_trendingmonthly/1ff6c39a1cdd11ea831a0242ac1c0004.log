@@ -1,0 +1,331 @@
+2019-12-12 12:45:18 [scrapy.utils.log] INFO: Scrapy 1.7.4 started (bot: spider_tophub)
+2019-12-12 12:45:18 [scrapy.utils.log] INFO: Versions: lxml 4.4.1.0, libxml2 2.9.9, cssselect 1.1.0, parsel 1.5.2, w3lib 1.21.0, Twisted 19.7.0, Python 3.7.5 (default, Nov 23 2019, 05:59:34) - [GCC 8.3.0], pyOpenSSL 19.0.0 (OpenSSL 1.1.1d  10 Sep 2019), cryptography 2.8, Platform Linux-3.10.0-1062.1.2.el7.x86_64-x86_64-with-debian-10.2
+2019-12-12 12:45:18 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'spider_tophub', 'DOWNLOAD_DELAY': 1, 'LOG_FILE': 'logs/spider_tophub/github_trendingmonthly/1ff6c39a1cdd11ea831a0242ac1c0004.log', 'NEWSPIDER_MODULE': 'spider_tophub.spiders', 'SPIDER_MODULES': ['spider_tophub.spiders']}
+2019-12-12 12:45:18 [scrapy.extensions.telnet] INFO: Telnet Password: 013b258301b58bdf
+2019-12-12 12:45:18 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.logstats.LogStats']
+2019-12-12 12:45:18 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2019-12-12 12:45:18 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2019-12-12 12:45:18 [scrapy.middleware] INFO: Enabled item pipelines:
+['spider_tophub.pipelines.MysqlTwistedPipeline']
+2019-12-12 12:45:18 [scrapy.core.engine] INFO: Spider opened
+2019-12-12 12:45:18 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2019-12-12 12:45:18 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2019-12-12 12:45:21 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://github.com/trending?since=monthly> (referer: None)
+2019-12-12 12:45:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://github.com/trending?since=monthly>
+None
+2019-12-12 12:45:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://github.com/trending?since=monthly>
+None
+2019-12-12 12:45:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://github.com/trending?since=monthly>
+None
+2019-12-12 12:45:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://github.com/trending?since=monthly>
+None
+2019-12-12 12:45:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://github.com/trending?since=monthly>
+None
+2019-12-12 12:45:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://github.com/trending?since=monthly>
+None
+2019-12-12 12:45:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://github.com/trending?since=monthly>
+None
+2019-12-12 12:45:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://github.com/trending?since=monthly>
+None
+2019-12-12 12:45:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://github.com/trending?since=monthly>
+None
+2019-12-12 12:45:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://github.com/trending?since=monthly>
+None
+2019-12-12 12:45:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://github.com/trending?since=monthly>
+None
+2019-12-12 12:45:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://github.com/trending?since=monthly>
+None
+2019-12-12 12:45:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://github.com/trending?since=monthly>
+None
+2019-12-12 12:45:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://github.com/trending?since=monthly>
+None
+2019-12-12 12:45:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://github.com/trending?since=monthly>
+None
+2019-12-12 12:45:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://github.com/trending?since=monthly>
+None
+2019-12-12 12:45:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://github.com/trending?since=monthly>
+None
+2019-12-12 12:45:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://github.com/trending?since=monthly>
+None
+2019-12-12 12:45:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://github.com/trending?since=monthly>
+None
+2019-12-12 12:45:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://github.com/trending?since=monthly>
+None
+2019-12-12 12:45:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://github.com/trending?since=monthly>
+None
+2019-12-12 12:45:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://github.com/trending?since=monthly>
+None
+2019-12-12 12:45:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://github.com/trending?since=monthly>
+None
+2019-12-12 12:45:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://github.com/trending?since=monthly>
+None
+2019-12-12 12:45:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://github.com/trending?since=monthly>
+None
+2019-12-12 12:45:21 [scrapy.core.engine] INFO: Closing spider (finished)
+2019-12-12 12:45:21 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 231,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 37826,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/200': 1,
+ 'elapsed_time_seconds': 2.36177,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2019, 12, 12, 12, 45, 21, 216265),
+ 'item_scraped_count': 25,
+ 'log_count/DEBUG': 26,
+ 'log_count/INFO': 10,
+ 'memusage/max': 57221120,
+ 'memusage/startup': 57221120,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'start_time': datetime.datetime(2019, 12, 12, 12, 45, 18, 854495)}
+2019-12-12 12:45:21 [scrapy.core.engine] INFO: Spider closed (finished)
+2019-12-12 12:45:21 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 12:45:21 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 12:45:21 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 12:45:21 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 12:45:21 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 12:45:21 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.011s]
+2019-12-12 12:45:21 [elasticsearch] DEBUG: > None
+2019-12-12 12:45:21 [elasticsearch] DEBUG: < 
+2019-12-12 12:45:21 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 12:45:21 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.012s]
+2019-12-12 12:45:21 [elasticsearch] DEBUG: > None
+2019-12-12 12:45:21 [elasticsearch] DEBUG: < 
+2019-12-12 12:45:21 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 12:45:21 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.014s]
+2019-12-12 12:45:21 [elasticsearch] DEBUG: > None
+2019-12-12 12:45:21 [elasticsearch] DEBUG: < 
+2019-12-12 12:45:21 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 12:45:21 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.006s]
+2019-12-12 12:45:21 [elasticsearch] DEBUG: > None
+2019-12-12 12:45:21 [elasticsearch] DEBUG: < 
+2019-12-12 12:45:21 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 12:45:21 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 12:45:21 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.002s]
+2019-12-12 12:45:21 [elasticsearch] DEBUG: > None
+2019-12-12 12:45:21 [elasticsearch] DEBUG: < 
+2019-12-12 12:45:21 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/3073 HTTP/1.1" 200 159
+2019-12-12 12:45:21 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/3073 [status:200 request:0.016s]
+2019-12-12 12:45:21 [elasticsearch] DEBUG: > {"title":"liyasthomas/postwoman","description_content":"12960 stars","update_at":1576154721171}
+2019-12-12 12:45:21 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"3073","_version":21,"result":"updated","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":95611,"_primary_term":1}
+2019-12-12 12:45:21 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/3071 HTTP/1.1" 200 159
+2019-12-12 12:45:21 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/3071 [status:200 request:0.024s]
+2019-12-12 12:45:21 [elasticsearch] DEBUG: > {"title":"CorentinJ/Real-Time-Voice-Cloning","description_content":"13658 stars","update_at":1576154721171}
+2019-12-12 12:45:21 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"3071","_version":21,"result":"updated","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":95612,"_primary_term":1}
+2019-12-12 12:45:21 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 12:45:21 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 12:45:21 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.003s]
+2019-12-12 12:45:21 [elasticsearch] DEBUG: > None
+2019-12-12 12:45:21 [elasticsearch] DEBUG: < 
+2019-12-12 12:45:21 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/3076 HTTP/1.1" 200 159
+2019-12-12 12:45:21 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/3076 [status:200 request:0.031s]
+2019-12-12 12:45:21 [elasticsearch] DEBUG: > {"title":"Snailclimb/JavaGuide","description_content":"64742 stars","update_at":1576154721171}
+2019-12-12 12:45:21 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"3076","_version":21,"result":"updated","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":95613,"_primary_term":1}
+2019-12-12 12:45:21 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 12:45:21 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 12:45:21 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.004s]
+2019-12-12 12:45:21 [elasticsearch] DEBUG: > None
+2019-12-12 12:45:21 [elasticsearch] DEBUG: < 
+2019-12-12 12:45:21 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/3072 HTTP/1.1" 200 159
+2019-12-12 12:45:21 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/3072 [status:200 request:0.037s]
+2019-12-12 12:45:21 [elasticsearch] DEBUG: > {"title":"menzi11/BullshitGenerator","description_content":"11486 stars","update_at":1576154721171}
+2019-12-12 12:45:21 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"3072","_version":21,"result":"updated","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":95614,"_primary_term":1}
+2019-12-12 12:45:21 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 12:45:21 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 12:45:21 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.002s]
+2019-12-12 12:45:21 [elasticsearch] DEBUG: > None
+2019-12-12 12:45:21 [elasticsearch] DEBUG: < 
+2019-12-12 12:45:21 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/3075 HTTP/1.1" 200 159
+2019-12-12 12:45:21 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/3075 [status:200 request:0.038s]
+2019-12-12 12:45:21 [elasticsearch] DEBUG: > {"title":"zhisheng17/flink-learning","description_content":"3836 stars","update_at":1576154721171}
+2019-12-12 12:45:21 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"3075","_version":21,"result":"updated","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":95615,"_primary_term":1}
+2019-12-12 12:45:21 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 12:45:21 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 12:45:21 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.002s]
+2019-12-12 12:45:21 [elasticsearch] DEBUG: > None
+2019-12-12 12:45:21 [elasticsearch] DEBUG: < 
+2019-12-12 12:45:21 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/3077 HTTP/1.1" 200 159
+2019-12-12 12:45:21 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/3077 [status:200 request:0.022s]
+2019-12-12 12:45:21 [elasticsearch] DEBUG: > {"title":"zhangdaiscott/jeecg-boot","description_content":"8485 stars","update_at":1576154721171}
+2019-12-12 12:45:21 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"3077","_version":21,"result":"updated","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":95616,"_primary_term":1}
+2019-12-12 12:45:21 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 12:45:21 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 12:45:21 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.002s]
+2019-12-12 12:45:21 [elasticsearch] DEBUG: > None
+2019-12-12 12:45:21 [elasticsearch] DEBUG: < 
+2019-12-12 12:45:21 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/3078 HTTP/1.1" 200 159
+2019-12-12 12:45:21 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/3078 [status:200 request:0.021s]
+2019-12-12 12:45:21 [elasticsearch] DEBUG: > {"title":"wangzheng0822/algo","description_content":"12407 stars","update_at":1576154721171}
+2019-12-12 12:45:21 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"3078","_version":21,"result":"updated","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":95617,"_primary_term":1}
+2019-12-12 12:45:21 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 12:45:21 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 12:45:21 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.002s]
+2019-12-12 12:45:21 [elasticsearch] DEBUG: > None
+2019-12-12 12:45:21 [elasticsearch] DEBUG: < 
+2019-12-12 12:45:21 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/3079 HTTP/1.1" 200 159
+2019-12-12 12:45:21 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/3079 [status:200 request:0.023s]
+2019-12-12 12:45:21 [elasticsearch] DEBUG: > {"title":"algorithm-visualizer/algorithm-visualizer","description_content":"27446 stars","update_at":1576154721171}
+2019-12-12 12:45:21 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"3079","_version":21,"result":"updated","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":95618,"_primary_term":1}
+2019-12-12 12:45:21 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 12:45:21 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 12:45:21 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.002s]
+2019-12-12 12:45:21 [elasticsearch] DEBUG: > None
+2019-12-12 12:45:21 [elasticsearch] DEBUG: < 
+2019-12-12 12:45:21 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/3074 HTTP/1.1" 200 159
+2019-12-12 12:45:21 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/3074 [status:200 request:0.024s]
+2019-12-12 12:45:21 [elasticsearch] DEBUG: > {"title":"chai2010/advanced-go-programming-book","description_content":"11613 stars","update_at":1576154721171}
+2019-12-12 12:45:21 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"3074","_version":21,"result":"updated","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":95619,"_primary_term":1}
+2019-12-12 12:45:21 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 12:45:21 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 12:45:21 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.003s]
+2019-12-12 12:45:21 [elasticsearch] DEBUG: > None
+2019-12-12 12:45:21 [elasticsearch] DEBUG: < 
+2019-12-12 12:45:21 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/3084 HTTP/1.1" 200 159
+2019-12-12 12:45:21 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/3084 [status:200 request:0.023s]
+2019-12-12 12:45:21 [elasticsearch] DEBUG: > {"title":"halo-dev/halo","description_content":"10910 stars","update_at":1576154721171}
+2019-12-12 12:45:21 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"3084","_version":21,"result":"updated","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":95620,"_primary_term":1}
+2019-12-12 12:45:21 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/3081 HTTP/1.1" 200 159
+2019-12-12 12:45:21 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/3081 [status:200 request:0.020s]
+2019-12-12 12:45:21 [elasticsearch] DEBUG: > {"title":"coolsnowwolf/lede","description_content":"5700 stars","update_at":1576154721171}
+2019-12-12 12:45:21 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"3081","_version":21,"result":"updated","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":95621,"_primary_term":1}
+2019-12-12 12:45:21 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 12:45:21 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 12:45:21 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.002s]
+2019-12-12 12:45:21 [elasticsearch] DEBUG: > None
+2019-12-12 12:45:21 [elasticsearch] DEBUG: < 
+2019-12-12 12:45:21 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/3080 HTTP/1.1" 200 159
+2019-12-12 12:45:21 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/3080 [status:200 request:0.019s]
+2019-12-12 12:45:21 [elasticsearch] DEBUG: > {"title":"didi/DoraemonKit","description_content":"12065 stars","update_at":1576154721171}
+2019-12-12 12:45:21 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"3080","_version":21,"result":"updated","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":95622,"_primary_term":1}
+2019-12-12 12:45:21 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 12:45:21 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 12:45:21 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.002s]
+2019-12-12 12:45:21 [elasticsearch] DEBUG: > None
+2019-12-12 12:45:21 [elasticsearch] DEBUG: < 
+2019-12-12 12:45:21 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 12:45:21 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 12:45:21 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.001s]
+2019-12-12 12:45:21 [elasticsearch] DEBUG: > None
+2019-12-12 12:45:21 [elasticsearch] DEBUG: < 
+2019-12-12 12:45:21 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/3083 HTTP/1.1" 200 159
+2019-12-12 12:45:21 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/3083 [status:200 request:0.020s]
+2019-12-12 12:45:21 [elasticsearch] DEBUG: > {"title":"heibaiying/BigData-Notes","description_content":"3304 stars","update_at":1576154721171}
+2019-12-12 12:45:21 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"3083","_version":21,"result":"updated","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":95623,"_primary_term":1}
+2019-12-12 12:45:21 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 12:45:21 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 12:45:21 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.002s]
+2019-12-12 12:45:21 [elasticsearch] DEBUG: > None
+2019-12-12 12:45:21 [elasticsearch] DEBUG: < 
+2019-12-12 12:45:21 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/3093 HTTP/1.1" 200 159
+2019-12-12 12:45:21 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/3093 [status:200 request:0.018s]
+2019-12-12 12:45:21 [elasticsearch] DEBUG: > {"title":"macrozheng/mall","description_content":"26431 stars","update_at":1576154721171}
+2019-12-12 12:45:21 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"3093","_version":21,"result":"updated","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":95624,"_primary_term":1}
+2019-12-12 12:45:21 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 12:45:21 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 12:45:21 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.001s]
+2019-12-12 12:45:21 [elasticsearch] DEBUG: > None
+2019-12-12 12:45:21 [elasticsearch] DEBUG: < 
+2019-12-12 12:45:21 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/3095 HTTP/1.1" 200 159
+2019-12-12 12:45:21 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/3095 [status:200 request:0.020s]
+2019-12-12 12:45:21 [elasticsearch] DEBUG: > {"title":"wuyouzhuguli/SpringAll","description_content":"11403 stars","update_at":1576154721171}
+2019-12-12 12:45:21 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"3095","_version":21,"result":"updated","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":95625,"_primary_term":1}
+2019-12-12 12:45:21 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 12:45:21 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 12:45:21 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.002s]
+2019-12-12 12:45:21 [elasticsearch] DEBUG: > None
+2019-12-12 12:45:21 [elasticsearch] DEBUG: < 
+2019-12-12 12:45:21 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/3082 HTTP/1.1" 200 159
+2019-12-12 12:45:21 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/3082 [status:200 request:0.024s]
+2019-12-12 12:45:21 [elasticsearch] DEBUG: > {"title":"microsoft/vscode","description_content":"88349 stars","update_at":1576154721171}
+2019-12-12 12:45:21 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"3082","_version":21,"result":"updated","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":95626,"_primary_term":1}
+2019-12-12 12:45:21 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 12:45:21 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 12:45:21 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.002s]
+2019-12-12 12:45:21 [elasticsearch] DEBUG: > None
+2019-12-12 12:45:21 [elasticsearch] DEBUG: < 
+2019-12-12 12:45:21 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/3087 HTTP/1.1" 200 159
+2019-12-12 12:45:21 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/3087 [status:200 request:0.023s]
+2019-12-12 12:45:21 [elasticsearch] DEBUG: > {"title":"fatedier/frp","description_content":"30795 stars","update_at":1576154721171}
+2019-12-12 12:45:21 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"3087","_version":21,"result":"updated","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":95627,"_primary_term":1}
+2019-12-12 12:45:21 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 12:45:21 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 12:45:21 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.002s]
+2019-12-12 12:45:21 [elasticsearch] DEBUG: > None
+2019-12-12 12:45:21 [elasticsearch] DEBUG: < 
+2019-12-12 12:45:21 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/3088 HTTP/1.1" 200 159
+2019-12-12 12:45:21 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/3088 [status:200 request:0.024s]
+2019-12-12 12:45:21 [elasticsearch] DEBUG: > {"title":"Genymobile/scrcpy","description_content":"22728 stars","update_at":1576154721171}
+2019-12-12 12:45:21 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"3088","_version":21,"result":"updated","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":95628,"_primary_term":1}
+2019-12-12 12:45:21 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 12:45:21 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 12:45:21 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.002s]
+2019-12-12 12:45:21 [elasticsearch] DEBUG: > None
+2019-12-12 12:45:21 [elasticsearch] DEBUG: < 
+2019-12-12 12:45:21 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/3085 HTTP/1.1" 200 159
+2019-12-12 12:45:21 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/3085 [status:200 request:0.021s]
+2019-12-12 12:45:21 [elasticsearch] DEBUG: > {"title":"xuxueli/xxl-job","description_content":"11432 stars","update_at":1576154721171}
+2019-12-12 12:45:21 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"3085","_version":21,"result":"updated","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":95629,"_primary_term":1}
+2019-12-12 12:45:21 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 12:45:21 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 12:45:21 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.002s]
+2019-12-12 12:45:21 [elasticsearch] DEBUG: > None
+2019-12-12 12:45:21 [elasticsearch] DEBUG: < 
+2019-12-12 12:45:21 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/3086 HTTP/1.1" 200 159
+2019-12-12 12:45:21 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/3086 [status:200 request:0.020s]
+2019-12-12 12:45:21 [elasticsearch] DEBUG: > {"title":"flutter/flutter","description_content":"81310 stars","update_at":1576154721171}
+2019-12-12 12:45:21 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"3086","_version":21,"result":"updated","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":95630,"_primary_term":1}
+2019-12-12 12:45:21 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 12:45:21 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 12:45:21 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.002s]
+2019-12-12 12:45:21 [elasticsearch] DEBUG: > None
+2019-12-12 12:45:21 [elasticsearch] DEBUG: < 
+2019-12-12 12:45:21 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/4404 HTTP/1.1" 200 159
+2019-12-12 12:45:21 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/4404 [status:200 request:0.018s]
+2019-12-12 12:45:21 [elasticsearch] DEBUG: > {"title":"ElemeFE/element","description_content":"42858 stars","update_at":1576154721171}
+2019-12-12 12:45:21 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"4404","_version":12,"result":"updated","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":95631,"_primary_term":1}
+2019-12-12 12:45:21 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 12:45:21 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 12:45:21 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.002s]
+2019-12-12 12:45:21 [elasticsearch] DEBUG: > None
+2019-12-12 12:45:21 [elasticsearch] DEBUG: < 
+2019-12-12 12:45:21 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/4405 HTTP/1.1" 200 159
+2019-12-12 12:45:21 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/4405 [status:200 request:0.020s]
+2019-12-12 12:45:21 [elasticsearch] DEBUG: > {"title":"jonasschmedtmann/complete-javascript-course","description_content":"2623 stars","update_at":1576154721171}
+2019-12-12 12:45:21 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"4405","_version":12,"result":"updated","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":95632,"_primary_term":1}
+2019-12-12 12:45:21 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/3091 HTTP/1.1" 200 159
+2019-12-12 12:45:21 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/3091 [status:200 request:0.018s]
+2019-12-12 12:45:21 [elasticsearch] DEBUG: > {"title":"gin-gonic/gin","description_content":"33822 stars","update_at":1576154721171}
+2019-12-12 12:45:21 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"3091","_version":21,"result":"updated","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":95633,"_primary_term":1}
+2019-12-12 12:45:21 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/4406 HTTP/1.1" 200 159
+2019-12-12 12:45:21 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/4406 [status:200 request:0.017s]
+2019-12-12 12:45:21 [elasticsearch] DEBUG: > {"title":"trekhleb/javascript-algorithms","description_content":"57606 stars","update_at":1576154721171}
+2019-12-12 12:45:21 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"4406","_version":12,"result":"updated","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":95634,"_primary_term":1}
+2019-12-12 12:45:21 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/3094 HTTP/1.1" 200 159
+2019-12-12 12:45:21 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/3094 [status:200 request:0.016s]
+2019-12-12 12:45:21 [elasticsearch] DEBUG: > {"title":"kubernetes/kubernetes","description_content":"61091 stars","update_at":1576154721171}
+2019-12-12 12:45:21 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"3094","_version":21,"result":"updated","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":95635,"_primary_term":1}

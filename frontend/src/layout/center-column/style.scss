@@ -1,0 +1,34 @@
+.box{
+  display: block;
+  min-height: 100%;
+  .box-top{
+    display: block;
+    min-height: 66px!important;
+    width: 100%;
+  }
+
+  :global{
+    #box-content{
+      margin-right: 0px;
+      margin-left: 160px;
+      transition: 0.5s margin-left;
+      word-wrap:break-word;
+      word-break:break-all;
+    }
+    #box-content.active{
+      margin-right: 0px;
+      margin-left: 0px;
+      transition: 0.5s margin-left
+    }
+    @media (max-width: 991px) {
+      #box-content{
+        margin-left: 0px;
+      }
+    }
+  }
+}
+
+.center-column{
+  max-width: 800px;
+  margin: 0 auto;
+}

@@ -1,0 +1,1162 @@
+2019-12-12 13:48:43 [scrapy.utils.log] INFO: Scrapy 1.7.4 started (bot: spider_tophub)
+2019-12-12 13:48:43 [scrapy.utils.log] INFO: Versions: lxml 4.4.1.0, libxml2 2.9.9, cssselect 1.1.0, parsel 1.5.2, w3lib 1.21.0, Twisted 19.7.0, Python 3.7.5 (default, Nov 23 2019, 05:59:34) - [GCC 8.3.0], pyOpenSSL 19.0.0 (OpenSSL 1.1.1d  10 Sep 2019), cryptography 2.8, Platform Linux-3.10.0-1062.1.2.el7.x86_64-x86_64-with-debian-10.2
+2019-12-12 13:48:43 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'spider_tophub', 'DOWNLOAD_DELAY': 1, 'LOG_FILE': 'logs/spider_tophub/taobao_quantianbang/ed18a96c1ce511ea831a0242ac1c0004.log', 'NEWSPIDER_MODULE': 'spider_tophub.spiders', 'ROBOTSTXT_OBEY': True, 'SPIDER_MODULES': ['spider_tophub.spiders'], 'USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36'}
+2019-12-12 13:48:43 [scrapy.extensions.telnet] INFO: Telnet Password: ef1eb203f5e2545e
+2019-12-12 13:48:43 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.logstats.LogStats']
+2019-12-12 13:48:43 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2019-12-12 13:48:43 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2019-12-12 13:48:43 [scrapy.middleware] INFO: Enabled item pipelines:
+['spider_tophub.pipelines.MysqlTwistedPipeline']
+2019-12-12 13:48:43 [scrapy.core.engine] INFO: Spider opened
+2019-12-12 13:48:43 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2019-12-12 13:48:43 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2019-12-12 13:48:44 [scrapy.core.engine] DEBUG: Crawled (404) <GET http://apimall.dataoke.com/robots.txt> (referer: None)
+2019-12-12 13:48:44 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://apimall.dataoke.com//api/rushing-ranking/goods-list/v1?cId=0&type=2> (referer: None)
+2019-12-12 13:48:44 [scrapy.core.scraper] DEBUG: Scraped from <200 http://apimall.dataoke.com//api/rushing-ranking/goods-list/v1?cId=0&type=2>
+None
+2019-12-12 13:48:44 [scrapy.core.scraper] DEBUG: Scraped from <200 http://apimall.dataoke.com//api/rushing-ranking/goods-list/v1?cId=0&type=2>
+None
+2019-12-12 13:48:44 [scrapy.core.scraper] DEBUG: Scraped from <200 http://apimall.dataoke.com//api/rushing-ranking/goods-list/v1?cId=0&type=2>
+None
+2019-12-12 13:48:44 [scrapy.core.scraper] DEBUG: Scraped from <200 http://apimall.dataoke.com//api/rushing-ranking/goods-list/v1?cId=0&type=2>
+None
+2019-12-12 13:48:44 [scrapy.core.scraper] DEBUG: Scraped from <200 http://apimall.dataoke.com//api/rushing-ranking/goods-list/v1?cId=0&type=2>
+None
+2019-12-12 13:48:44 [scrapy.core.scraper] DEBUG: Scraped from <200 http://apimall.dataoke.com//api/rushing-ranking/goods-list/v1?cId=0&type=2>
+None
+2019-12-12 13:48:44 [scrapy.core.scraper] DEBUG: Scraped from <200 http://apimall.dataoke.com//api/rushing-ranking/goods-list/v1?cId=0&type=2>
+None
+2019-12-12 13:48:44 [scrapy.core.scraper] DEBUG: Scraped from <200 http://apimall.dataoke.com//api/rushing-ranking/goods-list/v1?cId=0&type=2>
+None
+2019-12-12 13:48:44 [scrapy.core.scraper] DEBUG: Scraped from <200 http://apimall.dataoke.com//api/rushing-ranking/goods-list/v1?cId=0&type=2>
+None
+2019-12-12 13:48:44 [scrapy.core.scraper] DEBUG: Scraped from <200 http://apimall.dataoke.com//api/rushing-ranking/goods-list/v1?cId=0&type=2>
+None
+2019-12-12 13:48:44 [scrapy.core.scraper] DEBUG: Scraped from <200 http://apimall.dataoke.com//api/rushing-ranking/goods-list/v1?cId=0&type=2>
+None
+2019-12-12 13:48:44 [scrapy.core.scraper] DEBUG: Scraped from <200 http://apimall.dataoke.com//api/rushing-ranking/goods-list/v1?cId=0&type=2>
+None
+2019-12-12 13:48:44 [scrapy.core.scraper] DEBUG: Scraped from <200 http://apimall.dataoke.com//api/rushing-ranking/goods-list/v1?cId=0&type=2>
+None
+2019-12-12 13:48:44 [scrapy.core.scraper] DEBUG: Scraped from <200 http://apimall.dataoke.com//api/rushing-ranking/goods-list/v1?cId=0&type=2>
+None
+2019-12-12 13:48:44 [scrapy.core.scraper] DEBUG: Scraped from <200 http://apimall.dataoke.com//api/rushing-ranking/goods-list/v1?cId=0&type=2>
+None
+2019-12-12 13:48:44 [scrapy.core.scraper] DEBUG: Scraped from <200 http://apimall.dataoke.com//api/rushing-ranking/goods-list/v1?cId=0&type=2>
+None
+2019-12-12 13:48:44 [scrapy.core.scraper] DEBUG: Scraped from <200 http://apimall.dataoke.com//api/rushing-ranking/goods-list/v1?cId=0&type=2>
+None
+2019-12-12 13:48:44 [scrapy.core.scraper] DEBUG: Scraped from <200 http://apimall.dataoke.com//api/rushing-ranking/goods-list/v1?cId=0&type=2>
+None
+2019-12-12 13:48:44 [scrapy.core.scraper] DEBUG: Scraped from <200 http://apimall.dataoke.com//api/rushing-ranking/goods-list/v1?cId=0&type=2>
+None
+2019-12-12 13:48:44 [scrapy.core.scraper] DEBUG: Scraped from <200 http://apimall.dataoke.com//api/rushing-ranking/goods-list/v1?cId=0&type=2>
+None
+2019-12-12 13:48:44 [scrapy.core.scraper] DEBUG: Scraped from <200 http://apimall.dataoke.com//api/rushing-ranking/goods-list/v1?cId=0&type=2>
+None
+2019-12-12 13:48:44 [scrapy.core.scraper] DEBUG: Scraped from <200 http://apimall.dataoke.com//api/rushing-ranking/goods-list/v1?cId=0&type=2>
+None
+2019-12-12 13:48:44 [scrapy.core.scraper] DEBUG: Scraped from <200 http://apimall.dataoke.com//api/rushing-ranking/goods-list/v1?cId=0&type=2>
+None
+2019-12-12 13:48:44 [scrapy.core.scraper] DEBUG: Scraped from <200 http://apimall.dataoke.com//api/rushing-ranking/goods-list/v1?cId=0&type=2>
+None
+2019-12-12 13:48:44 [scrapy.core.scraper] DEBUG: Scraped from <200 http://apimall.dataoke.com//api/rushing-ranking/goods-list/v1?cId=0&type=2>
+None
+2019-12-12 13:48:44 [scrapy.core.scraper] DEBUG: Scraped from <200 http://apimall.dataoke.com//api/rushing-ranking/goods-list/v1?cId=0&type=2>
+None
+2019-12-12 13:48:44 [scrapy.core.scraper] DEBUG: Scraped from <200 http://apimall.dataoke.com//api/rushing-ranking/goods-list/v1?cId=0&type=2>
+None
+2019-12-12 13:48:44 [scrapy.core.scraper] DEBUG: Scraped from <200 http://apimall.dataoke.com//api/rushing-ranking/goods-list/v1?cId=0&type=2>
+None
+2019-12-12 13:48:44 [scrapy.core.scraper] DEBUG: Scraped from <200 http://apimall.dataoke.com//api/rushing-ranking/goods-list/v1?cId=0&type=2>
+None
+2019-12-12 13:48:44 [scrapy.core.scraper] DEBUG: Scraped from <200 http://apimall.dataoke.com//api/rushing-ranking/goods-list/v1?cId=0&type=2>
+None
+2019-12-12 13:48:44 [scrapy.core.scraper] DEBUG: Scraped from <200 http://apimall.dataoke.com//api/rushing-ranking/goods-list/v1?cId=0&type=2>
+None
+2019-12-12 13:48:44 [scrapy.core.scraper] DEBUG: Scraped from <200 http://apimall.dataoke.com//api/rushing-ranking/goods-list/v1?cId=0&type=2>
+None
+2019-12-12 13:48:44 [scrapy.core.scraper] DEBUG: Scraped from <200 http://apimall.dataoke.com//api/rushing-ranking/goods-list/v1?cId=0&type=2>
+None
+2019-12-12 13:48:44 [scrapy.core.scraper] DEBUG: Scraped from <200 http://apimall.dataoke.com//api/rushing-ranking/goods-list/v1?cId=0&type=2>
+None
+2019-12-12 13:48:44 [scrapy.core.scraper] DEBUG: Scraped from <200 http://apimall.dataoke.com//api/rushing-ranking/goods-list/v1?cId=0&type=2>
+None
+2019-12-12 13:48:44 [scrapy.core.scraper] DEBUG: Scraped from <200 http://apimall.dataoke.com//api/rushing-ranking/goods-list/v1?cId=0&type=2>
+None
+2019-12-12 13:48:44 [scrapy.core.scraper] DEBUG: Scraped from <200 http://apimall.dataoke.com//api/rushing-ranking/goods-list/v1?cId=0&type=2>
+None
+2019-12-12 13:48:44 [scrapy.core.scraper] DEBUG: Scraped from <200 http://apimall.dataoke.com//api/rushing-ranking/goods-list/v1?cId=0&type=2>
+None
+2019-12-12 13:48:44 [scrapy.core.scraper] DEBUG: Scraped from <200 http://apimall.dataoke.com//api/rushing-ranking/goods-list/v1?cId=0&type=2>
+None
+2019-12-12 13:48:44 [scrapy.core.scraper] DEBUG: Scraped from <200 http://apimall.dataoke.com//api/rushing-ranking/goods-list/v1?cId=0&type=2>
+None
+2019-12-12 13:48:44 [scrapy.core.scraper] DEBUG: Scraped from <200 http://apimall.dataoke.com//api/rushing-ranking/goods-list/v1?cId=0&type=2>
+None
+2019-12-12 13:48:44 [scrapy.core.scraper] DEBUG: Scraped from <200 http://apimall.dataoke.com//api/rushing-ranking/goods-list/v1?cId=0&type=2>
+None
+2019-12-12 13:48:44 [scrapy.core.scraper] DEBUG: Scraped from <200 http://apimall.dataoke.com//api/rushing-ranking/goods-list/v1?cId=0&type=2>
+None
+2019-12-12 13:48:44 [scrapy.core.scraper] DEBUG: Scraped from <200 http://apimall.dataoke.com//api/rushing-ranking/goods-list/v1?cId=0&type=2>
+None
+2019-12-12 13:48:44 [scrapy.core.scraper] DEBUG: Scraped from <200 http://apimall.dataoke.com//api/rushing-ranking/goods-list/v1?cId=0&type=2>
+None
+2019-12-12 13:48:44 [scrapy.core.scraper] DEBUG: Scraped from <200 http://apimall.dataoke.com//api/rushing-ranking/goods-list/v1?cId=0&type=2>
+None
+2019-12-12 13:48:44 [scrapy.core.scraper] DEBUG: Scraped from <200 http://apimall.dataoke.com//api/rushing-ranking/goods-list/v1?cId=0&type=2>
+None
+2019-12-12 13:48:44 [scrapy.core.scraper] DEBUG: Scraped from <200 http://apimall.dataoke.com//api/rushing-ranking/goods-list/v1?cId=0&type=2>
+None
+2019-12-12 13:48:44 [scrapy.core.scraper] DEBUG: Scraped from <200 http://apimall.dataoke.com//api/rushing-ranking/goods-list/v1?cId=0&type=2>
+None
+2019-12-12 13:48:44 [scrapy.core.scraper] DEBUG: Scraped from <200 http://apimall.dataoke.com//api/rushing-ranking/goods-list/v1?cId=0&type=2>
+None
+2019-12-12 13:48:44 [scrapy.core.scraper] DEBUG: Scraped from <200 http://apimall.dataoke.com//api/rushing-ranking/goods-list/v1?cId=0&type=2>
+None
+2019-12-12 13:48:44 [scrapy.core.scraper] DEBUG: Scraped from <200 http://apimall.dataoke.com//api/rushing-ranking/goods-list/v1?cId=0&type=2>
+None
+2019-12-12 13:48:44 [scrapy.core.scraper] DEBUG: Scraped from <200 http://apimall.dataoke.com//api/rushing-ranking/goods-list/v1?cId=0&type=2>
+None
+2019-12-12 13:48:44 [scrapy.core.scraper] DEBUG: Scraped from <200 http://apimall.dataoke.com//api/rushing-ranking/goods-list/v1?cId=0&type=2>
+None
+2019-12-12 13:48:44 [scrapy.core.scraper] DEBUG: Scraped from <200 http://apimall.dataoke.com//api/rushing-ranking/goods-list/v1?cId=0&type=2>
+None
+2019-12-12 13:48:44 [scrapy.core.scraper] DEBUG: Scraped from <200 http://apimall.dataoke.com//api/rushing-ranking/goods-list/v1?cId=0&type=2>
+None
+2019-12-12 13:48:44 [scrapy.core.scraper] DEBUG: Scraped from <200 http://apimall.dataoke.com//api/rushing-ranking/goods-list/v1?cId=0&type=2>
+None
+2019-12-12 13:48:44 [scrapy.core.scraper] DEBUG: Scraped from <200 http://apimall.dataoke.com//api/rushing-ranking/goods-list/v1?cId=0&type=2>
+None
+2019-12-12 13:48:44 [scrapy.core.scraper] DEBUG: Scraped from <200 http://apimall.dataoke.com//api/rushing-ranking/goods-list/v1?cId=0&type=2>
+None
+2019-12-12 13:48:44 [scrapy.core.scraper] DEBUG: Scraped from <200 http://apimall.dataoke.com//api/rushing-ranking/goods-list/v1?cId=0&type=2>
+None
+2019-12-12 13:48:44 [scrapy.core.scraper] DEBUG: Scraped from <200 http://apimall.dataoke.com//api/rushing-ranking/goods-list/v1?cId=0&type=2>
+None
+2019-12-12 13:48:44 [scrapy.core.scraper] DEBUG: Scraped from <200 http://apimall.dataoke.com//api/rushing-ranking/goods-list/v1?cId=0&type=2>
+None
+2019-12-12 13:48:44 [scrapy.core.scraper] DEBUG: Scraped from <200 http://apimall.dataoke.com//api/rushing-ranking/goods-list/v1?cId=0&type=2>
+None
+2019-12-12 13:48:44 [scrapy.core.scraper] DEBUG: Scraped from <200 http://apimall.dataoke.com//api/rushing-ranking/goods-list/v1?cId=0&type=2>
+None
+2019-12-12 13:48:44 [scrapy.core.scraper] DEBUG: Scraped from <200 http://apimall.dataoke.com//api/rushing-ranking/goods-list/v1?cId=0&type=2>
+None
+2019-12-12 13:48:44 [scrapy.core.scraper] DEBUG: Scraped from <200 http://apimall.dataoke.com//api/rushing-ranking/goods-list/v1?cId=0&type=2>
+None
+2019-12-12 13:48:44 [scrapy.core.scraper] DEBUG: Scraped from <200 http://apimall.dataoke.com//api/rushing-ranking/goods-list/v1?cId=0&type=2>
+None
+2019-12-12 13:48:44 [scrapy.core.scraper] DEBUG: Scraped from <200 http://apimall.dataoke.com//api/rushing-ranking/goods-list/v1?cId=0&type=2>
+None
+2019-12-12 13:48:44 [scrapy.core.scraper] DEBUG: Scraped from <200 http://apimall.dataoke.com//api/rushing-ranking/goods-list/v1?cId=0&type=2>
+None
+2019-12-12 13:48:44 [scrapy.core.scraper] DEBUG: Scraped from <200 http://apimall.dataoke.com//api/rushing-ranking/goods-list/v1?cId=0&type=2>
+None
+2019-12-12 13:48:44 [scrapy.core.scraper] DEBUG: Scraped from <200 http://apimall.dataoke.com//api/rushing-ranking/goods-list/v1?cId=0&type=2>
+None
+2019-12-12 13:48:44 [scrapy.core.scraper] DEBUG: Scraped from <200 http://apimall.dataoke.com//api/rushing-ranking/goods-list/v1?cId=0&type=2>
+None
+2019-12-12 13:48:44 [scrapy.core.scraper] DEBUG: Scraped from <200 http://apimall.dataoke.com//api/rushing-ranking/goods-list/v1?cId=0&type=2>
+None
+2019-12-12 13:48:44 [scrapy.core.scraper] DEBUG: Scraped from <200 http://apimall.dataoke.com//api/rushing-ranking/goods-list/v1?cId=0&type=2>
+None
+2019-12-12 13:48:44 [scrapy.core.scraper] DEBUG: Scraped from <200 http://apimall.dataoke.com//api/rushing-ranking/goods-list/v1?cId=0&type=2>
+None
+2019-12-12 13:48:44 [scrapy.core.scraper] DEBUG: Scraped from <200 http://apimall.dataoke.com//api/rushing-ranking/goods-list/v1?cId=0&type=2>
+None
+2019-12-12 13:48:44 [scrapy.core.scraper] DEBUG: Scraped from <200 http://apimall.dataoke.com//api/rushing-ranking/goods-list/v1?cId=0&type=2>
+None
+2019-12-12 13:48:44 [scrapy.core.scraper] DEBUG: Scraped from <200 http://apimall.dataoke.com//api/rushing-ranking/goods-list/v1?cId=0&type=2>
+None
+2019-12-12 13:48:44 [scrapy.core.scraper] DEBUG: Scraped from <200 http://apimall.dataoke.com//api/rushing-ranking/goods-list/v1?cId=0&type=2>
+None
+2019-12-12 13:48:44 [scrapy.core.scraper] DEBUG: Scraped from <200 http://apimall.dataoke.com//api/rushing-ranking/goods-list/v1?cId=0&type=2>
+None
+2019-12-12 13:48:44 [scrapy.core.scraper] DEBUG: Scraped from <200 http://apimall.dataoke.com//api/rushing-ranking/goods-list/v1?cId=0&type=2>
+None
+2019-12-12 13:48:44 [scrapy.core.scraper] DEBUG: Scraped from <200 http://apimall.dataoke.com//api/rushing-ranking/goods-list/v1?cId=0&type=2>
+None
+2019-12-12 13:48:44 [scrapy.core.scraper] DEBUG: Scraped from <200 http://apimall.dataoke.com//api/rushing-ranking/goods-list/v1?cId=0&type=2>
+None
+2019-12-12 13:48:44 [scrapy.core.scraper] DEBUG: Scraped from <200 http://apimall.dataoke.com//api/rushing-ranking/goods-list/v1?cId=0&type=2>
+None
+2019-12-12 13:48:44 [scrapy.core.scraper] DEBUG: Scraped from <200 http://apimall.dataoke.com//api/rushing-ranking/goods-list/v1?cId=0&type=2>
+None
+2019-12-12 13:48:44 [scrapy.core.scraper] DEBUG: Scraped from <200 http://apimall.dataoke.com//api/rushing-ranking/goods-list/v1?cId=0&type=2>
+None
+2019-12-12 13:48:44 [scrapy.core.scraper] DEBUG: Scraped from <200 http://apimall.dataoke.com//api/rushing-ranking/goods-list/v1?cId=0&type=2>
+None
+2019-12-12 13:48:44 [scrapy.core.scraper] DEBUG: Scraped from <200 http://apimall.dataoke.com//api/rushing-ranking/goods-list/v1?cId=0&type=2>
+None
+2019-12-12 13:48:44 [scrapy.core.scraper] DEBUG: Scraped from <200 http://apimall.dataoke.com//api/rushing-ranking/goods-list/v1?cId=0&type=2>
+None
+2019-12-12 13:48:44 [scrapy.core.scraper] DEBUG: Scraped from <200 http://apimall.dataoke.com//api/rushing-ranking/goods-list/v1?cId=0&type=2>
+None
+2019-12-12 13:48:44 [scrapy.core.scraper] DEBUG: Scraped from <200 http://apimall.dataoke.com//api/rushing-ranking/goods-list/v1?cId=0&type=2>
+None
+2019-12-12 13:48:44 [scrapy.core.scraper] DEBUG: Scraped from <200 http://apimall.dataoke.com//api/rushing-ranking/goods-list/v1?cId=0&type=2>
+None
+2019-12-12 13:48:44 [scrapy.core.scraper] DEBUG: Scraped from <200 http://apimall.dataoke.com//api/rushing-ranking/goods-list/v1?cId=0&type=2>
+None
+2019-12-12 13:48:44 [scrapy.core.scraper] DEBUG: Scraped from <200 http://apimall.dataoke.com//api/rushing-ranking/goods-list/v1?cId=0&type=2>
+None
+2019-12-12 13:48:44 [scrapy.core.scraper] DEBUG: Scraped from <200 http://apimall.dataoke.com//api/rushing-ranking/goods-list/v1?cId=0&type=2>
+None
+2019-12-12 13:48:44 [scrapy.core.scraper] DEBUG: Scraped from <200 http://apimall.dataoke.com//api/rushing-ranking/goods-list/v1?cId=0&type=2>
+None
+2019-12-12 13:48:44 [scrapy.core.scraper] DEBUG: Scraped from <200 http://apimall.dataoke.com//api/rushing-ranking/goods-list/v1?cId=0&type=2>
+None
+2019-12-12 13:48:44 [scrapy.core.scraper] DEBUG: Scraped from <200 http://apimall.dataoke.com//api/rushing-ranking/goods-list/v1?cId=0&type=2>
+None
+2019-12-12 13:48:44 [scrapy.core.scraper] DEBUG: Scraped from <200 http://apimall.dataoke.com//api/rushing-ranking/goods-list/v1?cId=0&type=2>
+None
+2019-12-12 13:48:44 [scrapy.core.scraper] DEBUG: Scraped from <200 http://apimall.dataoke.com//api/rushing-ranking/goods-list/v1?cId=0&type=2>
+None
+2019-12-12 13:48:44 [scrapy.core.engine] INFO: Closing spider (finished)
+2019-12-12 13:48:44 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 655,
+ 'downloader/request_count': 2,
+ 'downloader/request_method_count/GET': 2,
+ 'downloader/response_bytes': 11713,
+ 'downloader/response_count': 2,
+ 'downloader/response_status_count/200': 1,
+ 'downloader/response_status_count/404': 1,
+ 'elapsed_time_seconds': 1.102392,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2019, 12, 12, 13, 48, 44, 977216),
+ 'item_scraped_count': 100,
+ 'log_count/DEBUG': 102,
+ 'log_count/INFO': 10,
+ 'memusage/max': 57229312,
+ 'memusage/startup': 57229312,
+ 'response_received_count': 2,
+ 'robotstxt/request_count': 1,
+ 'robotstxt/response_count': 1,
+ 'robotstxt/response_status_count/404': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'start_time': datetime.datetime(2019, 12, 12, 13, 48, 43, 874824)}
+2019-12-12 13:48:44 [scrapy.core.engine] INFO: Spider closed (finished)
+2019-12-12 13:48:44 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 13:48:44 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 13:48:44 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 13:48:44 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 13:48:44 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 13:48:44 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 13:48:44 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.005s]
+2019-12-12 13:48:44 [elasticsearch] DEBUG: > None
+2019-12-12 13:48:44 [elasticsearch] DEBUG: < 
+2019-12-12 13:48:44 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 13:48:44 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.007s]
+2019-12-12 13:48:44 [elasticsearch] DEBUG: > None
+2019-12-12 13:48:44 [elasticsearch] DEBUG: < 
+2019-12-12 13:48:44 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 13:48:44 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.007s]
+2019-12-12 13:48:44 [elasticsearch] DEBUG: > None
+2019-12-12 13:48:44 [elasticsearch] DEBUG: < 
+2019-12-12 13:48:44 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 13:48:44 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.006s]
+2019-12-12 13:48:44 [elasticsearch] DEBUG: > None
+2019-12-12 13:48:44 [elasticsearch] DEBUG: < 
+2019-12-12 13:48:44 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 13:48:44 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.010s]
+2019-12-12 13:48:44 [elasticsearch] DEBUG: > None
+2019-12-12 13:48:44 [elasticsearch] DEBUG: < 
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/4346 HTTP/1.1" 200 161
+2019-12-12 13:48:45 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/4346 [status:200 request:0.014s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > {"title":"【良品铺子】2108g坚果大礼包4斤 原价59.0 现价49.0","description_content":"月销53.9万","update_at":1576158524944}
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"4346","_version":105,"result":"updated","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":109950,"_primary_term":1}
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/2564 HTTP/1.1" 200 161
+2019-12-12 13:48:45 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/2564 [status:200 request:0.017s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > {"title":"【天猫超市】斑布本色抽纸24包 原价69.9 现价64.9","description_content":"月销19.0万","update_at":1576158524944}
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"2564","_version":161,"result":"updated","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":109951,"_primary_term":1}
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 13:48:45 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.002s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > None
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < 
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/2561 HTTP/1.1" 200 161
+2019-12-12 13:48:45 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/2561 [status:200 request:0.026s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > {"title":"【第二件半价】稚优泉唇釉口红 原价39.8 现价34.8","description_content":"月销40.1万","update_at":1576158524944}
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"2561","_version":161,"result":"updated","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":109952,"_primary_term":1}
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 13:48:45 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.002s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > None
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < 
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/2565 HTTP/1.1" 200 161
+2019-12-12 13:48:45 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/2565 [status:200 request:0.031s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > {"title":"【拍两件】良品铺子麻辣零食大礼包 原价45.9 现价44.9","description_content":"月销46.4万","update_at":1576158524944}
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"2565","_version":161,"result":"updated","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":109953,"_primary_term":1}
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 13:48:45 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.001s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > None
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < 
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/2562 HTTP/1.1" 200 161
+2019-12-12 13:48:45 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/2562 [status:200 request:0.035s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > {"title":"【第2件9.9元】哑光唇釉 原价39.9 现价34.9","description_content":"月销120.4万","update_at":1576158524944}
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"2562","_version":161,"result":"updated","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":109954,"_primary_term":1}
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 13:48:45 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.002s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > None
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < 
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/2567 HTTP/1.1" 200 161
+2019-12-12 13:48:45 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/2567 [status:200 request:0.021s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > {"title":"40包！【植护旗舰店】原木抽纸巾 原价28.9 现价25.9","description_content":"月销81.9万","update_at":1576158524944}
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"2567","_version":161,"result":"updated","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":109955,"_primary_term":1}
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 13:48:45 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.003s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > None
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < 
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/2571 HTTP/1.1" 200 161
+2019-12-12 13:48:45 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/2571 [status:200 request:0.022s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > {"title":"饭扫光 香菇牛肉酱200g*4瓶 原价29.8 现价24.8","description_content":"月销15.3万","update_at":1576158524944}
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"2571","_version":161,"result":"updated","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":109956,"_primary_term":1}
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 13:48:45 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.004s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > None
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < 
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/2568 HTTP/1.1" 200 161
+2019-12-12 13:48:45 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/2568 [status:200 request:0.024s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > {"title":"桂格 即食燕麦片冲饮原味1kg*3袋 原价55.6 现价45.6","description_content":"月销12.5万","update_at":1576158524944}
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"2568","_version":161,"result":"updated","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":109957,"_primary_term":1}
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 13:48:45 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.002s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > None
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < 
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/2572 HTTP/1.1" 200 161
+2019-12-12 13:48:45 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/2572 [status:200 request:0.025s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > {"title":"完美日记防水纤长睫毛膏 原价39.9 现价34.9","description_content":"月销16.7万","update_at":1576158524944}
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"2572","_version":161,"result":"updated","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":109958,"_primary_term":1}
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 13:48:45 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.002s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > None
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < 
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/2616 HTTP/1.1" 200 161
+2019-12-12 13:48:45 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/2616 [status:200 request:0.023s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > {"title":"【拍3件】156颗立白洗衣凝珠 原价104.85 现价94.85","description_content":"月销19.3万","update_at":1576158524944}
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"2616","_version":161,"result":"updated","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":109959,"_primary_term":1}
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 13:48:45 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.004s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > None
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < 
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/3187 HTTP/1.1" 200 161
+2019-12-12 13:48:45 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/3187 [status:200 request:0.023s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > {"title":"【周黑鸭】锁鲜盒装鸭脖鸭锁骨共550g 原价68.8 现价38.8","description_content":"月销11.0万","update_at":1576158524944}
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"3187","_version":152,"result":"updated","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":109960,"_primary_term":1}
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 13:48:45 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.002s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > None
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < 
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/2569 HTTP/1.1" 200 161
+2019-12-12 13:48:45 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/2569 [status:200 request:0.025s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > {"title":"【年终盛典】vnk星耀圆管苹果红哑光口红 原价69.0 现价64.0","description_content":"月销12.6万","update_at":1576158524944}
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"2569","_version":161,"result":"updated","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":109961,"_primary_term":1}
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 13:48:45 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.003s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > None
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < 
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/2576 HTTP/1.1" 200 161
+2019-12-12 13:48:45 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/2576 [status:200 request:0.025s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > {"title":"秒杀【20只笔芯+12只中性笔】 原价29.9 现价9.9","description_content":"月销42.7万","update_at":1576158524944}
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"2576","_version":161,"result":"updated","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":109962,"_primary_term":1}
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 13:48:45 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.002s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > None
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < 
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/2579 HTTP/1.1" 200 161
+2019-12-12 13:48:45 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/2579 [status:200 request:0.022s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > {"title":"完美日记 白胖子氨基酸卸妆水2瓶 原价59.9 现价54.9","description_content":"月销21.7万","update_at":1576158524944}
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"2579","_version":161,"result":"updated","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":109963,"_primary_term":1}
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/4583 HTTP/1.1" 200 160
+2019-12-12 13:48:45 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/4583 [status:200 request:0.021s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > {"title":"拍6件】海之美红豆海鸭蛋雪媚娘蛋黄酥 原价11.9 现价6.9","description_content":"月销9.0万","update_at":1576158524944}
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"4583","_version":66,"result":"updated","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":109964,"_primary_term":1}
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 13:48:45 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.007s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > None
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < 
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 13:48:45 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.003s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > None
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < 
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/2601 HTTP/1.1" 200 161
+2019-12-12 13:48:45 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/2601 [status:200 request:0.022s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > {"title":"月销量95万单！雪媚娘海鸭蛋1盒*6枚 原价13.49 现价8.49","description_content":"月销94.8万","update_at":1576158524944}
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"2601","_version":161,"result":"updated","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":109965,"_primary_term":1}
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 13:48:45 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.002s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > None
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < 
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/2591 HTTP/1.1" 200 161
+2019-12-12 13:48:45 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/2591 [status:200 request:0.023s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > {"title":"加厚袜子女冬季日系加绒黑色中筒袜 原价16.8 现价11.8","description_content":"月销25.0万","update_at":1576158524944}
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"2591","_version":161,"result":"updated","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":109966,"_primary_term":1}
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 13:48:45 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.003s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > None
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < 
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/2582 HTTP/1.1" 200 161
+2019-12-12 13:48:45 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/2582 [status:200 request:0.018s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > {"title":"第2件9.9元【珀莱雅旗舰店】粉底液 原价79.9 现价74.9","description_content":"月销13.1万","update_at":1576158524944}
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"2582","_version":161,"result":"updated","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":109967,"_primary_term":1}
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 13:48:45 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.002s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > None
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < 
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/4735 HTTP/1.1" 200 160
+2019-12-12 13:48:45 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/4735 [status:200 request:0.022s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > {"title":"六瓶！天猫超市澳宝3瓶装沐浴露1.6L 原价49.9 现价44.9","description_content":"月销9.3万","update_at":1576158524944}
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"4735","_version":38,"result":"updated","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":109968,"_primary_term":1}
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 13:48:45 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.003s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > None
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < 
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/2577 HTTP/1.1" 200 161
+2019-12-12 13:48:45 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/2577 [status:200 request:0.022s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > {"title":"李子柒旗舰店 手工红糖姜枣茶2盒 原价34.9 现价29.9","description_content":"月销15.7万","update_at":1576158524944}
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"2577","_version":161,"result":"updated","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":109969,"_primary_term":1}
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 13:48:45 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.002s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > None
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < 
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/2635 HTTP/1.1" 200 161
+2019-12-12 13:48:45 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/2635 [status:200 request:0.020s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > {"title":"热销900w包【拍6件】滋食海盐饼干 原价28.88 现价18.88","description_content":"月销401.7万","update_at":1576158524944}
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"2635","_version":161,"result":"updated","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":109970,"_primary_term":1}
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 13:48:45 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.002s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > None
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < 
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/2580 HTTP/1.1" 200 161
+2019-12-12 13:48:45 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/2580 [status:200 request:0.022s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > {"title":"【旗舰店】美宝莲FITme粉底液30ml 原价119.0 现价109.0","description_content":"月销11.1万","update_at":1576158524944}
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"2580","_version":161,"result":"updated","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":109971,"_primary_term":1}
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 13:48:45 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.002s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > None
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < 
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/2583 HTTP/1.1" 200 161
+2019-12-12 13:48:45 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/2583 [status:200 request:0.022s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > {"title":"买1送1【珀莱雅旗舰店】面膜共40片 原价99.0 现价84.0","description_content":"月销8.2万","update_at":1576158524944}
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"2583","_version":161,"result":"updated","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":109972,"_primary_term":1}
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 13:48:45 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.002s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > None
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < 
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/2594 HTTP/1.1" 200 161
+2019-12-12 13:48:45 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/2594 [status:200 request:0.024s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > {"title":"【千禾】第二件0元1.8L特级生抽 原价43.8 现价40.8","description_content":"月销12.9万","update_at":1576158524944}
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"2594","_version":161,"result":"updated","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":109973,"_primary_term":1}
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 13:48:45 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.002s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > None
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < 
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/2597 HTTP/1.1" 200 161
+2019-12-12 13:48:45 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/2597 [status:200 request:0.023s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > {"title":"【100抽*6包！】婴儿棉柔巾 原价79.0 现价49.0","description_content":"月销8.0万","update_at":1576158524944}
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"2597","_version":161,"result":"updated","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":109974,"_primary_term":1}
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 13:48:45 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.002s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > None
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < 
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/4519 HTTP/1.1" 200 160
+2019-12-12 13:48:45 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/4519 [status:200 request:0.021s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > {"title":"【拍2件】小直径自然半年抛美瞳2片 原价39.0 现价29.0","description_content":"月销9.8万","update_at":1576158524944}
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"4519","_version":80,"result":"updated","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":109975,"_primary_term":1}
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 13:48:45 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.002s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > None
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < 
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/2595 HTTP/1.1" 200 161
+2019-12-12 13:48:45 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/2595 [status:200 request:0.020s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > {"title":"【珍视明旗舰店】热敷蒸汽眼罩10片 原价49.0 现价39.0","description_content":"月销16.5万","update_at":1576158524944}
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"2595","_version":161,"result":"updated","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":109976,"_primary_term":1}
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 13:48:45 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.002s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > None
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < 
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/2589 HTTP/1.1" 200 161
+2019-12-12 13:48:45 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/2589 [status:200 request:0.018s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > {"title":"拍2件 良品铺子雪媚娘蛋黄酥640G 原价36.9 现价35.9","description_content":"月销22.7万","update_at":1576158524944}
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"2589","_version":161,"result":"updated","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":109977,"_primary_term":1}
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 13:48:45 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.003s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > None
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < 
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/2588 HTTP/1.1" 200 161
+2019-12-12 13:48:45 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/2588 [status:200 request:0.019s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > {"title":"【珀莱雅官方旗舰店】水动力4件套 原价148.0 现价78.0","description_content":"月销9.9万","update_at":1576158524944}
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"2588","_version":161,"result":"updated","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":109978,"_primary_term":1}
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 13:48:45 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.002s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > None
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < 
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/2590 HTTP/1.1" 200 161
+2019-12-12 13:48:45 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/2590 [status:200 request:0.019s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > {"title":"【三只松鼠】1645g/9年货坚果大礼包 原价99.0 现价94.0","description_content":"月销8.2万","update_at":1576158524944}
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"2590","_version":161,"result":"updated","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":109979,"_primary_term":1}
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 13:48:45 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.002s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > None
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < 
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/2587 HTTP/1.1" 200 161
+2019-12-12 13:48:45 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/2587 [status:200 request:0.019s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > {"title":"【第二件半价】稚优泉哑光复古正红口红 原价49.9 现价44.9","description_content":"月销16.4万","update_at":1576158524944}
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"2587","_version":161,"result":"updated","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":109980,"_primary_term":1}
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 13:48:45 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.002s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > None
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < 
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/4651 HTTP/1.1" 200 160
+2019-12-12 13:48:45 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/4651 [status:200 request:0.017s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > {"title":"【抖音爆款】ZC樱花高光身体乳霜 原价29.9 现价9.9","description_content":"月销14.3万","update_at":1576158524944}
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"4651","_version":52,"result":"updated","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":109981,"_primary_term":1}
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 13:48:45 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.002s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > None
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < 
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/4650 HTTP/1.1" 200 160
+2019-12-12 13:48:45 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/4650 [status:200 request:0.019s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > {"title":"拍4件【薇诺娜】舒缓保湿喷雾50ml*4 原价67.0 现价57.0","description_content":"月销13.0万","update_at":1576158524944}
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"4650","_version":52,"result":"updated","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":109982,"_primary_term":1}
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 13:48:45 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.002s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > None
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < 
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/3341 HTTP/1.1" 200 161
+2019-12-12 13:48:45 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/3341 [status:200 request:0.018s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > {"title":"【拍两件】威露士除菌洗衣液共24斤 原价118.0 现价108.0","description_content":"月销23.5万","update_at":1576158524944}
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"3341","_version":138,"result":"updated","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":109983,"_primary_term":1}
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 13:48:45 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.002s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > None
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < 
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/4520 HTTP/1.1" 200 160
+2019-12-12 13:48:45 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/4520 [status:200 request:0.018s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > {"title":"只需0.85元3d防水自粘背景壁纸10米 原价6.8 现价5.8","description_content":"月销40.0万","update_at":1576158524944}
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"4520","_version":80,"result":"updated","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":109984,"_primary_term":1}
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 13:48:45 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.002s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > None
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < 
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/2593 HTTP/1.1" 200 161
+2019-12-12 13:48:45 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/2593 [status:200 request:0.018s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > {"title":"【天猫超市】维达超韧软抽30包整箱装 原价59.9 现价54.9","description_content":"月销7.2万","update_at":1576158524944}
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"2593","_version":161,"result":"updated","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":109985,"_primary_term":1}
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 13:48:45 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.002s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > None
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < 
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/2604 HTTP/1.1" 200 161
+2019-12-12 13:48:45 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/2604 [status:200 request:0.017s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > {"title":"【蒛一旗舰店】日系少女轻薄无钢圈内衣 原价54.11 现价19.11","description_content":"月销5.8万","update_at":1576158524944}
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"2604","_version":161,"result":"updated","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":109986,"_primary_term":1}
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 13:48:45 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.002s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > None
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < 
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/2598 HTTP/1.1" 200 161
+2019-12-12 13:48:45 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/2598 [status:200 request:0.018s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > {"title":"五谷磨房黑芝麻糊核桃粉600g 原价59.9 现价49.9","description_content":"月销8.1万","update_at":1576158524944}
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"2598","_version":161,"result":"updated","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":109987,"_primary_term":1}
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 13:48:45 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.002s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > None
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < 
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/4830 HTTP/1.1" 200 160
+2019-12-12 13:48:45 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/4830 [status:200 request:0.018s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > {"title":"【拍三件】达利园好吃点核桃饼800g/箱 原价59.85 现价49.85","description_content":"月销16.6万","update_at":1576158524944}
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"4830","_version":24,"result":"updated","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":109988,"_primary_term":1}
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 13:48:45 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.002s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > None
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < 
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/4584 HTTP/1.1" 200 160
+2019-12-12 13:48:45 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/4584 [status:200 request:0.019s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > {"title":"贤哥卤蛋鹌鹑蛋无壳小吃即食15枚 原价10.8 现价9.8","description_content":"月销8.8万","update_at":1576158524944}
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"4584","_version":66,"result":"updated","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":109989,"_primary_term":1}
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 13:48:45 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.002s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > None
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < 
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/2621 HTTP/1.1" 200 161
+2019-12-12 13:48:45 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/2621 [status:200 request:0.020s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > {"title":"【沃隆旗舰店】坚果组合装25g*14袋 原价64.0 现价49.0","description_content":"月销7.7万","update_at":1576158524944}
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"2621","_version":161,"result":"updated","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":109990,"_primary_term":1}
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 13:48:45 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.002s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > None
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < 
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/2600 HTTP/1.1" 200 161
+2019-12-12 13:48:45 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/2600 [status:200 request:0.023s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > {"title":"【5包60片】舒莱纯棉日夜组合卫生巾 原价29.9 现价14.9","description_content":"月销14.3万","update_at":1576158524944}
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"2600","_version":161,"result":"updated","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":109991,"_primary_term":1}
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 13:48:45 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.002s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > None
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < 
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/2613 HTTP/1.1" 200 161
+2019-12-12 13:48:45 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/2613 [status:200 request:0.024s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > {"title":"第二件半价！婴儿湿巾80抽*5包 原价19.98 现价14.98","description_content":"月销50.4万","update_at":1576158524944}
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"2613","_version":161,"result":"updated","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":109992,"_primary_term":1}
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 13:48:45 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.002s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > None
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < 
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/2646 HTTP/1.1" 200 161
+2019-12-12 13:48:45 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/2646 [status:200 request:0.023s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > {"title":"【拍下即两件】桂圆莲子八宝粥360g 原价57.44 现价52.44","description_content":"月销6.1万","update_at":1576158524944}
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"2646","_version":161,"result":"updated","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":109993,"_primary_term":1}
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 13:48:45 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.002s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > None
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < 
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/2611 HTTP/1.1" 200 161
+2019-12-12 13:48:45 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/2611 [status:200 request:0.020s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > {"title":"【旗舰店】好欢螺螺蛳粉300g*3袋 原价34.83 现价31.83","description_content":"月销14.9万","update_at":1576158524944}
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"2611","_version":161,"result":"updated","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":109994,"_primary_term":1}
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 13:48:45 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.002s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > None
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < 
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/4522 HTTP/1.1" 200 160
+2019-12-12 13:48:45 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/4522 [status:200 request:0.019s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > {"title":"【拍四件】清风抽纸卫生纸20包*4箱 原价119.7 现价109.7","description_content":"月销6.8万","update_at":1576158524944}
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"4522","_version":80,"result":"updated","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":109995,"_primary_term":1}
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 13:48:45 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.002s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > None
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < 
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/2607 HTTP/1.1" 200 161
+2019-12-12 13:48:45 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/2607 [status:200 request:0.019s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > {"title":"【美康粉黛】绿眼膜贴细纹眼袋60片 原价49.0 现价44.0","description_content":"月销20.1万","update_at":1576158524944}
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"2607","_version":161,"result":"updated","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":109996,"_primary_term":1}
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 13:48:45 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.002s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > None
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < 
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/2602 HTTP/1.1" 200 161
+2019-12-12 13:48:45 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/2602 [status:200 request:0.017s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > {"title":"【ZEESEA滋色】埃及联名眼影盘16色 原价129.9 现价109.9","description_content":"月销6.9万","update_at":1576158524944}
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"2602","_version":161,"result":"updated","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":109997,"_primary_term":1}
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 13:48:45 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.002s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > None
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < 
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/2623 HTTP/1.1" 200 161
+2019-12-12 13:48:45 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/2623 [status:200 request:0.019s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > {"title":"【买1送1】半亩花田果酸身体乳250g 原价49.9 现价39.9","description_content":"月销29.6万","update_at":1576158524944}
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"2623","_version":161,"result":"updated","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":109998,"_primary_term":1}
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 13:48:45 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.003s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > None
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < 
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/2608 HTTP/1.1" 200 161
+2019-12-12 13:48:45 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/2608 [status:200 request:0.020s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > {"title":"爆款！第二件5.99再送200g香葱饼干 原价8.9 现价6.9","description_content":"月销40.0万","update_at":1576158524944}
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"2608","_version":161,"result":"updated","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":109999,"_primary_term":1}
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 13:48:45 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.002s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > None
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < 
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/3340 HTTP/1.1" 200 161
+2019-12-12 13:48:45 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/3340 [status:200 request:0.020s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > {"title":"公主店下网红嗨吃家酸辣粉112克*6桶 原价14.9 现价11.9","description_content":"月销5.8万","update_at":1576158524944}
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"3340","_version":138,"result":"updated","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":110000,"_primary_term":1}
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 13:48:45 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.002s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > None
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < 
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/2578 HTTP/1.1" 200 161
+2019-12-12 13:48:45 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/2578 [status:200 request:0.020s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > {"title":"【拍6件】网红日本海盐饼干600g 原价24.88 现价14.88","description_content":"月销376.5万","update_at":1576158524944}
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"2578","_version":161,"result":"updated","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":110001,"_primary_term":1}
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 13:48:45 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.002s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > None
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < 
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/2614 HTTP/1.1" 200 161
+2019-12-12 13:48:45 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/2614 [status:200 request:0.020s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > {"title":"【阿里大药房】质酸钠医用面膜5片 原价59.0 现价49.0","description_content":"月销17.2万","update_at":1576158524944}
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"2614","_version":161,"result":"updated","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":110002,"_primary_term":1}
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/2620 HTTP/1.1" 200 161
+2019-12-12 13:48:45 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/2620 [status:200 request:0.018s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > {"title":"【第二件半价】完美日记光影星河九色眼影盘 原价69.9 现价64.9","description_content":"月销6.8万","update_at":1576158524944}
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"2620","_version":161,"result":"updated","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":110003,"_primary_term":1}
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 13:48:45 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.005s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > None
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < 
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 13:48:45 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.003s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > None
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < 
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/2612 HTTP/1.1" 200 161
+2019-12-12 13:48:45 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/2612 [status:200 request:0.020s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > {"title":"【拍1得2】一叶子鲜嫩水光面膜44片 原价99.0 现价89.0","description_content":"月销5.3万","update_at":1576158524944}
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"2612","_version":161,"result":"updated","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":110004,"_primary_term":1}
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 13:48:45 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.002s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > None
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < 
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/2645 HTTP/1.1" 200 161
+2019-12-12 13:48:45 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/2645 [status:200 request:0.019s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > {"title":"鸿星尔克男鞋秋冬季椰子鞋 原价159.0 现价69.0","description_content":"月销5.4万","update_at":1576158524944}
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"2645","_version":161,"result":"updated","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":110005,"_primary_term":1}
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 13:48:45 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.002s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > None
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < 
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/2632 HTTP/1.1" 200 161
+2019-12-12 13:48:45 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/2632 [status:200 request:0.016s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > {"title":"【买二送一】网红双面洗脸巾洁面巾 原价14.8 现价11.8","description_content":"月销43.1万","update_at":1576158524944}
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"2632","_version":161,"result":"updated","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":110006,"_primary_term":1}
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 13:48:45 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.002s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > None
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < 
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/2609 HTTP/1.1" 200 161
+2019-12-12 13:48:45 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/2609 [status:200 request:0.021s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > {"title":"【第二件0元】十月稻田5kg吉林核心大米 原价89.0 现价86.0","description_content":"月销6.7万","update_at":1576158524944}
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"2609","_version":161,"result":"updated","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":110007,"_primary_term":1}
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 13:48:45 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.002s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > None
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < 
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/2989 HTTP/1.1" 200 161
+2019-12-12 13:48:45 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/2989 [status:200 request:0.020s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > {"title":"【薇娅推荐】精武鸭脖第二件2元第三件1元 原价31.5 现价28.5","description_content":"月销14.8万","update_at":1576158524944}
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"2989","_version":160,"result":"updated","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":110008,"_primary_term":1}
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 13:48:45 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.002s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > None
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < 
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/2640 HTTP/1.1" 200 161
+2019-12-12 13:48:45 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/2640 [status:200 request:0.024s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > {"title":"【拍3件26.8】来伊份纯蛋糕230g 原价19.9 现价16.9","description_content":"月销40.8万","update_at":1576158524944}
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"2640","_version":161,"result":"updated","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":110009,"_primary_term":1}
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 13:48:45 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.002s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > None
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < 
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/3893 HTTP/1.1" 200 161
+2019-12-12 13:48:45 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/3893 [status:200 request:0.025s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > {"title":"【大宝SOD密】面霜润肤乳100mL 原价15.9 现价12.9","description_content":"月销43.6万","update_at":1576158524944}
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"3893","_version":116,"result":"updated","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":110010,"_primary_term":1}
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 13:48:45 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.002s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > None
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < 
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/2615 HTTP/1.1" 200 161
+2019-12-12 13:48:45 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/2615 [status:200 request:0.023s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > {"title":"【第二件半价】俄罗斯进口巧克力紫皮糖1斤 原价22.8 现价17.8","description_content":"月销20.0万","update_at":1576158524944}
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"2615","_version":161,"result":"updated","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":110011,"_primary_term":1}
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 13:48:45 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.003s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > None
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < 
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/2633 HTTP/1.1" 200 161
+2019-12-12 13:48:45 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/2633 [status:200 request:0.023s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > {"title":"【拍3件】烟酰胺焕颜宫廷贵妇膏 原价108.0 现价38.0","description_content":"月销64.4万","update_at":1576158524944}
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"2633","_version":161,"result":"updated","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":110012,"_primary_term":1}
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 13:48:45 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.002s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > None
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < 
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/4831 HTTP/1.1" 200 160
+2019-12-12 13:48:45 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/4831 [status:200 request:0.021s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > {"title":"降价了蒙牛小真果粒酸奶125ml*20盒 原价26.0 现价21.0","description_content":"月销8.5万","update_at":1576158524944}
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"4831","_version":24,"result":"updated","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":110013,"_primary_term":1}
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 13:48:45 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.002s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > None
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < 
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/2638 HTTP/1.1" 200 161
+2019-12-12 13:48:45 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/2638 [status:200 request:0.021s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > {"title":"【冬朵】加绒可选休闲裤小脚裤魔术裤 原价63.0 现价53.0","description_content":"月销26.7万","update_at":1576158524944}
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"2638","_version":161,"result":"updated","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":110014,"_primary_term":1}
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 13:48:45 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.002s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > None
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < 
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/4303 HTTP/1.1" 200 161
+2019-12-12 13:48:45 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/4303 [status:200 request:0.019s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > {"title":"大额券凑单【水密码旗舰店】冰川三件套 原价229.0 现价59.0","description_content":"月销9.9万","update_at":1576158524944}
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"4303","_version":112,"result":"updated","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":110015,"_primary_term":1}
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 13:48:45 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.002s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > None
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < 
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/2655 HTTP/1.1" 200 161
+2019-12-12 13:48:45 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/2655 [status:200 request:0.019s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > {"title":"【四斤装】萃植轩洗衣液瓶装家庭装 原价9.9 现价8.9","description_content":"月销10.7万","update_at":1576158524944}
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"2655","_version":161,"result":"updated","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":110016,"_primary_term":1}
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 13:48:45 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.003s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > None
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < 
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/2626 HTTP/1.1" 200 161
+2019-12-12 13:48:45 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/2626 [status:200 request:0.019s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > {"title":"【第二件一元】美康粉黛隔离霜 原价59.0 现价54.0","description_content":"月销6.3万","update_at":1576158524944}
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"2626","_version":161,"result":"updated","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":110017,"_primary_term":1}
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 13:48:45 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.002s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > None
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < 
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/4652 HTTP/1.1" 200 160
+2019-12-12 13:48:45 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/4652 [status:200 request:0.019s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > {"title":"好评100W+【18袋】滋食蛋黄夹心饼干 原价26.8 现价16.8","description_content":"月销189.2万","update_at":1576158524944}
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"4652","_version":52,"result":"updated","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":110018,"_primary_term":1}
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 13:48:45 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.002s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > None
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < 
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/2629 HTTP/1.1" 200 161
+2019-12-12 13:48:45 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/2629 [status:200 request:0.019s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > {"title":"【第二件半价】完美日记牛奶肌气垫BB霜 原价79.9 现价74.9","description_content":"月销5.8万","update_at":1576158524944}
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"2629","_version":161,"result":"updated","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":110019,"_primary_term":1}
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 13:48:45 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.002s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > None
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < 
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/2651 HTTP/1.1" 200 161
+2019-12-12 13:48:45 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/2651 [status:200 request:0.019s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > {"title":"【罗志祥代言】纽西之谜妆前打底隔离霜 原价99.0 现价69.0","description_content":"月销33.3万","update_at":1576158524944}
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"2651","_version":161,"result":"updated","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":110020,"_primary_term":1}
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 13:48:45 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.002s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > None
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < 
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/2631 HTTP/1.1" 200 161
+2019-12-12 13:48:45 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/2631 [status:200 request:0.018s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > {"title":"前一千名1元！福派电动牙刷【配5刷头】 原价98.0 现价43.0","description_content":"月销11.0万","update_at":1576158524944}
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"2631","_version":161,"result":"updated","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":110021,"_primary_term":1}
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 13:48:45 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.002s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > None
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < 
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/2622 HTTP/1.1" 200 161
+2019-12-12 13:48:45 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/2622 [status:200 request:0.018s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > {"title":"Girlcult屁桃联名腮红情绪腮红 原价55.0 现价50.0","description_content":"月销5.2万","update_at":1576158524944}
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"2622","_version":161,"result":"updated","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":110022,"_primary_term":1}
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 13:48:45 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.002s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > None
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < 
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/2625 HTTP/1.1" 200 161
+2019-12-12 13:48:45 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/2625 [status:200 request:0.022s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > {"title":"【敷尔佳】敏感肌医美医用面膜 原价118.4 现价108.4","description_content":"月销5.3万","update_at":1576158524944}
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"2625","_version":161,"result":"updated","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":110023,"_primary_term":1}
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 13:48:45 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.003s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > None
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < 
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/3306 HTTP/1.1" 200 161
+2019-12-12 13:48:45 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/3306 [status:200 request:0.023s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > {"title":"【来伊份】年货零食大礼包整箱865g 原价29.95 现价24.95","description_content":"月销11.0万","update_at":1576158524944}
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"3306","_version":142,"result":"updated","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":110024,"_primary_term":1}
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 13:48:45 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.002s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > None
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < 
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/2637 HTTP/1.1" 200 161
+2019-12-12 13:48:45 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/2637 [status:200 request:0.024s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > {"title":"【云农派】奶香坚果巴旦木210g*2 原价27.9 现价22.9","description_content":"月销5.9万","update_at":1576158524944}
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"2637","_version":161,"result":"updated","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":110025,"_primary_term":1}
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 13:48:45 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.002s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > None
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < 
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/2641 HTTP/1.1" 200 161
+2019-12-12 13:48:45 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/2641 [status:200 request:0.025s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > {"title":"超低价格5件套真空压缩袋送手泵 原价21.1 现价11.1","description_content":"月销20.2万","update_at":1576158524944}
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"2641","_version":161,"result":"updated","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":110026,"_primary_term":1}
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 13:48:45 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.002s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > None
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < 
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/4392 HTTP/1.1" 200 160
+2019-12-12 13:48:45 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/4392 [status:200 request:0.021s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > {"title":"三只松鼠_氧气吐司面包800g 原价23.9 现价20.9","description_content":"月销17.9万","update_at":1576158524944}
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"4392","_version":97,"result":"updated","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":110027,"_primary_term":1}
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 13:48:45 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.002s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > None
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < 
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/2647 HTTP/1.1" 200 161
+2019-12-12 13:48:45 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/2647 [status:200 request:0.021s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > {"title":"累计卖800W包！滋食蛋黄夹心饼干5大包 原价26.8 现价16.8","description_content":"月销24.0万","update_at":1576158524944}
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"2647","_version":161,"result":"updated","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":110028,"_primary_term":1}
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 13:48:45 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.002s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > None
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < 
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/2639 HTTP/1.1" 200 161
+2019-12-12 13:48:45 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/2639 [status:200 request:0.022s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > {"title":"999三九感冒灵颗粒*3盒 原价38.0 现价33.0","description_content":"月销12.7万","update_at":1576158524944}
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"2639","_version":161,"result":"updated","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":110029,"_primary_term":1}
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 13:48:45 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.002s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > None
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < 
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/2649 HTTP/1.1" 200 161
+2019-12-12 13:48:45 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/2649 [status:200 request:0.022s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > {"title":"【顺云鑫】加厚卷装垃圾袋100只 原价8.8 现价3.8","description_content":"月销4.6万","update_at":1576158524944}
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"2649","_version":161,"result":"updated","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":110030,"_primary_term":1}
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 13:48:45 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.002s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > None
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < 
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/4585 HTTP/1.1" 200 160
+2019-12-12 13:48:45 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/4585 [status:200 request:0.023s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > {"title":"【拍4件】网红奶盐日式小圆饼4包 原价19.9 现价9.9","description_content":"月销9.1万","update_at":1576158524944}
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"4585","_version":66,"result":"updated","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":110031,"_primary_term":1}
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 13:48:45 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.006s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > None
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < 
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/4495 HTTP/1.1" 200 160
+2019-12-12 13:48:45 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/4495 [status:200 request:0.025s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > {"title":"50卷原木印花卷纸纸巾 原价26.9 现价24.9","description_content":"月销24.2万","update_at":1576158524944}
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"4495","_version":83,"result":"updated","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":110032,"_primary_term":1}
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 13:48:45 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.002s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > None
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < 
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/3427 HTTP/1.1" 200 161
+2019-12-12 13:48:45 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/3427 [status:200 request:0.024s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > {"title":"拍4份20包22.9元！日本进口乳霜纸 原价16.9 现价6.9","description_content":"月销57.0万","update_at":1576158524944}
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"3427","_version":119,"result":"updated","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":110033,"_primary_term":1}
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 13:48:45 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.002s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > None
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < 
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/2624 HTTP/1.1" 200 161
+2019-12-12 13:48:45 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/2624 [status:200 request:0.024s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > {"title":"爱茉莉IOPE无暇美颜气垫粉底液 原价219.0 现价159.0","description_content":"月销3.1万","update_at":1576158524944}
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"2624","_version":161,"result":"updated","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":110034,"_primary_term":1}
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 13:48:45 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.002s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > None
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < 
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/2630 HTTP/1.1" 200 161
+2019-12-12 13:48:45 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/2630 [status:200 request:0.019s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > {"title":"买一送一！【半亩花田】烟酰胺去角质慕斯 原价59.0 现价49.0","description_content":"月销34.1万","update_at":1576158524944}
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"2630","_version":161,"result":"updated","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":110035,"_primary_term":1}
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/2648 HTTP/1.1" 200 161
+2019-12-12 13:48:45 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/2648 [status:200 request:0.022s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > {"title":"【蘭家】口碑卸妆水产品购两件更划算 原价29.9 现价24.9","description_content":"月销20.0万","update_at":1576158524944}
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"2648","_version":161,"result":"updated","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":110036,"_primary_term":1}
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 13:48:45 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.003s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > None
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < 
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 13:48:45 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.002s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > None
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < 
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/4521 HTTP/1.1" 200 160
+2019-12-12 13:48:45 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/4521 [status:200 request:0.024s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > {"title":"【拍三件】沐丝竹浆纸买三送一16卷*4 原价23.7 现价21.7","description_content":"月销4.8万","update_at":1576158524944}
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"4521","_version":80,"result":"updated","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":110037,"_primary_term":1}
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 13:48:45 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.003s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > None
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < 
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/3462 HTTP/1.1" 200 161
+2019-12-12 13:48:45 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/3462 [status:200 request:0.026s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > {"title":"拍两件【第二件0元】薇诺娜洁面泡沫 原价67.0 现价57.0","description_content":"月销5.2万","update_at":1576158524944}
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"3462","_version":119,"result":"updated","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":110038,"_primary_term":1}
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 13:48:45 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.003s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > None
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < 
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/4736 HTTP/1.1" 200 160
+2019-12-12 13:48:45 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/4736 [status:200 request:0.030s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > {"title":"新券【5斤装】新疆甜心灰枣 原价26.9 现价21.9","description_content":"月销19.1万","update_at":1576158524944}
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"4736","_version":38,"result":"updated","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":110039,"_primary_term":1}
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 13:48:45 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.005s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > None
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < 
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 13:48:45 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.002s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > None
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < 
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/3188 HTTP/1.1" 200 161
+2019-12-12 13:48:45 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/3188 [status:200 request:0.037s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > {"title":"【拍3件】立白15G*105颗洗衣凝珠 原价104.85 现价94.85","description_content":"月销5.5万","update_at":1576158524944}
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"3188","_version":152,"result":"updated","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":110040,"_primary_term":1}
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/2643 HTTP/1.1" 200 161
+2019-12-12 13:48:45 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/2643 [status:200 request:0.035s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > {"title":"【思景旗舰店】24包纯原生木浆本色抽纸 原价34.9 现价24.9","description_content":"月销3.9万","update_at":1576158524944}
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"2643","_version":161,"result":"updated","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":110041,"_primary_term":1}
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 13:48:45 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.002s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > None
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < 
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/2654 HTTP/1.1" 200 161
+2019-12-12 13:48:45 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/2654 [status:200 request:0.035s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > {"title":"【天猫超市】功夫熊猫斑布纸30包 原价55.2 现价50.2","description_content":"月销4.1万","update_at":1576158524944}
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"2654","_version":161,"result":"updated","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":110042,"_primary_term":1}
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 13:48:45 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.002s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > None
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < 
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/3342 HTTP/1.1" 200 161
+2019-12-12 13:48:45 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/3342 [status:200 request:0.027s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > {"title":"【第二件9.9元】吉氏美术家透气纸尿裤 原价29.9 现价26.9","description_content":"月销4.9万","update_at":1576158524944}
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"3342","_version":138,"result":"updated","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":110043,"_primary_term":1}
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 13:48:45 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.003s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > None
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < 
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/4900 HTTP/1.1" 200 159
+2019-12-12 13:48:45 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/4900 [status:200 request:0.024s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > {"title":"【超值5双】堆堆袜子女中筒袜秋冬季 原价16.9 现价11.9","description_content":"月销2.8万","update_at":1576158524944}
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"4900","_version":9,"result":"updated","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":110044,"_primary_term":1}
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 13:48:45 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.006s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > None
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < 
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/4470 HTTP/1.1" 200 160
+2019-12-12 13:48:45 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/4470 [status:200 request:0.025s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > {"title":"【国货标婷】压嘴式维E乳3瓶 原价45.8 现价40.8","description_content":"月销21.9万","update_at":1576158524944}
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"4470","_version":87,"result":"updated","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":110045,"_primary_term":1}
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 13:48:45 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.003s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > None
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < 
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/4330 HTTP/1.1" 200 160
+2019-12-12 13:48:45 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/4330 [status:200 request:0.026s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > {"title":"【3提5斤多】植护原生木浆卷纸 原价29.9 现价26.9","description_content":"月销8.8万","update_at":1576158524944}
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"4330","_version":93,"result":"updated","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":110046,"_primary_term":1}
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/2653 HTTP/1.1" 200 161
+2019-12-12 13:48:45 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/2653 [status:200 request:0.022s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > {"title":"云南白药 热敷蒸汽眼罩30片 原价68.0 现价38.0","description_content":"月销9.9万","update_at":1576158524944}
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"2653","_version":161,"result":"updated","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":110047,"_primary_term":1}
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/4621 HTTP/1.1" 200 160
+2019-12-12 13:48:45 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/4621 [status:200 request:0.017s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > {"title":"新券！蓝漂婴儿本色抽纸10包 原价7.9 现价6.9","description_content":"月销11.4万","update_at":1576158524944}
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"4621","_version":14,"result":"updated","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":110048,"_primary_term":1}
+2019-12-12 13:48:45 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/4532 HTTP/1.1" 200 160
+2019-12-12 13:48:45 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/4532 [status:200 request:0.014s]
+2019-12-12 13:48:45 [elasticsearch] DEBUG: > {"title":"【金泰康旗舰店】足浴泡脚粉120包/4袋 原价29.9 现价19.9","description_content":"月销48.1万","update_at":1576158524944}
+2019-12-12 13:48:45 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"4532","_version":41,"result":"updated","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":110049,"_primary_term":1}

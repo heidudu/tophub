@@ -1,0 +1,54 @@
+.card-box{
+  min-width: 270px;
+  max-width: 450px;
+  .card-body-item{
+
+
+    &:hover{
+       text-decoration: none;
+      .card-body-item-content{
+        color: #007bff!important;
+      }
+    }
+  }
+  :global{
+    .card-body{
+      height:312px!important;
+      overflow-y: auto;
+      &::-webkit-scrollbar{
+        width:1px;
+      }
+      &::-webkit-scrollbar-button{
+        background-color: transparent;
+      }
+      &::-webkit-scrollbar-thumb{
+        background-color: transparent;
+      }
+      &:hover{
+        &::-webkit-scrollbar-thumb{
+          background-color: black;
+        }
+      }
+
+
+
+    }
+  }
+}
+.card-header{
+  max-height: 40px;
+
+}
+.card-img{
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  margin-bottom: 3px;
+
+}
+
+i{
+  min-width: 270px;
+  max-width: 450px;
+}
+

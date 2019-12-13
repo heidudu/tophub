@@ -1,0 +1,175 @@
+2019-12-12 03:44:33 [scrapy.utils.log] INFO: Scrapy 1.7.4 started (bot: spider_tophub)
+2019-12-12 03:44:33 [scrapy.utils.log] INFO: Versions: lxml 4.4.1.0, libxml2 2.9.9, cssselect 1.1.0, parsel 1.5.2, w3lib 1.21.0, Twisted 19.7.0, Python 3.7.5 (default, Nov 23 2019, 05:59:34) - [GCC 8.3.0], pyOpenSSL 19.0.0 (OpenSSL 1.1.1d  10 Sep 2019), cryptography 2.8, Platform Linux-3.10.0-1062.1.2.el7.x86_64-x86_64-with-debian-10.2
+2019-12-12 03:44:33 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'spider_tophub', 'DOWNLOAD_DELAY': 1, 'LOG_FILE': 'logs/spider_tophub/luolei/435d6f361c8e11ea9d990242ac190004.log', 'NEWSPIDER_MODULE': 'spider_tophub.spiders', 'ROBOTSTXT_OBEY': True, 'SPIDER_MODULES': ['spider_tophub.spiders'], 'USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36'}
+2019-12-12 03:44:33 [scrapy.extensions.telnet] INFO: Telnet Password: 59f094e89acdfa31
+2019-12-12 03:44:33 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.logstats.LogStats']
+2019-12-12 03:44:33 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2019-12-12 03:44:33 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2019-12-12 03:44:33 [scrapy.middleware] INFO: Enabled item pipelines:
+['spider_tophub.pipelines.MysqlTwistedPipeline']
+2019-12-12 03:44:33 [scrapy.core.engine] INFO: Spider opened
+2019-12-12 03:44:33 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2019-12-12 03:44:33 [py.warnings] WARNING: /usr/local/lib/python3.7/site-packages/scrapy/spidermiddlewares/offsite.py:61: URLWarning: allowed_domains accepts only domains, not URLs. Ignoring URL entry https://luolei.org/ in allowed_domains.
+  warnings.warn(message, URLWarning)
+
+2019-12-12 03:44:33 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2019-12-12 03:44:33 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://luolei.org/robots.txt> (referer: None)
+2019-12-12 03:44:34 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://luolei.org/feed/> (referer: None)
+2019-12-12 03:44:35 [scrapy.core.scraper] DEBUG: Scraped from <200 https://luolei.org/feed/>
+None
+2019-12-12 03:44:35 [scrapy.core.scraper] DEBUG: Scraped from <200 https://luolei.org/feed/>
+None
+2019-12-12 03:44:35 [scrapy.core.scraper] DEBUG: Scraped from <200 https://luolei.org/feed/>
+None
+2019-12-12 03:44:35 [scrapy.core.scraper] DEBUG: Scraped from <200 https://luolei.org/feed/>
+None
+2019-12-12 03:44:35 [scrapy.core.scraper] DEBUG: Scraped from <200 https://luolei.org/feed/>
+None
+2019-12-12 03:44:35 [scrapy.core.scraper] DEBUG: Scraped from <200 https://luolei.org/feed/>
+None
+2019-12-12 03:44:35 [scrapy.core.scraper] DEBUG: Scraped from <200 https://luolei.org/feed/>
+None
+2019-12-12 03:44:35 [scrapy.core.scraper] DEBUG: Scraped from <200 https://luolei.org/feed/>
+None
+2019-12-12 03:44:35 [scrapy.core.scraper] DEBUG: Scraped from <200 https://luolei.org/feed/>
+None
+2019-12-12 03:44:35 [scrapy.core.scraper] DEBUG: Scraped from <200 https://luolei.org/feed/>
+None
+2019-12-12 03:44:35 [scrapy.core.engine] INFO: Closing spider (finished)
+2019-12-12 03:44:35 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 595,
+ 'downloader/request_count': 2,
+ 'downloader/request_method_count/GET': 2,
+ 'downloader/response_bytes': 152421,
+ 'downloader/response_count': 2,
+ 'downloader/response_status_count/200': 2,
+ 'elapsed_time_seconds': 1.439269,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2019, 12, 12, 3, 44, 35, 48808),
+ 'item_scraped_count': 10,
+ 'log_count/DEBUG': 12,
+ 'log_count/INFO': 10,
+ 'log_count/WARNING': 1,
+ 'memusage/max': 57233408,
+ 'memusage/startup': 57233408,
+ 'response_received_count': 2,
+ 'robotstxt/request_count': 1,
+ 'robotstxt/response_count': 1,
+ 'robotstxt/response_status_count/200': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'start_time': datetime.datetime(2019, 12, 12, 3, 44, 33, 609539)}
+2019-12-12 03:44:35 [scrapy.core.engine] INFO: Spider closed (finished)
+2019-12-12 03:44:35 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 03:44:35 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 03:44:35 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 03:44:35 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 03:44:35 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 03:44:35 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 03:44:35 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.014s]
+2019-12-12 03:44:35 [elasticsearch] DEBUG: > None
+2019-12-12 03:44:35 [elasticsearch] DEBUG: < 
+2019-12-12 03:44:35 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 03:44:35 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.016s]
+2019-12-12 03:44:35 [elasticsearch] DEBUG: > None
+2019-12-12 03:44:35 [elasticsearch] DEBUG: < 
+2019-12-12 03:44:35 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 03:44:35 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.013s]
+2019-12-12 03:44:35 [elasticsearch] DEBUG: > None
+2019-12-12 03:44:35 [elasticsearch] DEBUG: < 
+2019-12-12 03:44:35 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 03:44:35 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.019s]
+2019-12-12 03:44:35 [elasticsearch] DEBUG: > None
+2019-12-12 03:44:35 [elasticsearch] DEBUG: < 
+2019-12-12 03:44:35 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 03:44:35 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.016s]
+2019-12-12 03:44:35 [elasticsearch] DEBUG: > None
+2019-12-12 03:44:35 [elasticsearch] DEBUG: < 
+2019-12-12 03:44:35 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/1080 HTTP/1.1" 201 158
+2019-12-12 03:44:35 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/1080 [status:201 request:0.030s]
+2019-12-12 03:44:35 [elasticsearch] DEBUG: > {"title":"我为什么选择 Telegram 来运营粉丝社群 | 规则、经验和思考","description_content":"编程","update_at":1576122275034}
+2019-12-12 03:44:35 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"1080","_version":1,"result":"created","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":1768,"_primary_term":13}
+2019-12-12 03:44:35 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 03:44:35 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/1083 HTTP/1.1" 201 158
+2019-12-12 03:44:35 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/1083 [status:201 request:0.048s]
+2019-12-12 03:44:35 [elasticsearch] DEBUG: > {"title":"我的博客从 Ghost 迁移回 WordPress | 优化记录","description_content":"编程","update_at":1576122275034}
+2019-12-12 03:44:35 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"1083","_version":1,"result":"created","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":1769,"_primary_term":13}
+2019-12-12 03:44:35 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 03:44:35 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.006s]
+2019-12-12 03:44:35 [elasticsearch] DEBUG: > None
+2019-12-12 03:44:35 [elasticsearch] DEBUG: < 
+2019-12-12 03:44:35 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 03:44:35 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 03:44:35 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.011s]
+2019-12-12 03:44:35 [elasticsearch] DEBUG: > None
+2019-12-12 03:44:35 [elasticsearch] DEBUG: < 
+2019-12-12 03:44:35 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/1082 HTTP/1.1" 201 158
+2019-12-12 03:44:35 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/1082 [status:201 request:0.095s]
+2019-12-12 03:44:35 [elasticsearch] DEBUG: > {"title":"DockCase P1:让 MacBook Pro 电源适配器秒变拓展坞","description_content":"数码","update_at":1576122275034}
+2019-12-12 03:44:35 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"1082","_version":1,"result":"created","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":1770,"_primary_term":13}
+2019-12-12 03:44:35 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 03:44:35 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/1079 HTTP/1.1" 201 158
+2019-12-12 03:44:35 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/1079 [status:201 request:0.114s]
+2019-12-12 03:44:35 [elasticsearch] DEBUG: > {"title":"ASHMORE 超声波清洗机 | 用超声波清洁2000块的键盘","description_content":"数码","update_at":1576122275034}
+2019-12-12 03:44:35 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"1079","_version":1,"result":"created","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":1771,"_primary_term":13}
+2019-12-12 03:44:35 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 03:44:35 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.011s]
+2019-12-12 03:44:35 [elasticsearch] DEBUG: > None
+2019-12-12 03:44:35 [elasticsearch] DEBUG: < 
+2019-12-12 03:44:35 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 03:44:35 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/1081 HTTP/1.1" 201 158
+2019-12-12 03:44:35 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/1081 [status:201 request:0.177s]
+2019-12-12 03:44:35 [elasticsearch] DEBUG: > {"title":"即刻抽离: FreeBuds 3 无线降噪耳机 – 城市旅行","description_content":"数码","update_at":1576122275034}
+2019-12-12 03:44:35 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"1081","_version":1,"result":"created","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":1772,"_primary_term":13}
+2019-12-12 03:44:35 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 03:44:35 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.041s]
+2019-12-12 03:44:35 [elasticsearch] DEBUG: > None
+2019-12-12 03:44:35 [elasticsearch] DEBUG: < 
+2019-12-12 03:44:35 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/1084 HTTP/1.1" 201 158
+2019-12-12 03:44:35 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/1084 [status:201 request:0.138s]
+2019-12-12 03:44:35 [elasticsearch] DEBUG: > {"title":"我最喜欢的一台相机,今天被车压碎了 | RICOH GR | VLOG54","description_content":"摄像","update_at":1576122275034}
+2019-12-12 03:44:35 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"1084","_version":1,"result":"created","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":1773,"_primary_term":13}
+2019-12-12 03:44:35 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 03:44:35 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 03:44:35 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.021s]
+2019-12-12 03:44:35 [elasticsearch] DEBUG: > None
+2019-12-12 03:44:35 [elasticsearch] DEBUG: < 
+2019-12-12 03:44:35 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/1085 HTTP/1.1" 201 158
+2019-12-12 03:44:35 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/1085 [status:201 request:0.143s]
+2019-12-12 03:44:35 [elasticsearch] DEBUG: > {"title":"我花20元修好了2000块的 BOSE 降噪耳机  | VLOG53","description_content":"数码","update_at":1576122275034}
+2019-12-12 03:44:35 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"1085","_version":1,"result":"created","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":1774,"_primary_term":13}
+2019-12-12 03:44:35 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/1086 HTTP/1.1" 201 158
+2019-12-12 03:44:35 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/1086 [status:201 request:0.118s]
+2019-12-12 03:44:35 [elasticsearch] DEBUG: > {"title":"澳门旅行手机上网卡推荐 | CUniq CMLink | VLOG52","description_content":"视频","update_at":1576122275034}
+2019-12-12 03:44:35 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"1086","_version":1,"result":"created","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":1775,"_primary_term":13}
+2019-12-12 03:44:35 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/1087 HTTP/1.1" 201 158
+2019-12-12 03:44:35 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/1087 [status:201 request:0.078s]
+2019-12-12 03:44:35 [elasticsearch] DEBUG: > {"title":"背光门 | 苹果 MacBook 即将爆发的下一个质量问题 ? | Flexgate | 持续更新","description_content":"数码","update_at":1576122275034}
+2019-12-12 03:44:35 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"1087","_version":1,"result":"created","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":1776,"_primary_term":13}
+2019-12-12 03:44:35 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/1088 HTTP/1.1" 201 158
+2019-12-12 03:44:35 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/1088 [status:201 request:0.063s]
+2019-12-12 03:44:35 [elasticsearch] DEBUG: > {"title":"纽约 |  2019，我在时代广场跨年  | NYC深度行摄","description_content":"摄像","update_at":1576122275034}
+2019-12-12 03:44:35 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"1088","_version":1,"result":"created","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":1777,"_primary_term":13}

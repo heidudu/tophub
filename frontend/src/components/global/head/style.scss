@@ -1,0 +1,121 @@
+//去除button点击边框显示
+:global{
+  //button{
+  //color: #5f6368;
+  //touch-action: none!important;
+  //background-color: transparent!important;
+  //border-radius: unset!important;
+  //
+  //
+  //}
+//解决移动设备端hover问题
+  @media not all and (pointer: coarse) {
+    button:hover {
+      background-color: rgba(60,64,67,0.08)!important;
+
+    }
+  }
+}
+
+
+.top_header{
+  min-width: 320px;
+}
+.header-center{
+  height: 46px;
+  font-size: 16px;
+  padding: 0px;
+  vertical-align: middle;
+  overflow: hidden;
+  &:focus-within{
+    background-color: white!important;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.5) !important;
+
+
+
+  }
+  div{
+    height: 38px;
+    input{
+      &:focus{
+        box-shadow: unset;
+      }
+    }
+  }
+
+}
+
+
+.pc-sidebar,.mobile-sidebar{
+  width: 160px;
+  height: 1000px;
+  position: absolute;
+  display: flex;
+  margin-left: 0px;
+  z-index: 990;
+  flex-direction: column;
+  transition: 0.5s margin-left;
+  .sidebar-item{
+    display: flex;
+    color: #5f6368;
+    &:hover{
+      color: #1a73e8;
+      svg{
+        color: #1a73e8;
+      }
+    }
+  }
+  :global{
+    .active{
+      color:#007bff;
+      border-radius:0 50px 50px 0 ;
+      background-color: rgba(66, 133, 244, 0.15);
+      svg{
+        color: #007bff;
+      }
+    }
+  }
+}
+:global{
+  #mobile-sidebar{
+    display: none;
+  }
+
+  #pc-sidebar.active{
+    margin-left: -160px;
+    transition: 0.5s margin-left;
+
+  }
+}
+
+@media (max-width: 991px) {
+  :global{
+    #pc-sidebar{
+      display: none;
+    }
+    #mobile-sidebar{
+      display: flex;
+      margin-left: -160px;
+      margin-top: -0.25rem;
+
+
+
+
+    }
+    #mobile-sidebar.active{
+      display: flex;
+      margin-left:0px;
+      margin-top: -0.25rem;
+      box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.5) !important;
+
+    }
+
+  }
+}
+.avatar{
+  width:30px;
+  height: 30px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+}

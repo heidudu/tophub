@@ -1,0 +1,232 @@
+2019-12-12 03:44:47 [scrapy.utils.log] INFO: Scrapy 1.7.4 started (bot: spider_tophub)
+2019-12-12 03:44:47 [scrapy.utils.log] INFO: Versions: lxml 4.4.1.0, libxml2 2.9.9, cssselect 1.1.0, parsel 1.5.2, w3lib 1.21.0, Twisted 19.7.0, Python 3.7.5 (default, Nov 23 2019, 05:59:34) - [GCC 8.3.0], pyOpenSSL 19.0.0 (OpenSSL 1.1.1d  10 Sep 2019), cryptography 2.8, Platform Linux-3.10.0-1062.1.2.el7.x86_64-x86_64-with-debian-10.2
+2019-12-12 03:44:47 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'spider_tophub', 'DOWNLOAD_DELAY': 1, 'LOG_FILE': 'logs/spider_tophub/mrpm/436172201c8e11ea9d990242ac190004.log', 'NEWSPIDER_MODULE': 'spider_tophub.spiders', 'ROBOTSTXT_OBEY': True, 'SPIDER_MODULES': ['spider_tophub.spiders'], 'USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36'}
+2019-12-12 03:44:47 [scrapy.extensions.telnet] INFO: Telnet Password: 23a641eb5b3cd5b6
+2019-12-12 03:44:47 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.logstats.LogStats']
+2019-12-12 03:44:47 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2019-12-12 03:44:47 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2019-12-12 03:44:47 [scrapy.middleware] INFO: Enabled item pipelines:
+['spider_tophub.pipelines.MysqlTwistedPipeline']
+2019-12-12 03:44:47 [scrapy.core.engine] INFO: Spider opened
+2019-12-12 03:44:47 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2019-12-12 03:44:47 [py.warnings] WARNING: /usr/local/lib/python3.7/site-packages/scrapy/spidermiddlewares/offsite.py:61: URLWarning: allowed_domains accepts only domains, not URLs. Ignoring URL entry http://mrpm.cc/ in allowed_domains.
+  warnings.warn(message, URLWarning)
+
+2019-12-12 03:44:47 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2019-12-12 03:44:48 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET http://mrpm.cc/robots.txt/> from <GET http://mrpm.cc/robots.txt>
+2019-12-12 03:44:49 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://mrpm.cc/robots.txt/> (referer: None)
+2019-12-12 03:44:51 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://mrpm.cc/> (referer: None)
+2019-12-12 03:44:51 [scrapy.core.scraper] DEBUG: Scraped from <200 http://mrpm.cc/>
+None
+2019-12-12 03:44:51 [scrapy.core.scraper] DEBUG: Scraped from <200 http://mrpm.cc/>
+None
+2019-12-12 03:44:51 [scrapy.core.scraper] DEBUG: Scraped from <200 http://mrpm.cc/>
+None
+2019-12-12 03:44:51 [scrapy.core.scraper] DEBUG: Scraped from <200 http://mrpm.cc/>
+None
+2019-12-12 03:44:51 [scrapy.core.scraper] DEBUG: Scraped from <200 http://mrpm.cc/>
+None
+2019-12-12 03:44:51 [scrapy.core.scraper] DEBUG: Scraped from <200 http://mrpm.cc/>
+None
+2019-12-12 03:44:51 [scrapy.core.scraper] DEBUG: Scraped from <200 http://mrpm.cc/>
+None
+2019-12-12 03:44:51 [scrapy.core.scraper] DEBUG: Scraped from <200 http://mrpm.cc/>
+None
+2019-12-12 03:44:51 [scrapy.core.scraper] DEBUG: Scraped from <200 http://mrpm.cc/>
+None
+2019-12-12 03:44:51 [scrapy.core.scraper] DEBUG: Scraped from <200 http://mrpm.cc/>
+None
+2019-12-12 03:44:51 [scrapy.core.scraper] DEBUG: Scraped from <200 http://mrpm.cc/>
+None
+2019-12-12 03:44:51 [scrapy.core.scraper] DEBUG: Scraped from <200 http://mrpm.cc/>
+None
+2019-12-12 03:44:51 [scrapy.core.scraper] DEBUG: Scraped from <200 http://mrpm.cc/>
+None
+2019-12-12 03:44:51 [scrapy.core.scraper] DEBUG: Scraped from <200 http://mrpm.cc/>
+None
+2019-12-12 03:44:51 [scrapy.core.scraper] DEBUG: Scraped from <200 http://mrpm.cc/>
+None
+2019-12-12 03:44:51 [scrapy.core.engine] INFO: Closing spider (finished)
+2019-12-12 03:44:51 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 978,
+ 'downloader/request_count': 3,
+ 'downloader/request_method_count/GET': 3,
+ 'downloader/response_bytes': 27312,
+ 'downloader/response_count': 3,
+ 'downloader/response_status_count/200': 2,
+ 'downloader/response_status_count/301': 1,
+ 'elapsed_time_seconds': 4.079171,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2019, 12, 12, 3, 44, 51, 327856),
+ 'item_scraped_count': 15,
+ 'log_count/DEBUG': 18,
+ 'log_count/INFO': 10,
+ 'log_count/WARNING': 1,
+ 'memusage/max': 57249792,
+ 'memusage/startup': 57249792,
+ 'response_received_count': 2,
+ 'robotstxt/request_count': 1,
+ 'robotstxt/response_count': 1,
+ 'robotstxt/response_status_count/200': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'start_time': datetime.datetime(2019, 12, 12, 3, 44, 47, 248685)}
+2019-12-12 03:44:51 [scrapy.core.engine] INFO: Spider closed (finished)
+2019-12-12 03:44:51 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 03:44:51 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 03:44:51 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 03:44:51 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 03:44:51 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 03:44:51 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.010s]
+2019-12-12 03:44:51 [elasticsearch] DEBUG: > None
+2019-12-12 03:44:51 [elasticsearch] DEBUG: < 
+2019-12-12 03:44:51 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 03:44:51 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.012s]
+2019-12-12 03:44:51 [elasticsearch] DEBUG: > None
+2019-12-12 03:44:51 [elasticsearch] DEBUG: < 
+2019-12-12 03:44:51 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 03:44:51 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.011s]
+2019-12-12 03:44:51 [elasticsearch] DEBUG: > None
+2019-12-12 03:44:51 [elasticsearch] DEBUG: < 
+2019-12-12 03:44:51 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 03:44:51 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.014s]
+2019-12-12 03:44:51 [elasticsearch] DEBUG: > None
+2019-12-12 03:44:51 [elasticsearch] DEBUG: < 
+2019-12-12 03:44:51 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 03:44:51 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 03:44:51 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.015s]
+2019-12-12 03:44:51 [elasticsearch] DEBUG: > None
+2019-12-12 03:44:51 [elasticsearch] DEBUG: < 
+2019-12-12 03:44:51 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/1091 HTTP/1.1" 201 158
+2019-12-12 03:44:51 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/1091 [status:201 request:0.034s]
+2019-12-12 03:44:51 [elasticsearch] DEBUG: > {"title":"指標設計的六大盲點","description_content":null,"update_at":1576122291311}
+2019-12-12 03:44:51 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"1091","_version":1,"result":"created","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":1778,"_primary_term":13}
+2019-12-12 03:44:51 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 03:44:51 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 03:44:51 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.008s]
+2019-12-12 03:44:51 [elasticsearch] DEBUG: > None
+2019-12-12 03:44:51 [elasticsearch] DEBUG: < 
+2019-12-12 03:44:51 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/1089 HTTP/1.1" 201 158
+2019-12-12 03:44:51 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/1089 [status:201 request:0.066s]
+2019-12-12 03:44:51 [elasticsearch] DEBUG: > {"title":"好的產品經理，該有哪些核心能力","description_content":null,"update_at":1576122291311}
+2019-12-12 03:44:51 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"1089","_version":1,"result":"created","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":1779,"_primary_term":13}
+2019-12-12 03:44:51 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/1092 HTTP/1.1" 201 158
+2019-12-12 03:44:51 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/1092 [status:201 request:0.077s]
+2019-12-12 03:44:51 [elasticsearch] DEBUG: > {"title":"次郎壽司食記 (愛飯團東京美食團), 吃美食也能再更上一層樓？","description_content":null,"update_at":1576122291311}
+2019-12-12 03:44:51 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"1092","_version":1,"result":"created","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":1780,"_primary_term":13}
+2019-12-12 03:44:51 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 03:44:51 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 03:44:51 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.008s]
+2019-12-12 03:44:51 [elasticsearch] DEBUG: > None
+2019-12-12 03:44:51 [elasticsearch] DEBUG: < 
+2019-12-12 03:44:51 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 03:44:51 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 03:44:51 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.005s]
+2019-12-12 03:44:51 [elasticsearch] DEBUG: > None
+2019-12-12 03:44:51 [elasticsearch] DEBUG: < 
+2019-12-12 03:44:51 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/1090 HTTP/1.1" 201 158
+2019-12-12 03:44:51 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/1090 [status:201 request:0.103s]
+2019-12-12 03:44:51 [elasticsearch] DEBUG: > {"title":"[實驗心得] 運用Growth Hacking技巧，讓上課同學舉手發問","description_content":null,"update_at":1576122291311}
+2019-12-12 03:44:51 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"1090","_version":1,"result":"created","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":1781,"_primary_term":13}
+2019-12-12 03:44:51 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 03:44:51 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 03:44:51 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.004s]
+2019-12-12 03:44:51 [elasticsearch] DEBUG: > None
+2019-12-12 03:44:51 [elasticsearch] DEBUG: < 
+2019-12-12 03:44:51 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/1093 HTTP/1.1" 201 158
+2019-12-12 03:44:51 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/1093 [status:201 request:0.097s]
+2019-12-12 03:44:51 [elasticsearch] DEBUG: > {"title":"商業模式畫布(Business Model Canvas) 的 實踐與反省","description_content":null,"update_at":1576122291311}
+2019-12-12 03:44:51 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"1093","_version":1,"result":"created","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":1782,"_primary_term":13}
+2019-12-12 03:44:51 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 03:44:51 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/1094 HTTP/1.1" 201 158
+2019-12-12 03:44:51 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/1094 [status:201 request:0.073s]
+2019-12-12 03:44:51 [elasticsearch] DEBUG: > {"title":"MVP 的實踐與反省","description_content":null,"update_at":1576122291311}
+2019-12-12 03:44:51 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"1094","_version":1,"result":"created","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":1783,"_primary_term":13}
+2019-12-12 03:44:51 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 03:44:51 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.004s]
+2019-12-12 03:44:51 [elasticsearch] DEBUG: > None
+2019-12-12 03:44:51 [elasticsearch] DEBUG: < 
+2019-12-12 03:44:51 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 03:44:51 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 03:44:51 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.004s]
+2019-12-12 03:44:51 [elasticsearch] DEBUG: > None
+2019-12-12 03:44:51 [elasticsearch] DEBUG: < 
+2019-12-12 03:44:51 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/1095 HTTP/1.1" 201 158
+2019-12-12 03:44:51 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/1095 [status:201 request:0.058s]
+2019-12-12 03:44:51 [elasticsearch] DEBUG: > {"title":"從 AARRR 到 RARRA","description_content":null,"update_at":1576122291311}
+2019-12-12 03:44:51 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"1095","_version":1,"result":"created","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":1784,"_primary_term":13}
+2019-12-12 03:44:51 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 03:44:51 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 03:44:51 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.006s]
+2019-12-12 03:44:51 [elasticsearch] DEBUG: > None
+2019-12-12 03:44:51 [elasticsearch] DEBUG: < 
+2019-12-12 03:44:51 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/1096 HTTP/1.1" 201 158
+2019-12-12 03:44:51 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/1096 [status:201 request:0.063s]
+2019-12-12 03:44:51 [elasticsearch] DEBUG: > {"title":"【APP改版系列】為何要先從商業問題著手？而不是從用戶需求下手","description_content":null,"update_at":1576122291311}
+2019-12-12 03:44:51 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"1096","_version":1,"result":"created","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":1785,"_primary_term":13}
+2019-12-12 03:44:51 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 03:44:51 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 03:44:51 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.004s]
+2019-12-12 03:44:51 [elasticsearch] DEBUG: > None
+2019-12-12 03:44:51 [elasticsearch] DEBUG: < 
+2019-12-12 03:44:51 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/1097 HTTP/1.1" 201 158
+2019-12-12 03:44:51 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/1097 [status:201 request:0.065s]
+2019-12-12 03:44:51 [elasticsearch] DEBUG: > {"title":"【APP改版系列】如何設定 APP 回訪率 KPI","description_content":null,"update_at":1576122291311}
+2019-12-12 03:44:51 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"1097","_version":1,"result":"created","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":1786,"_primary_term":13}
+2019-12-12 03:44:51 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 03:44:51 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 03:44:51 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.004s]
+2019-12-12 03:44:51 [elasticsearch] DEBUG: > None
+2019-12-12 03:44:51 [elasticsearch] DEBUG: < 
+2019-12-12 03:44:51 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/1098 HTTP/1.1" 201 158
+2019-12-12 03:44:51 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/1098 [status:201 request:0.068s]
+2019-12-12 03:44:51 [elasticsearch] DEBUG: > {"title":"【APP改版系列】第一步：搞清楚自己的商業問題","description_content":null,"update_at":1576122291311}
+2019-12-12 03:44:51 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"1098","_version":1,"result":"created","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":1787,"_primary_term":13}
+2019-12-12 03:44:51 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 03:44:51 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 03:44:51 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.005s]
+2019-12-12 03:44:51 [elasticsearch] DEBUG: > None
+2019-12-12 03:44:51 [elasticsearch] DEBUG: < 
+2019-12-12 03:44:51 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/1099 HTTP/1.1" 201 158
+2019-12-12 03:44:51 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/1099 [status:201 request:0.073s]
+2019-12-12 03:44:51 [elasticsearch] DEBUG: > {"title":"APP Activation","description_content":null,"update_at":1576122291311}
+2019-12-12 03:44:51 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"1099","_version":1,"result":"created","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":1788,"_primary_term":13}
+2019-12-12 03:44:51 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/1100 HTTP/1.1" 201 158
+2019-12-12 03:44:51 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/1100 [status:201 request:0.065s]
+2019-12-12 03:44:51 [elasticsearch] DEBUG: > {"title":"量化產品成長模型-工具類產品","description_content":null,"update_at":1576122291311}
+2019-12-12 03:44:51 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"1100","_version":1,"result":"created","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":1789,"_primary_term":13}
+2019-12-12 03:44:51 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/1101 HTTP/1.1" 201 158
+2019-12-12 03:44:51 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/1101 [status:201 request:0.059s]
+2019-12-12 03:44:51 [elasticsearch] DEBUG: > {"title":"量化產品成長模型-共享計程車篇","description_content":null,"update_at":1576122291311}
+2019-12-12 03:44:51 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"1101","_version":1,"result":"created","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":1790,"_primary_term":13}
+2019-12-12 03:44:51 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/1102 HTTP/1.1" 201 158
+2019-12-12 03:44:51 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/1102 [status:201 request:0.068s]
+2019-12-12 03:44:51 [elasticsearch] DEBUG: > {"title":"東方快車謀殺案 與 換位思考","description_content":null,"update_at":1576122291311}
+2019-12-12 03:44:51 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"1102","_version":1,"result":"created","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":1791,"_primary_term":13}
+2019-12-12 03:44:51 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/1103 HTTP/1.1" 201 158
+2019-12-12 03:44:51 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/1103 [status:201 request:0.061s]
+2019-12-12 03:44:51 [elasticsearch] DEBUG: > {"title":"成長駭客再進化 – 用系統性手法打造產品成長","description_content":null,"update_at":1576122291311}
+2019-12-12 03:44:51 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"1103","_version":1,"result":"created","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":1792,"_primary_term":13}

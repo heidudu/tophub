@@ -1,0 +1,276 @@
+2019-12-12 03:21:53 [scrapy.utils.log] INFO: Scrapy 1.7.4 started (bot: spider_tophub)
+2019-12-12 03:21:53 [scrapy.utils.log] INFO: Versions: lxml 4.4.1.0, libxml2 2.9.9, cssselect 1.1.0, parsel 1.5.2, w3lib 1.21.0, Twisted 19.7.0, Python 3.7.5 (default, Nov 23 2019, 05:59:34) - [GCC 8.3.0], pyOpenSSL 19.0.0 (OpenSSL 1.1.1d  10 Sep 2019), cryptography 2.8, Platform Linux-3.10.0-1062.1.2.el7.x86_64-x86_64-with-debian-10.2
+2019-12-12 03:21:53 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'spider_tophub', 'DOWNLOAD_DELAY': 1, 'LOG_FILE': 'logs/spider_tophub/devtang/4321099c1c8e11ea9d990242ac190004.log', 'NEWSPIDER_MODULE': 'spider_tophub.spiders', 'SPIDER_MODULES': ['spider_tophub.spiders'], 'USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36'}
+2019-12-12 03:21:53 [scrapy.extensions.telnet] INFO: Telnet Password: bc8fb052b19359e1
+2019-12-12 03:21:53 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.logstats.LogStats']
+2019-12-12 03:21:53 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2019-12-12 03:21:53 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2019-12-12 03:21:53 [scrapy.middleware] INFO: Enabled item pipelines:
+['spider_tophub.pipelines.MysqlTwistedPipeline']
+2019-12-12 03:21:53 [scrapy.core.engine] INFO: Spider opened
+2019-12-12 03:21:53 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2019-12-12 03:21:53 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6024
+2019-12-12 03:21:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://blog.devtang.com/atom.xml> (referer: None)
+2019-12-12 03:21:59 [scrapy.core.scraper] DEBUG: Scraped from <200 http://blog.devtang.com/atom.xml>
+None
+2019-12-12 03:21:59 [scrapy.core.scraper] DEBUG: Scraped from <200 http://blog.devtang.com/atom.xml>
+None
+2019-12-12 03:21:59 [scrapy.core.scraper] DEBUG: Scraped from <200 http://blog.devtang.com/atom.xml>
+None
+2019-12-12 03:21:59 [scrapy.core.scraper] DEBUG: Scraped from <200 http://blog.devtang.com/atom.xml>
+None
+2019-12-12 03:21:59 [scrapy.core.scraper] DEBUG: Scraped from <200 http://blog.devtang.com/atom.xml>
+None
+2019-12-12 03:21:59 [scrapy.core.scraper] DEBUG: Scraped from <200 http://blog.devtang.com/atom.xml>
+None
+2019-12-12 03:21:59 [scrapy.core.scraper] DEBUG: Scraped from <200 http://blog.devtang.com/atom.xml>
+None
+2019-12-12 03:21:59 [scrapy.core.scraper] DEBUG: Scraped from <200 http://blog.devtang.com/atom.xml>
+None
+2019-12-12 03:21:59 [scrapy.core.scraper] DEBUG: Scraped from <200 http://blog.devtang.com/atom.xml>
+None
+2019-12-12 03:21:59 [scrapy.core.scraper] DEBUG: Scraped from <200 http://blog.devtang.com/atom.xml>
+None
+2019-12-12 03:21:59 [scrapy.core.scraper] DEBUG: Scraped from <200 http://blog.devtang.com/atom.xml>
+None
+2019-12-12 03:21:59 [scrapy.core.scraper] DEBUG: Scraped from <200 http://blog.devtang.com/atom.xml>
+None
+2019-12-12 03:21:59 [scrapy.core.scraper] DEBUG: Scraped from <200 http://blog.devtang.com/atom.xml>
+None
+2019-12-12 03:21:59 [scrapy.core.scraper] DEBUG: Scraped from <200 http://blog.devtang.com/atom.xml>
+None
+2019-12-12 03:21:59 [scrapy.core.scraper] DEBUG: Scraped from <200 http://blog.devtang.com/atom.xml>
+None
+2019-12-12 03:21:59 [scrapy.core.scraper] DEBUG: Scraped from <200 http://blog.devtang.com/atom.xml>
+None
+2019-12-12 03:21:59 [scrapy.core.scraper] DEBUG: Scraped from <200 http://blog.devtang.com/atom.xml>
+None
+2019-12-12 03:21:59 [scrapy.core.scraper] DEBUG: Scraped from <200 http://blog.devtang.com/atom.xml>
+None
+2019-12-12 03:21:59 [scrapy.core.scraper] DEBUG: Scraped from <200 http://blog.devtang.com/atom.xml>
+None
+2019-12-12 03:21:59 [scrapy.core.scraper] DEBUG: Scraped from <200 http://blog.devtang.com/atom.xml>
+None
+2019-12-12 03:21:59 [scrapy.core.engine] INFO: Closing spider (finished)
+2019-12-12 03:21:59 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 304,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 73823,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/200': 1,
+ 'elapsed_time_seconds': 5.170105,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2019, 12, 12, 3, 21, 59, 109219),
+ 'item_scraped_count': 20,
+ 'log_count/DEBUG': 21,
+ 'log_count/INFO': 10,
+ 'memusage/max': 57212928,
+ 'memusage/startup': 57212928,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'start_time': datetime.datetime(2019, 12, 12, 3, 21, 53, 939114)}
+2019-12-12 03:21:59 [scrapy.core.engine] INFO: Spider closed (finished)
+2019-12-12 03:21:59 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 03:21:59 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 03:21:59 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 03:21:59 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 03:21:59 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 03:21:59 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.009s]
+2019-12-12 03:21:59 [elasticsearch] DEBUG: > None
+2019-12-12 03:21:59 [elasticsearch] DEBUG: < 
+2019-12-12 03:21:59 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 03:21:59 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.010s]
+2019-12-12 03:21:59 [elasticsearch] DEBUG: > None
+2019-12-12 03:21:59 [elasticsearch] DEBUG: < 
+2019-12-12 03:21:59 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 03:21:59 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.009s]
+2019-12-12 03:21:59 [elasticsearch] DEBUG: > None
+2019-12-12 03:21:59 [elasticsearch] DEBUG: < 
+2019-12-12 03:21:59 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 03:21:59 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.012s]
+2019-12-12 03:21:59 [elasticsearch] DEBUG: > None
+2019-12-12 03:21:59 [elasticsearch] DEBUG: < 
+2019-12-12 03:21:59 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 03:21:59 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 03:21:59 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.003s]
+2019-12-12 03:21:59 [elasticsearch] DEBUG: > None
+2019-12-12 03:21:59 [elasticsearch] DEBUG: < 
+2019-12-12 03:21:59 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/611 HTTP/1.1" 201 157
+2019-12-12 03:21:59 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/611 [status:201 request:0.013s]
+2019-12-12 03:21:59 [elasticsearch] DEBUG: > {"title":"美国怎么对付华为 - 读《美国陷阱》","description_content":null,"update_at":1576120919097}
+2019-12-12 03:21:59 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"611","_version":1,"result":"created","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":1134,"_primary_term":10}
+2019-12-12 03:21:59 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/610 HTTP/1.1" 201 157
+2019-12-12 03:21:59 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/610 [status:201 request:0.020s]
+2019-12-12 03:21:59 [elasticsearch] DEBUG: > {"title":"询问而非命令的艺术 - 读《谦逊的探询》","description_content":null,"update_at":1576120919093}
+2019-12-12 03:21:59 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"610","_version":1,"result":"created","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":1135,"_primary_term":10}
+2019-12-12 03:21:59 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 03:21:59 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 03:21:59 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.004s]
+2019-12-12 03:21:59 [elasticsearch] DEBUG: > None
+2019-12-12 03:21:59 [elasticsearch] DEBUG: < 
+2019-12-12 03:21:59 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 03:21:59 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 03:21:59 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.003s]
+2019-12-12 03:21:59 [elasticsearch] DEBUG: > None
+2019-12-12 03:21:59 [elasticsearch] DEBUG: < 
+2019-12-12 03:21:59 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/612 HTTP/1.1" 201 157
+2019-12-12 03:21:59 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/612 [status:201 request:0.037s]
+2019-12-12 03:21:59 [elasticsearch] DEBUG: > {"title":"效果广告基础","description_content":null,"update_at":1576120919096}
+2019-12-12 03:21:59 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"612","_version":1,"result":"created","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":1136,"_primary_term":10}
+2019-12-12 03:21:59 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 03:21:59 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 03:21:59 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.005s]
+2019-12-12 03:21:59 [elasticsearch] DEBUG: > None
+2019-12-12 03:21:59 [elasticsearch] DEBUG: < 
+2019-12-12 03:21:59 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/613 HTTP/1.1" 201 157
+2019-12-12 03:21:59 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/613 [status:201 request:0.059s]
+2019-12-12 03:21:59 [elasticsearch] DEBUG: > {"title":"如何有效地竞争 - 读《竞争战略》","description_content":null,"update_at":1576120919096}
+2019-12-12 03:21:59 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"613","_version":1,"result":"created","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":1137,"_primary_term":10}
+2019-12-12 03:21:59 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/614 HTTP/1.1" 201 157
+2019-12-12 03:21:59 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/614 [status:201 request:0.053s]
+2019-12-12 03:21:59 [elasticsearch] DEBUG: > {"title":"读《曾国藩传》","description_content":null,"update_at":1576120919098}
+2019-12-12 03:21:59 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"614","_version":1,"result":"created","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":1138,"_primary_term":10}
+2019-12-12 03:21:59 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 03:21:59 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 03:21:59 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.003s]
+2019-12-12 03:21:59 [elasticsearch] DEBUG: > None
+2019-12-12 03:21:59 [elasticsearch] DEBUG: < 
+2019-12-12 03:21:59 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 03:21:59 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/615 HTTP/1.1" 201 157
+2019-12-12 03:21:59 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/615 [status:201 request:0.047s]
+2019-12-12 03:21:59 [elasticsearch] DEBUG: > {"title":"物欲时代的终结 -《第 4 消费时代》","description_content":null,"update_at":1576120919099}
+2019-12-12 03:21:59 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"615","_version":1,"result":"created","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":1139,"_primary_term":10}
+2019-12-12 03:21:59 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 03:21:59 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.005s]
+2019-12-12 03:21:59 [elasticsearch] DEBUG: > None
+2019-12-12 03:21:59 [elasticsearch] DEBUG: < 
+2019-12-12 03:21:59 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 03:21:59 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 03:21:59 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.002s]
+2019-12-12 03:21:59 [elasticsearch] DEBUG: > None
+2019-12-12 03:21:59 [elasticsearch] DEBUG: < 
+2019-12-12 03:21:59 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/616 HTTP/1.1" 201 157
+2019-12-12 03:21:59 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/616 [status:201 request:0.052s]
+2019-12-12 03:21:59 [elasticsearch] DEBUG: > {"title":"品牌延伸的陷阱 - 读《定位》","description_content":null,"update_at":1576120919100}
+2019-12-12 03:21:59 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"616","_version":1,"result":"created","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":1140,"_primary_term":10}
+2019-12-12 03:21:59 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 03:21:59 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 03:21:59 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.002s]
+2019-12-12 03:21:59 [elasticsearch] DEBUG: > None
+2019-12-12 03:21:59 [elasticsearch] DEBUG: < 
+2019-12-12 03:21:59 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/617 HTTP/1.1" 201 157
+2019-12-12 03:21:59 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/617 [status:201 request:0.052s]
+2019-12-12 03:21:59 [elasticsearch] DEBUG: > {"title":"分化的力量 - 读《品牌的起源》","description_content":null,"update_at":1576120919100}
+2019-12-12 03:21:59 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"617","_version":1,"result":"created","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":1141,"_primary_term":10}
+2019-12-12 03:21:59 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 03:21:59 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 03:21:59 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.003s]
+2019-12-12 03:21:59 [elasticsearch] DEBUG: > None
+2019-12-12 03:21:59 [elasticsearch] DEBUG: < 
+2019-12-12 03:21:59 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/618 HTTP/1.1" 201 157
+2019-12-12 03:21:59 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/618 [status:201 request:0.045s]
+2019-12-12 03:21:59 [elasticsearch] DEBUG: > {"title":"商业竞争中的战争策略 - 读《商战》","description_content":null,"update_at":1576120919101}
+2019-12-12 03:21:59 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"618","_version":1,"result":"created","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":1142,"_primary_term":10}
+2019-12-12 03:21:59 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 03:21:59 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 03:21:59 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.003s]
+2019-12-12 03:21:59 [elasticsearch] DEBUG: > None
+2019-12-12 03:21:59 [elasticsearch] DEBUG: < 
+2019-12-12 03:21:59 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/619 HTTP/1.1" 201 157
+2019-12-12 03:21:59 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/619 [status:201 request:0.047s]
+2019-12-12 03:21:59 [elasticsearch] DEBUG: > {"title":"揭秘企业成功之道 - 读《光环效应》","description_content":null,"update_at":1576120919101}
+2019-12-12 03:21:59 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"619","_version":1,"result":"created","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":1143,"_primary_term":10}
+2019-12-12 03:21:59 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/620 HTTP/1.1" 201 157
+2019-12-12 03:21:59 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/620 [status:201 request:0.046s]
+2019-12-12 03:21:59 [elasticsearch] DEBUG: > {"title":"互联网人才的成长之路：写在创业 7 周年","description_content":null,"update_at":1576120919102}
+2019-12-12 03:21:59 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"620","_version":1,"result":"created","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":1144,"_primary_term":10}
+2019-12-12 03:21:59 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 03:21:59 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 03:21:59 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 03:21:59 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.005s]
+2019-12-12 03:21:59 [elasticsearch] DEBUG: > None
+2019-12-12 03:21:59 [elasticsearch] DEBUG: < 
+2019-12-12 03:21:59 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/621 HTTP/1.1" 201 157
+2019-12-12 03:21:59 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/621 [status:201 request:0.049s]
+2019-12-12 03:21:59 [elasticsearch] DEBUG: > {"title":"戴维斯双击背后的故事 - 读《戴维斯王朝》","description_content":null,"update_at":1576120919102}
+2019-12-12 03:21:59 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"621","_version":1,"result":"created","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":1145,"_primary_term":10}
+2019-12-12 03:21:59 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 03:21:59 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.007s]
+2019-12-12 03:21:59 [elasticsearch] DEBUG: > None
+2019-12-12 03:21:59 [elasticsearch] DEBUG: < 
+2019-12-12 03:21:59 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 03:21:59 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 03:21:59 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.003s]
+2019-12-12 03:21:59 [elasticsearch] DEBUG: > None
+2019-12-12 03:21:59 [elasticsearch] DEBUG: < 
+2019-12-12 03:21:59 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/622 HTTP/1.1" 201 157
+2019-12-12 03:21:59 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/622 [status:201 request:0.051s]
+2019-12-12 03:21:59 [elasticsearch] DEBUG: > {"title":"华为的 OKR 实践心得 - 读《绩效使能-超越OKR》","description_content":null,"update_at":1576120919102}
+2019-12-12 03:21:59 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"622","_version":1,"result":"created","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":1146,"_primary_term":10}
+2019-12-12 03:21:59 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 03:21:59 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/623 HTTP/1.1" 201 157
+2019-12-12 03:21:59 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/623 [status:201 request:0.048s]
+2019-12-12 03:21:59 [elasticsearch] DEBUG: > {"title":"稻盛和夫的《成功的真谛》","description_content":null,"update_at":1576120919103}
+2019-12-12 03:21:59 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"623","_version":1,"result":"created","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":1147,"_primary_term":10}
+2019-12-12 03:21:59 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 03:21:59 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.004s]
+2019-12-12 03:21:59 [elasticsearch] DEBUG: > None
+2019-12-12 03:21:59 [elasticsearch] DEBUG: < 
+2019-12-12 03:21:59 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 03:21:59 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 03:21:59 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.003s]
+2019-12-12 03:21:59 [elasticsearch] DEBUG: > None
+2019-12-12 03:21:59 [elasticsearch] DEBUG: < 
+2019-12-12 03:21:59 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/624 HTTP/1.1" 201 157
+2019-12-12 03:21:59 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/624 [status:201 request:0.045s]
+2019-12-12 03:21:59 [elasticsearch] DEBUG: > {"title":"如何具备批判性思维？- 读《学会提问》","description_content":null,"update_at":1576120919104}
+2019-12-12 03:21:59 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"624","_version":1,"result":"created","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":1148,"_primary_term":10}
+2019-12-12 03:21:59 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): elasticsearch:9200
+2019-12-12 03:21:59 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "HEAD /top HTTP/1.1" 200 0
+2019-12-12 03:21:59 [elasticsearch] INFO: HEAD http://elasticsearch:9200/top [status:200 request:0.003s]
+2019-12-12 03:21:59 [elasticsearch] DEBUG: > None
+2019-12-12 03:21:59 [elasticsearch] DEBUG: < 
+2019-12-12 03:21:59 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/625 HTTP/1.1" 201 157
+2019-12-12 03:21:59 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/625 [status:201 request:0.057s]
+2019-12-12 03:21:59 [elasticsearch] DEBUG: > {"title":"巴菲特的养育之道与 40 次机会法则 - 读《40 次机遇》","description_content":null,"update_at":1576120919104}
+2019-12-12 03:21:59 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"625","_version":1,"result":"created","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":1149,"_primary_term":10}
+2019-12-12 03:21:59 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/626 HTTP/1.1" 201 157
+2019-12-12 03:21:59 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/626 [status:201 request:0.050s]
+2019-12-12 03:21:59 [elasticsearch] DEBUG: > {"title":"2018 年个人总结","description_content":null,"update_at":1576120919105}
+2019-12-12 03:21:59 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"626","_version":1,"result":"created","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":1150,"_primary_term":10}
+2019-12-12 03:21:59 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/627 HTTP/1.1" 201 157
+2019-12-12 03:21:59 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/627 [status:201 request:0.041s]
+2019-12-12 03:21:59 [elasticsearch] DEBUG: > {"title":"OKR 工作法简介","description_content":null,"update_at":1576120919105}
+2019-12-12 03:21:59 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"627","_version":1,"result":"created","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":1151,"_primary_term":10}
+2019-12-12 03:21:59 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/628 HTTP/1.1" 201 157
+2019-12-12 03:21:59 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/628 [status:201 request:0.037s]
+2019-12-12 03:21:59 [elasticsearch] DEBUG: > {"title":"应该如何面对死亡 - 读《最好的告别》","description_content":null,"update_at":1576120919106}
+2019-12-12 03:21:59 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"628","_version":1,"result":"created","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":1152,"_primary_term":10}
+2019-12-12 03:21:59 [urllib3.connectionpool] DEBUG: http://elasticsearch:9200 "POST /top/_doc/629 HTTP/1.1" 201 157
+2019-12-12 03:21:59 [elasticsearch] INFO: POST http://elasticsearch:9200/top/_doc/629 [status:201 request:0.024s]
+2019-12-12 03:21:59 [elasticsearch] DEBUG: > {"title":"《大问题-简明哲学导论》读书笔记","description_content":null,"update_at":1576120919106}
+2019-12-12 03:21:59 [elasticsearch] DEBUG: < {"_index":"top","_type":"_doc","_id":"629","_version":1,"result":"created","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":1153,"_primary_term":10}

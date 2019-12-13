@@ -1,0 +1,32 @@
+:global{
+  .tab-pane.fade{
+    display: none;
+  }
+  .tab-pane.fade.show.active{
+    display: flex;
+  }
+}
+
+.nav-item{
+  line-height: 48px;
+  font-size: 18px;
+  color: #5f6368;
+  font-weight:bold;
+  width:33.3%;
+
+  &:hover{
+    color:black;
+    text-decoration: none;
+  }
+
+}
+
+.admin-nav {
+  :global{
+    .active {
+      color: #007bff;
+      border-bottom-style: solid;
+    }
+  }
+
+}
