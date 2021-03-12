@@ -54,7 +54,7 @@
     "postcss-scss": "^2.0.0",
     "react": "^16.10.2",
     "react-app-polyfill": "^1.0.4",
-    "react-dev-utils": "^9.1.0",
+    "react-dev-utils": "^11.0.4",
     "react-dom": "^16.10.2",
     "react-feather": "^2.0.3",
     "react-infinite-scroller": "^1.2.4",
