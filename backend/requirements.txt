@@ -27,7 +27,7 @@ Mako==1.1.0
 MarkupSafe==1.1.1
 mysql-connector-python==8.0.18
 parsel==1.5.2
-protobuf==3.10.0
+protobuf==3.15.0
 pyasn1==0.4.7
 pyasn1-modules==0.2.7
 pycparser==2.19
